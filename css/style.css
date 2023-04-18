@@ -261,7 +261,7 @@ color: #000000;
 .cardHolder{
     margin-top: 100px;
 }
-.card-title{
+.cardTitle{
 font-family: 'Vazirmatn';
 font-style: normal;
 font-weight: 700;
@@ -317,7 +317,17 @@ color: #C54577;
     color: #0E994A;
 }
 .myCard{
- height:420px;
+ /* height:420px; */
  background-color: #FFFFFF;
  border-radius: 32px;
+ padding-bottom: 20px;
+}
+.arrowButton{
+
+    width: 34px;
+    height: 34px;
+    background: rgba(98, 190, 120, 0.22);
+    border-radius: 50%;
+    border: none;
+
 }
