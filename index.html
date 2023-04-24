@@ -8,38 +8,62 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 <body>
-    <header class="p-3 " style="background-color: #ffffff;">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center"> 
-                <ul class="nav col-lg-10 mb-2 justify-content-lg-start mb-md-0 ">
-                    <li><a href="#" class="nav-link  notActiveHeader"><img class="headerLogo" src="picture/logo.png" alt=""></a></li>
-                    <li><a href="#" class="nav-link px-4 activeHeader">خانه</a></li>
-                    <li><a href="#" class="nav-link px-4 notActiveHeader">دوره های آموزشی</a></li>
-                    <li><a href="#" class="nav-link px-4 notActiveHeader">همکاری با کاریار</a></li>
-                    <li><a href="#" class="nav-link px-4 notActiveHeader">درباره کاریار</a></li>
-                </ul>
-                <div class="col-2 d-flex flex-wrap align-items-end justify-content-end me-0 pe-0"> 
-                    <button type="button" class="btn btnGreen rounded-pill"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.89844 7.56023C9.20844 3.96023 11.0584 2.49023 15.1084 2.49023H15.2384C19.7084 2.49023 21.4984 4.28023 21.4984 8.75023V15.2702C21.4984 19.7402 19.7084 21.5302 15.2384 21.5302H15.1084C11.0884 21.5302 9.23844 20.0802 8.90844 16.5402" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M2 12H14.88" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12.6484 8.65039L15.9984 12.0004L12.6484 15.3504" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        ورود / ثبت نام </button>
-                </div>
+    <div class="container">
+        <div class="row amin ">
+            <div class="col-lg-10 col-md-6 col-sm-8 d-flex flex-wrap align-items-center justify-content-start mt-lg-2 mt-md-0 "> 
+                <nav class="navbar navbar-expand-lg " aria-label="Eighth navbar example">
+                    <div class="container">
+                        <a class="navbar-brand  d-none d-lg-block" href="#"><img class="headerLogo pe-4 img-fluid" src="picture/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand  d-block d-lg-none" href="#"><img class="headerLogo img-fluid" src="picture/logo.png" alt=""></a>
+            
+                        <div class="collapse navbar-collapse" >
+                            <ul class="navbar-nav me-auto  mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link activeHeader" aria-current="page" href="#">خانه</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link notActiveHeader" href="#">دوره های آموزشی</a>
+                                </li>
+                                <li class="nav-item notActiveHeader">
+                                    <a class="nav-link" href="#">همکاری با کاریار</a>
+                                </li>
+                                <li class="nav-item notActiveHeader">
+                                    <a class="nav-link" href="#">درباره کاریار</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>                
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-4 d-flex flex-wrap align-items-center justify-content-end me-0 pe-0"> 
+                <button type="button" class="btn btnGreen rounded-pill">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.89844 7.56023C9.20844 3.96023 11.0584 2.49023 15.1084 2.49023H15.2384C19.7084 2.49023 21.4984 4.28023 21.4984 8.75023V15.2702C21.4984 19.7402 19.7084 21.5302 15.2384 21.5302H15.1084C11.0884 21.5302 9.23844 20.0802 8.90844 16.5402" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12H14.88" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.6484 8.65039L15.9984 12.0004L12.6484 15.3504" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    ورود / ثبت نام 
+                </button>
             </div>
         </div>
-    </header>
+    </div>
+
     <!-- ------------------------sectionA------------------------ -->
     <section class="sectionA">
         <div class="container">
             <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-7 col-md-12">
                         <div class="titr1sectionA d-inline-flex col-12">کاریار</div>
                         <div class="titr2sectionA d-inline-flex col-12">مدرسه آنلاین برنامه‌نویسی متصل به بازار کار</div>
                         <div class="text1sectionA d-inline-flex col-12">کاریار مرجع متفاوتی برای معرفی کدنویسان تازه‌نفس به استارت‌آپ‌های کوچک و شرکت‌های پیشرو در اکوسیستم استارت‌آپی ایران و پلتفرمی برای پرورش تولیدکنندگان تکنولوژی در سطح جهان است</div>
-                        <div class="iconSectionA d-inline-flex col-12">                        
+                        <div class="iconSectionA d-lg-inline-flex col-12 d-none ">                        
                                 <div class="d-flex  flex-row align-items-center col-3">
                                     <div class="icon">
                                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +140,7 @@
     
                                 </div>                                               
                         </div>
-                        <div class=" d-inline-flex col-12">
+                        <div class=" d-lg-inline-flex col-12 d-none">
                             <div class="d-flex flex-row col-12">
                                 <button type="button" class="btn btnGreen rounded-pill sectionABtn col-5">
                                     <div class="btnText text-center" >ثبت نام مهارت آموزان</div>
@@ -127,9 +151,78 @@
                             </div>
                         </div>
                     </div>
-                    <div  class="col-lg-6 d-flex align-items-center">
+                    <div  class="col-lg-5 col-md-12 d-lg-flex align-items-center d-none ">
                         <img src="picture/1-2.png" alt="" class="picsectionA img-fluid">
-                    </div>            
+                    </div>
+                    <div  class="col-lg-5 col-md-12 d-md-flex d-sm-flex align-items-center d-lg-none ">
+                        <img src="picture/1-3.png" alt="" class="picsectionA img-fluid">
+                    </div>
+                    <div  class="col-lg-5 col-md-12 d-md-flex d-sm-flex d-lg-none mx-auto justify-content-center align-items-center ">
+                        <div class="col-8">
+                            <button type="button" class="btn btnGreen rounded-pill sectionABtn w-100">
+                                <div class="btnText text-center" >ثبت نام مهارت آموزان</div>
+                            </button>  
+                        </div>
+                    </div>
+                    <div  class="col-lg-5 col-md-12 d-md-flex  d-sm-flex d-lg-none mx-auto justify-content-center align-items-center ">
+                        <div class="col-8">
+                            <button type="button" class="btn btn-outline-primary btnGreenRev rounded-pill sectionABtn w-100">
+                                <div class="btnText text-center" >مشاهده دوره ها</div>
+                            </button>  
+                        </div>
+                    </div>
+
+
+                        <div class="iconSectionA d-md-block col-12 d-lg-none "> 
+                            <div class="container ">
+                                <div class="row col-12 ">
+                                    <div class="col-6 d-flex flex-column">
+                                        <div class="d-flex flex-row col-12  justify-content-center">
+                                            <div class="">a</div>
+                                            <div class="">b</div>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-center ">
+                                            <div>c</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex flex-column ">
+                                        <div class="d-flex flex-row  col-12 justify-content-center">
+                                            <div class="">a</div>
+                                            <div class="">b</div>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-center ">
+                                            <div class="">c</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row col-12 ">
+                                    <div class="col-6 d-flex flex-column">
+                                        <div class="d-flex flex-row col-12 justify-content-center">
+                                            <div class="">a</div>
+                                            <div class="">b</div>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-center">
+                                            <div>c</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex flex-column ">
+                                        <div class="d-flex flex-row  col-12 justify-content-center">
+                                            <div class="">a</div>
+                                            <div class="">b</div>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-center">
+                                            <div>c</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>       
+                        </div>
+                  
+
+
+
+
+                    
             </div>
         </div>
     </section>
@@ -141,7 +234,7 @@
             <div class="row mx-auto my-auto justify-content-center position-relative"> 
                 <div id="recipeCarousel" class="carousel slide position-relative" data-bs-ride="carousel"> 
                     <div class="carousel-inner" role="listbox"> <div class="carousel-item active"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/1.png" class="img-fluid"> 
@@ -150,7 +243,7 @@
                         </div> 
                     </div> 
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/2.png" class="img-fluid"> 
@@ -159,7 +252,7 @@
                         </div> 
                     </div> 
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/3.png" class="img-fluid"> 
@@ -168,7 +261,7 @@
                         </div> 
                     </div> 
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/4.png" class="img-fluid"> 
@@ -177,7 +270,7 @@
                         </div> 
                     </div> 
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/5.png" class="img-fluid"> 
@@ -186,7 +279,7 @@
                         </div> 
                     </div> 
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/6.png" class="img-fluid"> 
@@ -195,7 +288,7 @@
                         </div> 
                     </div> 
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/7.png" class="img-fluid"> 
@@ -204,7 +297,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/8.png" class="img-fluid"> 
@@ -213,7 +306,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/9.png" class="img-fluid"> 
@@ -222,7 +315,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/10.png" class="img-fluid"> 
@@ -231,7 +324,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/11.png" class="img-fluid"> 
@@ -240,7 +333,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/12.png" class="img-fluid"> 
@@ -249,7 +342,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/13.png" class="img-fluid"> 
@@ -258,7 +351,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/14.png" class="img-fluid"> 
@@ -267,7 +360,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/15.png" class="img-fluid"> 
@@ -276,7 +369,7 @@
                         </div> 
                     </div>
                     <div class="carousel-item"> 
-                        <div class="col-md-2"> 
+                        <div class="col-lg-2 col-md-4"> 
                             <div class="card cardSlider border-light"> 
                                 <div class="card-img"> 
                                     <img src="picture/logo/16.png" class="img-fluid"> 
@@ -986,23 +1079,26 @@
         <div class="row">
             <div class="col-md-4 roydadCard d-flex">
                 <div class="col-11 roydadCardData pt-4 position-relative">
-                    <div class="">
-                        <img src="picture/roydad1.png"  alt="" class="rounded mx-auto d-block ">
-                    </div>
-                    
-                    <div class="roydadCardText text-center mx-3 mt-4" >
-                        <p>در رویداد “تا...کد” زاهدان چه گذشت؟</p>
-                    </div>
-
-                    <div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-11 roydadCardSpec d-flex justify-content-center mx-auto">
-                                    <p>رویداد “تا … کد” کاریار در استان سیستان و بلوچستان، در تاریخ‌ ٩ اسفند ماه در شهر زاهدان به صورت حضوری برگزار شد و ۳٢ نفر از دانشجویان و علاقه‌مندان به اشتغال در حوزه IT در این رویداد شرکت کردند ... </p>
-                                </div>
-                            </div>                            
+                    <div class="container">
+                        <div class="row col-12 d-flex mx-auto ">
+                            <img src="picture/roydad1.png"  alt="" class="rounded  img-fluid rounded-5 ">
                         </div>
                     </div>
+                    
+                    <div class="container">
+                        <div class="row roydadCardText   mt-4" >
+                            <p>در رویداد “تا...کد” زاهدان چه گذشت؟</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 roydadCardSpec d-flex  mx-auto">
+                                <p>رویداد “تا … کد” کاریار در استان سیستان و بلوچستان، در تاریخ‌ ٩ اسفند ماه در شهر زاهدان به صورت حضوری برگزار شد و ۳٢ نفر از دانشجویان و علاقه‌مندان به اشتغال در حوزه IT در این رویداد شرکت کردند ... </p>
+                            </div>
+                        </div>                            
+                    </div>
+
                     <div class="container">
                         <div class="d-block justify-content-end position-absolute arrowButtonHolder">
                             <button type="button"  class="arrowButton pb-1">
@@ -1016,28 +1112,32 @@
                                 </svg>
                             </button>
                         </div>
-                    </div> 
+                    </div>
+                     
                 </div>
             </div>
             <div class="col-md-4 roydadCard  d-flex">
                 <div class="col-11 roydadCardData pt-4 position-relative">
-                    <div class="">
-                        <img src="picture/roydad2.png"  alt="" class="rounded mx-auto d-block ">
-                    </div>
-                    
-                    <div class="roydadCardText text-center mx-3 mt-4" >
-                        <p>رویداد “یاد بگیر و به کار بگیر” در سه شهر تهران، بیرجند و قائن برگزار شد</p>
-                    </div>
-
-                    <div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-11 roydadCardSpec d-flex justify-content-center mx-auto">
-                                    <p>این رویداد در تاریخ‌های ٢٧ بهمن، ۳۰ بهمن و ١ اسفند ماه در شهرهای تهران، بیرجند و قائن به صورت حضوری برگزار شد. این کارگاه با یک فعالیت گروهی ...</p>
-                                </div>
-                            </div>                            
+                    <div class="container">
+                        <div class="row col-12 d-flex mx-auto ">
+                            <img src="picture/roydad2.png"  alt="" class="rounded  img-fluid rounded-5">
                         </div>
                     </div>
+
+                    <div class="container">
+                        <div class="row roydadCardText   mt-4" >
+                            <p>رویداد “یاد بگیر و به کار بگیر” در سه شهر تهران، بیرجند و قائن برگزار شد</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 roydadCardSpec d-flex  mx-auto">
+                                    <p>این رویداد در تاریخ‌های ٢٧ بهمن، ۳۰ بهمن و ١ اسفند ماه در شهرهای تهران، بیرجند و قائن به صورت حضوری برگزار شد. این کارگاه با یک فعالیت گروهی ...</p>
+                            </div>
+                        </div>                            
+                    </div>
+
                     <div class="container">
                         <div class="d-block justify-content-end position-absolute arrowButtonHolder">
                             <button type="button"  class="arrowButton pb-1">
@@ -1056,23 +1156,25 @@
             </div>
             <div class="col-md-4 roydadCard d-flex">
                 <div class="col-11 roydadCardData pt-4 position-relative">
-                    <div class="">
-                        <img src="picture/roydad3.png"  alt="" class="rounded mx-auto d-block ">
-                    </div>
-                    
-                    <div class="roydadCardText text-center mx-3 mt-4" >
-                        <p>مراسم تقدیر از داوطلبان کاریار برگزار شد</p>
+
+                    <div class="row col-12 d-flex mx-auto">
+                        <img src="picture/roydad3.png"  alt="" class="rounded  img-fluid rounded-5">
                     </div>
 
-                    <div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-11 roydadCardSpec d-flex justify-content-center mx-auto">
-                                    <p>شکل‌گیری و رشد کاریار مدیون حضور و همراهی داوطلبان است؛ تا به امروز داوطلبان بسیاری در نقش منتور، مشاور، مدرس و مربی حل تمرین همراه کاریار بودند و مسیر کاریار را برای دستیابی به هدفش هموار کردند ...</p>
-                                </div>
-                            </div>                            
+                    <div class="container">
+                        <div class="row roydadCardText   mt-4" >
+                            <p>مراسم تقدیر از داوطلبان کاریار برگزار شد</p>
                         </div>
                     </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 roydadCardSpec d-flex  mx-auto">
+                                <p>شکل‌گیری و رشد کاریار مدیون حضور و همراهی داوطلبان است؛ تا به امروز داوطلبان بسیاری در نقش منتور، مشاور، مدرس و مربی حل تمرین همراه کاریار بودند و مسیر کاریار را برای دستیابی به هدفش هموار کردند ...</p>
+                            </div>
+                        </div>                            
+                    </div>
+                    
                     <div class="container">
                         <div class="d-block justify-content-end position-absolute arrowButtonHolder">
                             <button type="button"  class="arrowButton pb-1">
@@ -1092,36 +1194,9 @@
         </div>
     </div>    
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container">
-        <div class="col-2 d-flex  position-absolute btnSectionE">        
-        
-        </div>
-    </div>
 </div>
 <!-- ------------------------sectionF------------------------ -->
 <!-- ------------------------sectionG------------------------ -->
-
 <section class="sectionG col-12">
     <div class="container">
         <div class="d-flex">
@@ -1289,13 +1364,221 @@
     
 </section>
 <!-- ------------------------sectionG------------------------ -->
+<!-- ------------------------sectionH------------------------ -->
 
+<section class="sectionH container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="container position-relative">
+                    <div class="d-flex row">
+                        <div class="col-12 position-relative ">
+                            <div class="col-5 sectionBTitr position-absolute">پرسش های متداول</div>
+                            <div class="position-absolute greenDot">
+                                <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
+                                     fill="#C9EDD8" fill-opacity="0.6"/>
+                                </svg>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container position-relative end-0 ">
+                    <div class=" col-lg-12 my-3 d-flex justify-content-end moreLink">
+                        <a href="#">مشاهده بیشتر</a>
+                        <img src="picture/leftarrow.png" alt="">
+                    </div>
+                </div>
+                <div class="container col-12 a1 questionBox">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <p class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                آیا در پایان دوره مدرک خاصی دریافت میکنم؟
+                            </button>
+                          </>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">دوره‌های آموزشی کاریار از سوی موسسه‌های آموزشی معتبر برگزار می‌شود و در پایان دوره و بعد از گذراندن آزمون نهایی، به مهارت‌آموزان گواهی معتبر اعطا می‌شود.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <p class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                آیا بعد از گذراندن دوره ها امکان اشتغال برای من فراهم می شود؟
+                            </button>
+                          </p>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">دوره‌های آموزشی کاریار از سوی موسسه‌های آموزشی معتبر برگزار می‌شود و در پایان دوره و بعد از گذراندن آزمون نهایی، به مهارت‌آموزان گواهی معتبر اعطا می‌شود.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <p class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                مراحل پذیرش در دوره های کاریار چگونه امکان پذیر است؟
+                            </button>
+                          </p>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">دوره‌های آموزشی کاریار از سوی موسسه‌های آموزشی معتبر برگزار می‌شود و در پایان دوره و بعد از گذراندن آزمون نهایی، به مهارت‌آموزان گواهی معتبر اعطا می‌شود.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <p class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                در صورت نداشتن کامپیوتر، آیا کاریار می تواند به من کامپیوتری امانت دهد؟ 
+                              </button>
+                            </p>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">دوره‌های آموزشی کاریار از سوی موسسه‌های آموزشی معتبر برگزار می‌شود و در پایان دوره و بعد از گذراندن آزمون نهایی، به مهارت‌آموزان گواهی معتبر اعطا می‌شود.</div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 align-content-center mx-auto">
+                <img src="picture/questionPic.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 questionTextBox">
+                <div class="col-12 text-center  ">
+                    <p class="questionTextBoxTitr">مسیر شغلی خود را از همین امروز شروع کنید</p>
+                </div>
+                <div class="col-12 text-center  ">
+                    <p class="questionTextBoxText">به ما بپیوندید، آموزش کاربردی ببینید و بعد از رسیدن به درآمد هزینه‌اش را بپردازید.</p>
+                </div>
+                <div class="col-12 text-center">
+                        <button type="button" class="btn btnGreen rounded-pill  questionTextBoxBtn position-relative">
+                            ثبت نام مهارت آموزان<img src="" alt="">
+                            <div class="questionTextBoxArr position-absolute translate-middle badge "><img src="picture/questionArrow.png" alt=""></div> 
+                        </button>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- ------------------------sectionH------------------------ -->
+<div class="container">
+    <footer class="footer">
+        <div class="row topBox">
+        <div class="col-5">
+            <div class="footerLogo col-12">
+                <img src="picture/logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="footerAboutText col-12">
+                <p>کاریار استارت‌آپی اجتماعی ، متعهد به عدالت، دسترسی و فرصت همگانی است که با ایجاد محیطی با دسترسی مناسب در زمینه‌ی آموزش IT فرصت رشد را فراهم کرد. کاریار در ابتدای سال ۱۳۹۹ فعالیت خود را شروع کرد که توانست با تیمی مجرب از افراد متخصص ، فرصت اشتغال از راه دور را برای عموم علاقه‌مندان به دانش کامپیوتر فراهم کند.</p>
+            </div>
+        </div>
+  
+        <div class="col-2 footerLink">
+          <p class="titrA">دسترسی سریع</p>
+          <ul class="nav flex-column">
+            <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">صفحه اصلی کاریار</a></li>
+            <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">ثبت نام مهارت آموزان</a></li>
+            <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">دوره های آموزشی کاریار</a></li>
+            <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">اخبار و دانستنی ها</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2 footerLink">
+            <p class="titrA">با کاریار</p>
+            <ul class="nav flex-column">
+              <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">درباره کاریار</a></li>
+              <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">همکاری با کاریار </a></li>
+              <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">حمایت از کاریار</a></li>
+              <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">قوانین و مقررات</a></li>
+            </ul>
+          </div>
 
+          <div class="col-3 footerLink">
+            <p class="titrA">راه های ارتباطی</p>
+            <ul class="nav flex-column ">
+                <li class="nav-item  mt-3">
+                    <a href="#" class="nav-link navLink p-0 text-body-secondary d-flex ">
+                        <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.95 12.95L16.8 14.8C17.19 15.19 17.19 15.81 16.81 16.21C16.7 16.32 16.6 16.43 16.49 16.54C15.45 17.57 14.36 18.5 13.22 19.33C12.08 20.15 10.94 20.81 9.81 21.29C8.67 21.76 7.58 22 6.54 22C5.86 22 5.21 21.88 4.61 21.64C4 21.4 3.44 21.02 2.94 20.49C2.31 19.85 2 19.15 2 18.41C2 18.13 2.06 17.85 2.18 17.6C2.3 17.34 2.48 17.11 2.74 16.93L6.01 14.61C6.26 14.43 6.49 14.3 6.71 14.21C6.92 14.12 7.13 14.07 7.32 14.07C7.56 14.07 7.8 14.14 8.03 14.28C8.26 14.41 8.5 14.6 8.74 14.84L9.53 15.6C9.64 15.71 9.77 15.76 9.93 15.76C10.01 15.76 10.08 15.75 10.16 15.73C10.24 15.7 10.3 15.67 10.36 15.65C10.69 15.47 11.12 15.16 11.64 14.72C12.16 14.27 12.69 13.79 13.22 13.27C13.32 13.17 13.42 13.06 13.52 12.96C13.91 12.56 14.55 12.55 14.95 12.95Z" fill="#0E994A"/>
+                            <path d="M18.3291 2.02844C18.6091 2.02844 18.8991 2.07844 19.1791 2.17844C19.2591 2.20844 19.3391 2.23844 19.4191 2.27844C19.7791 2.44844 20.1191 2.66844 20.4391 2.95844C20.9791 3.44844 21.3691 3.98844 21.6191 4.59844C21.6191 4.60844 21.6291 4.61844 21.6291 4.62844C21.8691 5.21844 21.9991 5.85844 21.9991 6.54844C21.9991 7.56844 21.7591 8.65844 21.2691 9.80844C20.7791 10.9584 20.1191 12.1084 19.2891 13.2484C18.9991 13.6384 18.7091 14.0284 18.3991 14.3984L15.1291 11.1284C15.3391 10.8484 15.4991 10.5984 15.6091 10.3884C15.6291 10.3384 15.6591 10.2784 15.6891 10.2084C15.7191 10.1284 15.7291 10.0484 15.7291 9.95844C15.7291 9.78844 15.6691 9.65844 15.5591 9.54844L14.8091 8.78844C14.5591 8.53844 14.3691 8.29844 14.2491 8.06844C14.1091 7.83844 14.0391 7.60844 14.0391 7.35844C14.0391 7.16844 14.0791 6.96844 14.1691 6.74844C14.2591 6.52844 14.3891 6.29844 14.5591 6.04844L16.9091 2.73844C17.0891 2.47844 17.2991 2.29844 17.5491 2.18844C17.7991 2.08844 18.0491 2.02844 18.3291 2.02844Z" fill="#0E994A"/>
+                        </svg>
+                        <p class="footerTextCom">٨٨٨۴۲۶۹۳ - ۰۲۱</p><p class="footerTextCom">۰٩۰۵۷۲۵۷۱۸۳</p>                            
+                    </a>
+                </li>
+                <li class="nav-item  mt-3">
+                    <a href="#" class="nav-link navLink p-0 text-body-secondary d-flex ">
+                        <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 3.5H7C4 3.5 2 5 2 8.5V15.5C2 19 4 20.5 7 20.5H17C20 20.5 22 19 22 15.5V8.5C22 5 20 3.5 17 3.5ZM17.47 9.59L14.34 12.09C13.68 12.62 12.84 12.88 12 12.88C11.16 12.88 10.31 12.62 9.66 12.09L6.53 9.59C6.21 9.33 6.16 8.85 6.41 8.53C6.67 8.21 7.14 8.15 7.46 8.41L10.59 10.91C11.35 11.52 12.64 11.52 13.4 10.91L16.53 8.41C16.85 8.15 17.33 8.2 17.58 8.53C17.84 8.85 17.79 9.33 17.47 9.59Z" fill="#0E994A"/>
+                        </svg>                            
+                        <p class="footerTextCom">info@kaaryar.ir</p>                            
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link navLink p-0 text-body-secondary d-flex ">
+                        
+                        <p class="footerTextCom text2">
+                            <svg class="me-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.6615 8.45C19.6236 3.83 15.6401 1.75 12.1409 1.75C12.1409 1.75 12.1409 1.75 12.131 1.75C8.6417 1.75 4.64827 3.82 3.61038 8.44C2.45386 13.6 5.57744 17.97 8.40447 20.72C9.45225 21.74 10.7966 22.25 12.1409 22.25C13.4852 22.25 14.8295 21.74 15.8674 20.72C18.6945 17.97 21.818 13.61 20.6615 8.45ZM12.1409 13.46C10.421 13.46 9.02721 12.05 9.02721 10.31C9.02721 8.57 10.421 7.16 12.1409 7.16C13.8608 7.16 15.2546 8.57 15.2546 10.31C15.2546 12.05 13.8608 13.46 12.1409 13.46Z" fill="#0E994A"/>
+                            </svg>
+                            تهران _ خیابان قائم مقام فراهانی _ کوچه یکم _ شماره ۱۷ _ طبقه ۲</p>                            
+                    </a>
+                </li>
+            </ul>
+          </div>        
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between footerLinkBox align-items-center">
+           <div>
+                <div>
+                    <p class="footerTextA">ما را در شبکه های مجازی دنبال کنید</p>
+                </div>
+                <div>
+                    <ul class="list-unstyled d-flex">
+                        <li class="">
+                            <a class="link-body-emphasis" href="https://www.instagram.com/karyar.college/">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.11436 31.8868C6.21131 31.8003 5.17752 31.4836 4.48991 31.2154C3.5788 30.8606 2.92924 30.4384 2.24543 29.7555C1.56163 29.0727 1.13841 28.4231 0.785568 27.512C0.517371 26.8244 0.200672 25.7906 0.114126 23.8875C0.019021 21.8304 0 21.2132 0 16.0014C0 10.7897 0.0209231 10.1734 0.113175 8.11436C0.199721 6.21131 0.518323 5.17942 0.784617 4.48991C1.13936 3.5788 1.56258 2.92924 2.24448 2.24448C2.92733 1.56163 3.5769 1.13746 4.48896 0.784617C5.17657 0.51642 6.21036 0.199721 8.11341 0.113175C10.1715 0.019021 10.7897 0 15.9995 0C21.2113 0 21.8276 0.0209231 23.8866 0.113175C25.7896 0.199721 26.8215 0.518323 27.511 0.784617C28.4221 1.13746 29.0717 1.56163 29.7555 2.24448C30.4393 2.92733 30.8606 3.57785 31.2154 4.48896C31.4836 5.17657 31.8003 6.21036 31.8868 8.11341C31.981 10.1724 32 10.7887 32 16.0005C32 21.2103 31.981 21.8285 31.8868 23.8875C31.8003 25.7906 31.4817 26.8244 31.2154 27.512C30.8606 28.4231 30.4384 29.0727 29.7555 29.7555C29.0727 30.4384 28.4221 30.8606 27.511 31.2154C26.8234 31.4836 25.7896 31.8003 23.8866 31.8868C21.8295 31.981 21.2113 32 15.9995 32C10.7897 32 10.1715 31.9819 8.11436 31.8868Z" fill="url(#paint0_radial_417_1267)"/>
+                                    <path d="M12.3681 15.8873C12.3681 13.9446 13.9426 12.3693 15.8854 12.3693C17.8281 12.3693 19.4034 13.9446 19.4034 15.8873C19.4034 17.8301 17.8281 19.4054 15.8854 19.4054C13.9426 19.4054 12.3681 17.8301 12.3681 15.8873M10.4664 15.8873C10.4664 18.8802 12.8924 21.3063 15.8854 21.3063C18.8783 21.3063 21.3044 18.8802 21.3044 15.8873C21.3044 12.8944 18.8783 10.4683 15.8854 10.4683C12.8924 10.4683 10.4664 12.8942 10.4664 15.8873M20.2526 10.2534C20.2525 10.5039 20.3267 10.7488 20.4657 10.9571C20.6048 11.1654 20.8025 11.3278 21.0339 11.4238C21.2653 11.5197 21.5199 11.5449 21.7656 11.4961C22.0112 11.4473 22.2369 11.3268 22.4141 11.1498C22.5913 10.9727 22.712 10.7471 22.761 10.5015C22.8099 10.2559 22.7849 10.0012 22.6892 9.76979C22.5934 9.53834 22.4312 9.34049 22.223 9.20126C22.0148 9.06202 21.77 8.98765 21.5195 8.98755H21.519C21.1833 8.9877 20.8613 9.12111 20.6239 9.35846C20.3864 9.59581 20.2529 9.91771 20.2526 10.2534M11.6218 24.4776C10.5929 24.4307 10.0337 24.2593 9.66202 24.1145C9.16931 23.9227 8.81775 23.6943 8.44813 23.3251C8.07852 22.956 7.84972 22.6048 7.65875 22.1121C7.51387 21.7406 7.34248 21.1812 7.29571 20.1523C7.24455 19.0399 7.23433 18.7057 7.23433 15.8875C7.23433 13.0692 7.24539 12.736 7.29571 11.6227C7.34257 10.5938 7.51522 10.0355 7.65875 9.66288C7.85056 9.17016 8.07902 8.81861 8.44813 8.44899C8.81725 8.07937 9.16846 7.85057 9.66202 7.6596C10.0335 7.51473 10.5929 7.34334 11.6218 7.29657C12.7342 7.2454 13.0684 7.23519 15.8854 7.23519C18.7023 7.23519 19.0368 7.24608 20.1502 7.29674C21.1791 7.34359 21.7374 7.51624 22.11 7.65977C22.6027 7.85074 22.9542 8.08005 23.3239 8.44916C23.6935 8.81827 23.9214 9.17033 24.1132 9.66305C24.2581 10.0345 24.4295 10.5939 24.4763 11.6228C24.5274 12.7362 24.5377 13.0694 24.5377 15.8877C24.5377 18.7059 24.5274 19.0391 24.4763 20.1525C24.4294 21.1814 24.2572 21.7406 24.1132 22.1123C23.9214 22.605 23.693 22.9565 23.3239 23.3253C22.9547 23.6941 22.6027 23.9229 22.11 24.1147C21.7385 24.2596 21.1791 24.431 20.1502 24.4777C19.0378 24.5289 18.7036 24.5391 15.8854 24.5391C13.0671 24.5391 12.7339 24.5289 11.6218 24.4777M11.5344 5.3979C10.411 5.44906 9.64328 5.6272 8.97285 5.88808C8.27894 6.15748 7.69074 6.51891 7.10339 7.10534C6.51603 7.69177 6.15553 8.28005 5.88612 8.9748C5.62525 9.64565 5.4471 10.4129 5.39594 11.5364C5.34394 12.6616 5.33203 13.0214 5.33203 15.8873C5.33203 18.7533 5.34394 19.113 5.39594 20.2382C5.4471 21.3618 5.62525 22.129 5.88612 22.7998C6.15553 23.4937 6.51611 24.0831 7.10339 24.6693C7.69066 25.2555 8.2781 25.6164 8.97285 25.8866C9.64455 26.1474 10.411 26.3256 11.5344 26.3767C12.6603 26.4279 13.0194 26.4407 15.8854 26.4407C18.7513 26.4407 19.1111 26.4287 20.2363 26.3767C21.3598 26.3256 22.127 26.1474 22.7979 25.8866C23.4918 25.6164 24.08 25.2557 24.6673 24.6693C25.2547 24.0829 25.6144 23.4937 25.8846 22.7998C26.1455 22.129 26.3245 21.3617 26.3748 20.2382C26.4259 19.1122 26.4379 18.7533 26.4379 15.8873C26.4379 13.0214 26.4259 12.6616 26.3748 11.5364C26.3236 10.4128 26.1455 9.64523 25.8846 8.9748C25.6144 8.2809 25.2538 7.6927 24.6673 7.10534C24.0809 6.51798 23.4918 6.15748 22.7987 5.88808C22.127 5.6272 21.3598 5.44821 20.2371 5.3979C19.1117 5.34648 18.7522 5.33398 15.8866 5.33398C13.0211 5.33398 12.6607 5.34589 11.5349 5.3979" fill="white"/>
+                                    <defs>
+                                    <radialGradient id="paint0_radial_417_1267" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.07101 31.299) scale(40.6281)">
+                                    <stop offset="0.09" stop-color="#FA8F21"/>
+                                    <stop offset="0.78" stop-color="#D82D7E"/>
+                                    </radialGradient>
+                                    </defs>
+                                </svg>                            
+                            </a>
+                        </li>
+                        <li style="margin-right: 36px;">
+                            <a class="link-body-emphasis" href="https://www.linkedin.com/school/karyar/">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="16" fill="#0A66C2"/>
+                                    <g clip-path="url(#clip0_417_1266)">
+                                    <path d="M6.66797 9.15606C6.66797 8.55544 6.87818 8.05995 7.2986 7.66957C7.71901 7.27917 8.26557 7.08398 8.93824 7.08398C9.59891 7.08398 10.1334 7.27616 10.5418 7.66056C10.9623 8.05696 11.1725 8.57346 11.1725 9.21011C11.1725 9.78669 10.9683 10.2672 10.5599 10.6516C10.1394 11.0479 9.58689 11.2461 8.9022 11.2461H8.88419C8.22352 11.2461 7.689 11.0479 7.28058 10.6516C6.87217 10.2552 6.66797 9.75665 6.66797 9.15606ZM6.9022 24.9218V12.8858H10.9022V24.9218H6.9022ZM13.1184 24.9218H17.1184V18.2011C17.1184 17.7807 17.1665 17.4563 17.2626 17.2281C17.4307 16.8197 17.686 16.4744 18.0283 16.1921C18.3707 15.9098 18.8001 15.7687 19.3166 15.7687C20.662 15.7687 21.3346 16.6756 21.3346 18.4894V24.9218H25.3346V18.0209C25.3346 16.2431 24.9142 14.8948 24.0734 13.9759C23.2325 13.057 22.1214 12.5975 20.74 12.5975C19.1905 12.5975 17.9833 13.2642 17.1184 14.5975V14.6335H17.1004L17.1184 14.5975V12.8858H13.1184C13.1424 13.2702 13.1545 14.4654 13.1545 16.4714C13.1545 18.4774 13.1424 21.2942 13.1184 24.9218Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_417_1266">
+                                    <rect x="6.66797" y="6.66602" width="18.6667" height="18.6667" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>                            
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="picture/footer-logo1.png" alt=""></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="picture/footer-logo2.png" alt=""></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="picture/footer-logo3.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 d-flex copy align-items-center justify-content-center" >
+            <p>۲۰۲۳ &copy; تمام حقوق مادی و معنوی این وبسایت متعلق به کاریار می باشد</p>
+        </div>
 
-
-
-
+    </footer>
+  </div>
 
  <script src="js/script.js"></script>
 </body>
