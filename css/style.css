@@ -1,221 +1,259 @@
 @font-face {
-    font-family: vazirmatn;
-    font-style: normal;
-    src:url(../font/vazirmatn/Vazirmatn-Regular.woff2) format(woff2)
-    }
+  font-family: vazirmatn;
+  font-style: normal;
+  src: url(../font/vazirmatn/Vazirmatn-Regular.woff2) format(woff2);
+}
+
 @font-face {
-        font-family: shabnam;
-        font-style: normal;
-        src:url(../font/shabnam/Shabnam-FD.woff2) format(woff2)
-        }    
-
-        
-        
-body{
-direction: rtl;
-margin: 0px;
-border: 0cm;
-background-color: #C54577;
-      
+  font-family: shabnam;
+  font-style: normal;
+  src: url(../font/shabnam/Shabnam-FD.woff2) format(woff2);
 }
 
-.header{
-width: 100%;
-height: 112px;
-left: 0px;
-top: 0px;
-box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
-    }
-.headerLogo{
-width: 206.19618225097656px;
-left: -11.1953125px;
-top: 0.36328125px;
-border-radius: 0px;
+body {
+  direction: rtl;
+  margin: 0px;
+  border: 0cm;
+  background-color: #e9e5e5;
+}
+@media (min-width: 992px) {
+  .header {
+    width: 100%;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
+  }
+  .headerLogo {
+    width: 206.19618225097656px;
+    left: -11.1953125px;
+    top: 0.36328125px;
+    border-radius: 0px;
+  }
 
-}
-.activeHeader{
-color: #0E994A;
-text-decoration: underline;
-font-family: vazirmatn;
-font-size: 26px;
-font-weight: 800;
-line-height: 70px;
-letter-spacing: 0em;   
-}
-.notActiveHeader{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 70px;
-color: #0000008A;
-}
-.btnGreen{
-background-color: #0E994A;
-color: #FFFFFF;
+  .activeHeader {
+    color: #0e994a;
+    text-decoration: underline;
+    font-family: vazirmatn;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 0em;
+  }
 
-font-family: Vazirmatn;
-font-size: 20px;
-font-weight: 800;
-line-height: 31px;
-letter-spacing: 0em;
-text-align: left;
-box-shadow: 0px 8px 16px 0px #00000029;
+  .notActiveHeader {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 70px;
+    color: #0000008a;
+  }
 
-}
-.nav-link{
+  .btnGreen {
+    background-color: #0e994a;
+    color: #ffffff;
+
+    font-family: Vazirmatn;
+    font-size: 1.5rem !important;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    box-shadow: 0px 8px 16px 0px #00000029;
+  }
+
+  .nav-link {
     padding-inline-start: 0px !important;
     padding-inline-end: 40px !important;
-}
-.sectionA{
+  }
+
+  .sectionA {
     /* height: 700px; */
-    background-color: #E9E5E5;
+    background-color: #e9e5e5;
     padding-bottom: 40px;
     /* margin-bottom: 40px; */
-}
-.picsectionA{
+  }
+
+  .picsectionA {
     /* height: 600px; */
     width: 100%;
     margin: auto;
+  }
 
-}
-.titr1sectionA{
-font-family: Shabnam;
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-margin-top:109px ;
-margin-bottom: 0px;
-padding-bottom: 0px;
-block-size: auto;
-color: #595676;
-
-}
-.titr2sectionA{
-    font-family:Shabnam;
+  .titr1sectionA {
+    font-family: Shabnam;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;  
-    text-align: right;
-    margin-top: 16px;    
-    color: rgba(57, 54, 95, 0.5);
+    font-size: 80px;
+    margin-top: 109px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    block-size: auto;
+    color: #595676;
+  }
 
-}
-.text1sectionA{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 400;
-font-size: 21px;
-letter-spacing: 0.01em;
-color: rgba(89, 86, 118, 0.95);
-border-right: solid 8px #0E994A;
-border-radius: 4px;
-margin-top: 40px;
-padding-right: 24px;
-}
-.iconSectionA{
+  .titr2sectionA {
+    font-family: Shabnam;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: right;
+    margin-top: 16px;
+    color: rgba(57, 54, 95, 0.5);
+  }
+
+  .text1sectionA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.01em;
+    color: rgba(89, 86, 118, 0.95);
+    border-right: solid 8px #0e994a;
+    border-radius: 4px;
+    margin-top: 40px;
+    padding-right: 24px;
+  }
+
+  .iconSectionA {
     /* width: 100%; */
     /* height: 87px; */
-    background-color:#FFFFFF;
+    background-color: #ffffff;
     border-radius: 16px;
     margin-top: 40px;
-}
-.icon{
-margin-left: 8px;
-margin-right: 16px;
+  }
 
-}
-.iconNumber{
-font-family: Vazirmatn;
-font-style: normal;
-font-weight: 800;
-font-size: 28px;
-line-height: 44px;
-color: #595676;
-}
-.iconText{
-    font-family: 'Vazirmatn';
+  .icon {
+    margin-left: 8px;
+    margin-right: 16px;
+  }
+
+  .iconNumber {
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 44px;
+    color: #595676;
+  }
+
+  .iconText {
+    font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
     color: #595676;
-}
-.spacer{
+  }
 
+  .spacer {
     margin-right: 20px;
-}
-.sectionABtn{
- margin-top: 40px;   
-}
-.btnText{
+  }
 
+  .sectionABtn {
+    margin-top: 40px;
+  }
 
-}
-.btnGreenRev{
-margin-right: 32px;
-color: #0E994A;    
-border: solid 3px #0E994A;
-font-family: Vazirmatn;
-font-size: 20px;
-font-weight: 800;
-line-height: 31px;
-letter-spacing: 0em;
-text-align: center;
-box-shadow: 0px 8px 16px 0px #00000029; 
-}
-.arwowRight{
-top: 300px;
-right: 50px;
-}
-.slider{
-height: 120px;
-padding-top:25px;
-filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.05));
-}
- /* ------------------------slider------------------------  */
-.cardSlider{
+  .btnText {
+  }
+
+  .btnGreenRev {
+    margin-right: 32px;
+    color: #0e994a;
+    border: solid 3px #0e994a;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px #00000029;
+  }
+
+  .arwowRight {
+    top: 300px;
+    right: 50px;
+  }
+
+  .slider {
+    height: 120px;
+    padding-top: 25px;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.05));
+  }
+
+  /* ------------------------slider------------------------  */
+  .cardSlider {
     border: none !important;
     background-color: #ffffff00;
-}
- @media (max-width: 767px){
-    .carousel-inner .carousel-item >div{display: none}
-    .carousel-inner .carousel-item >div:first-child{display: block}
-}
-.carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev{display: flex}
-@media (min-width: 768px){
-    .carousel-inner .carousel-item-end.active, .carousel-inner .carousel-item-next{transform: translateX(-16.666666666666666666666666666667%)}
-    .carousel-inner .carousel-item-start.active, .carousel-inner .carousel-item-prev{transform: translateX(16.666666666666666666666666666667%)}}
-    .carousel-inner .carousel-item-end, .carousel-inner .carousel-item-start{transform: translateX(0)}
+  }
+
+  @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item > div:first-child {
+      display: block;
+    }
+  }
+
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+
+  @media (min-width: 768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(-16.666666666666666666666666666667%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(16.666666666666666666666666666667%);
+    }
+  }
+
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+  }
 
   /* ------------------------end of slider------------------------  */
-  .leftArrow{
+  .leftArrow {
     top: 0px;
     left: -70px;
   }
-  .rightArrow{
+
+  .rightArrow {
     top: 0px;
     right: -70px;
   }
-  .arrimage{
+
+  .arrimage {
     height: 26px;
     width: 12px;
   }
-.border-light{
-    border: #FFFFFF !important;
-}
-.sectionB{
- background-color:#E9E5E5 ;  
- padding-top: 69px;
- padding-bottom: 5px;
 
-}
-.greenDot{
-z-index: 0 !important;
-top:00px
-}
-.sectionBTitr{
-    font-family: 'Shabnam';
+  .border-light {
+    border: #ffffff !important;
+  }
+
+  .sectionB {
+    background-color: #e9e5e5;
+    padding-top: 69px;
+    padding-bottom: 5px;
+  }
+
+  .greenDot {
+    z-index: 0 !important;
+    top: 00px;
+  }
+
+  .sectionBTitr {
+    font-family: "Shabnam";
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -223,313 +261,1320 @@ top:00px
     color: #595676;
     z-index: 1000 !important;
     right: 30px;
-    top:13px;
-}
-.sectionBText{
+    top: 13px;
+  }
+
+  .sectionBText {
     margin-top: 100px;
-}
-.sectionBText p {
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 217.25%;
-color: #595676;
-}
-.bold{
-    font-family: 'Vazirmatn';
+  }
+
+  .sectionBText p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 217.25%;
+    color: #595676;
+  }
+
+  .bold {
+    font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700 !important;
-    font-size: 22px !important;    
-    color: #000000 !important; 
-}
-.logoIcon{
+    font-size: 22px !important;
+    color: #000000 !important;
+  }
+
+  .logoIcon {
     width: 32px;
     height: 36px;
-}
-.specs{
+  }
+
+  .specs {
     margin-top: 100px;
     height: 120px;
-}
-.specs p{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-letter-spacing: -0.025em;
-color: #000000;
-}
-.sectionC{
+  }
+
+  .specs p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.025em;
+    color: #000000;
+  }
+
+  .sectionC {
     padding-top: 110px;
     padding-bottom: 10px;
     margin-bottom: 0px;
-    background-color:#E9E5E5 ;
+    background-color: #e9e5e5;
     /* height: 2000px; */
-}
-.cardHolder{
+  }
+
+  .cardHolder {
     margin-top: 100px;
-}
-.cardTitle{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 700;
-font-size: 20.5px;
-letter-spacing: -0.025em;
-color: #000000;
-}
-.cardTxt1{
-    font-family: 'Vazirmatn';
+  }
+
+  .cardTitle {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.5px;
+    letter-spacing: -0.025em;
+    color: #000000;
+  }
+
+  .cardTxt1 {
+    font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 164.25%;   
-    text-align: justify;    
-    color: #595676;   
-}
-.cardTxtTitr2{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 25px;
-text-align: justify;
-color: #C54577;
-}
-.span1{
-    font-family: 'Vazirmatn';
+    line-height: 164.25%;
+    text-align: justify;
+    color: #595676;
+  }
+
+  .cardTxtTitr2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    color: #c54577;
+  }
+
+  .span1 {
+    font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 23px;
     text-align: right;
-    
+
     color: #595676;
-}
-.span2{
-    font-family: 'Vazirmatn';
+  }
+
+  .span2 {
+    font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 23px;
     text-align: right;
-    
-    color: #292D32;
-}
-.span3{
-    font-family: 'Vazirmatn';
+
+    color: #292d32;
+  }
+
+  .span3 {
+    font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 23px;
-    text-align: right;    
-    color: #0E994A;
-}
-.myCard{
- /* height:420px; */
- background-color: #FFFFFF;
- border-radius: 32px;
- padding-bottom: 20px;
-}
-.arrowButton{
+    text-align: right;
+    color: #0e994a;
+  }
 
+  .myCard {
+    /* height:420px; */
+    background-color: #ffffff;
+    border-radius: 32px;
+    padding-bottom: 20px;
+  }
+
+  .arrowButton {
     width: 34px;
     height: 34px;
     background: rgba(98, 190, 120, 0.22);
     border-radius: 50%;
     border: none;
+  }
 
-}
-.cardTextHolder{
+  .cardTextHolder {
     margin-bottom: 50px;
-}
-.arrowButtonHolder{
+  }
+
+  .arrowButtonHolder {
     bottom: 20px;
     left: 30px;
-}
-.sectionD{
+  }
+
+  .sectionD {
     height: 1000px;
     padding-top: 100px;
-    background-color:#00f99e ;
-}
-.sectionE{
-    padding-top: 100px;
-    background-color:#E9E5E5 ;
-    padding-bottom: 20px;
-}
-.btnSectionE{
- left: 0px;  
-}
-.davtalabCardHolder{
-    padding-top: 100px;
-}
-.davtalabCard{
-}
+    background-color: #00f99e;
+  }
 
-.davtalabCardData{
-    background-color: #FFFFFF;
+  .sectionE {
+    padding-top: 100px;
+    background-color: #e9e5e5;
+    padding-bottom: 20px;
+  }
+
+  .btnSectionE {
+    left: 0px;
+  }
+
+  .davtalabCardHolder {
+    padding-top: 100px;
+  }
+
+  .davtalabCard {
+  }
+
+  .davtalabCardData {
+    background-color: #ffffff;
     border-radius: 32px;
     padding-bottom: 10px;
+  }
 
-}
-.davtalabCardText{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-text-align: right;
-color: #595676;
-}
-.davtalabCardName{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 38px;
-text-align: justify;
-color: #000000;
-}
-.davtalabCardSpec{
-    font-family: 'Vazirmatn';
+  .davtalabCardText {
+    font-family: "Vazirmatn";
     font-style: normal;
-    font-weight: 400;
-    font-size: 17px;   
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
     text-align: right;
     color: #595676;
-}
-.sectionF{
+  }
+
+  .davtalabCardName {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: justify;
+    color: #000000;
+  }
+
+  .davtalabCardSpec {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: right;
+    color: #595676;
+  }
+
+  .sectionF {
     padding-top: 100px;
-    background-color:#E9E5E5 ;
-}
-.moreLink{
+    background-color: #e9e5e5;
+  }
+
+  .moreLink {
     align-items: center;
     margin-top: 30px;
-}
-.moreLink a{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 38px;
-text-decoration: none;
-text-align: right;
-color: #000000;
-margin-top: 10px;
-}
-.moreLink img{
- width: 7px;
- height: 16px;  
- margin-right: 10px;
- margin-top: 10px;
+  }
 
-}
-roydadCardHolder{
+  .moreLink a {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-decoration: none;
+    text-align: right;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .moreLink img {
+    width: 7px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  roydadCardHolder {
     padding-top: 100px;
-}
-.roydadCard{
+  }
 
-}
-.roydadCardData{
-    background-color: #FFFFFF;
+  .roydadCard {
+  }
+
+  .roydadCardData {
+    background-color: #ffffff;
     border-radius: 32px;
     padding-bottom: 50px;
-}
-.roydadCardData img{}
-.roydadCardText{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 600;
-font-size: 21px;
-line-height: 33px;
-text-align: right;
-color: #000000;
-}
-.roydadCardSpec{
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 25px;
-text-align: right;
-color: #595676;
-}
-.sectionG{
-    background-color:#E9E5E5 ;  
+  }
+
+  .roydadCardData img {
+  }
+
+  .roydadCardText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 33px;
+    text-align: right;
+    color: #000000;
+  }
+
+  .roydadCardSpec {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+    color: #595676;
+  }
+
+  .sectionG {
+    background-color: #e9e5e5;
     padding-top: 69px;
     padding-bottom: 5px;
-}
-.btnBox{
+  }
+
+  .btnBox {
     padding-top: 100px;
-}
-.sectionGBtn{
-    width: 100%;    
-}
-.button1{
-    background: #4F6AA5;
+  }
+
+  .sectionGBtn {
+    width: 100%;
+  }
+
+  .button1 {
+    background: #4f6aa5;
     border-radius: 0px 16px 16px 0px;
     height: 55px;
     border: 3px solid rgba(79, 106, 165, 0.81);
-    font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 38px;
-color: #FFFFFF;
-}
-.button2{
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+
+  .button2 {
     border: 3px solid rgba(79, 106, 165, 0.81);
     border-radius: 16px 0px 0px 16px;
     height: 55px;
-    font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 34px;
-color: #787878;
-}
-.akhbarPicBox1{
-background: linear-gradient(180deg, rgba(128, 147, 190, 0.55) 0%, rgba(128, 147, 190, 0.04) 100%);
-border-radius: 16px;
-}
-.akhbarPicBox2{
-    background: linear-gradient(180deg, rgba(236, 120, 129, 0.74) -0.52%, rgba(236, 120, 129, 0.02) 101.55%);
-    border-radius: 16px;
-}
-.akhbarPicBox3{
-    background: linear-gradient(180deg, rgba(241, 162, 110, 0.68) 0.52%, rgba(241, 162, 110, 0.06) 87.64%);
-    border-radius: 16px;
-    }
-.akhbarPicBox4{
-    background: linear-gradient(180deg, rgba(126, 195, 228, 0.83) 0%, rgba(126, 195, 228, 0.09) 96.59%);
-    border-radius: 16px;
-}    
-.akhbarTitle{
-    font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 700;
-font-size: 19px;
-line-height: 30px;
-text-align: justify;
-letter-spacing: -0.015em;
-color: #000000;
-}
-.akhbarTextHolder{
-padding-left: 40px !important;
-padding-right: 20px;
-margin-bottom: 50px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    color: #787878;
+  }
 
+  .akhbarPicBox1 {
+    background: linear-gradient(
+      180deg,
+      rgba(128, 147, 190, 0.55) 0%,
+      rgba(128, 147, 190, 0.04) 100%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarPicBox2 {
+    background: linear-gradient(
+      180deg,
+      rgba(236, 120, 129, 0.74) -0.52%,
+      rgba(236, 120, 129, 0.02) 101.55%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarPicBox3 {
+    background: linear-gradient(
+      180deg,
+      rgba(241, 162, 110, 0.68) 0.52%,
+      rgba(241, 162, 110, 0.06) 87.64%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarPicBox4 {
+    background: linear-gradient(
+      180deg,
+      rgba(126, 195, 228, 0.83) 0%,
+      rgba(126, 195, 228, 0.09) 96.59%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarTitle {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    color: #000000;
+  }
+
+  .akhbarTextHolder {
+    padding-left: 40px !important;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .dateBox {
+    background: rgba(149, 149, 149, 0.78);
+    border-radius: 10px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3334px;
+    line-height: 21px;
+    text-align: right;
+    color: #ffffff;
+    left: 8px;
+    bottom: 8px;
+    padding: 2px 7px 2px 7px;
+  }
+
+  .sectionH {
+    background-color: #e9e5e5;
+    padding-top: 69px;
+  }
+
+  .questionBox {
+    padding-top: 36px;
+  }
+  .accordion-button {
+    background-color: #e9e5e5 !important;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+    border: none;
+  }
+  .accordion {
+    --bs-accordion-bg: #e9e5e5;
+  }
+  .accordion-body {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 159.75%;
+    color: #595676;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #000000;
+    border: none;
+  }
+  .accordion-button:focus {
+    border: none !important;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #000000;
+  }
+  :focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  .accordion-item {
+    border-bottom: 2px solid rgba(98, 99, 98, 0.24) !important;
+  }
+  .questionTextBox {
+    border-radius: 32px 32px 0px 0px;
+    background-image: url(../picture/bgquestionbox.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 180px;
+  }
+  .questionTextBoxTitr {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .questionTextBoxText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160.75%;
+    color: #595676;
+  }
+  .questionTextBox button {
+    padding: 15px 40px;
+    margin-bottom: 17px;
+  }
+  .questionTextBoxArr {
+    right: -40px;
+    bottom: 50%;
+  }
+  .footer {
+    background-color: #e9e5e5;
+    padding-top: 29px;
+  }
+  .footerLogo {
+    width: 50%;
+  }
+  .footerAboutText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 172.75%;
+    text-align: right;
+    color: #595676;
+    margin-right: 10px;
+    padding-top: 40px;
+    padding-left: 15%;
+  }
+  .footerLink {
+    margin-top: 25px !important;
+  }
+  .titrA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 160.75%;
+    color: #000000;
+    margin-bottom: 24px !important;
+  }
+  .footer li {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.75%;
+    color: #595676;
+    margin-bottom: 24px;
+  }
+  /* .navLink {
+    padding: 0px !important;
+  } */
+  .footerTextCom {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .text2 {
+    line-height: 350%;
+  }
+  .topBox {
+    border-bottom: 1.5px solid rgba(89, 86, 118, 0.22);
+    padding-bottom: 24px;
+  }
+  .footerTextA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 160.75%;
+    text-align: justify;
+    color: #000000;
+  }
+  .footerLinkBox {
+    padding-top: 24px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  ul.list-unstyled.d-flex {
+    margin-bottom: 0px;
+  }
+  .copy {
+    height: 56px;
+    background: #0f6333;
+  }
+  .copy p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0px !important;
+  }
 }
-.dateBox{
-background: rgba(149, 149, 149, 0.78);
-border-radius: 10px;
-font-family: 'Vazirmatn';
-font-style: normal;
-font-weight: 400;
-font-size: 13.3334px;
-line-height: 21px;
-text-align: right;
-color: #FFFFFF;
-left:8px;
-bottom: 8px;
-padding: 2px 7px 2px 7px;
+@media (max-width: 992px) {
+  .header {
+    width: 100%;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
+  }
+
+  .headerLogo {
+    width: 206.19618225097656px;
+    left: -11.1953125px;
+    top: 0.36328125px;
+    border-radius: 0px;
+  }
+
+  .activeHeader {
+    color: #0e994a;
+    text-decoration: underline;
+    font-family: vazirmatn;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 0em;
+  }
+
+  .notActiveHeader {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 70px;
+    color: #0000008a;
+  }
+
+  .btnGreen {
+    background-color: #0e994a;
+    color: #ffffff;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    border: 2px solid #0e994a;
+    border-radius: 32px;
+  }
+
+  .nav-link {
+    padding-inline-start: 0px !important;
+    padding-inline-end: 40px !important;
+  }
+
+  .sectionA {
+    /* height: 700px; */
+    background-color: #e9e5e5;
+    padding-bottom: 40px;
+    /* margin-bottom: 40px; */
+  }
+
+  .picsectionA {
+    /* height: 600px; */
+    width: 100%;
+    margin: auto;
+  }
+
+  .titr1sectionA {
+    font-family: Shabnam;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 109px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    block-size: auto;
+    color: #595676;
+  }
+
+  .titr2sectionA {
+    font-family: Shabnam;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: right;
+    margin-top: 16px;
+    color: rgba(57, 54, 95, 0.5);
+  }
+
+  .text1sectionA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.01em;
+    color: rgba(89, 86, 118, 0.95);
+    border-right: solid 8px #0e994a;
+    border-radius: 4px;
+    margin-top: 40px;
+    padding-right: 24px;
+  }
+
+  .iconSectionA {
+    /* width: 100%; */
+    /* height: 87px; */
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin-top: 40px;
+  }
+
+  .icon {
+    margin-left: 8px;
+    margin-right: 16px;
+  }
+
+  .iconNumber {
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 44px;
+    color: #595676;
+  }
+
+  .iconText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #595676;
+  }
+
+  .spacer {
+    margin-right: 20px;
+  }
+
+  .sectionABtn {
+    margin-top: 16px;
+  }
+
+  .btnText {
+  }
+
+  .btnGreenRev {
+    color: #0e994a;
+    font-family: Vazirmatn;
+    letter-spacing: 0em;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px #00000029;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    border: 2px solid #0e994a;
+    border-radius: 32px;
+  }
+
+  .arwowRight {
+    top: 300px;
+    right: 50px;
+  }
+
+  .slider {
+    height: 120px;
+    padding-top: 25px;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.05));
+  }
+
+  /* ------------------------slider------------------------  */
+  .cardSlider {
+    border: none !important;
+    background-color: #ffffff00;
+  }
+
+  @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item > div:first-child {
+      display: block;
+    }
+  }
+
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+
+  @media (min-width: 768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(-16.666666666666666666666666666667%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(16.666666666666666666666666666667%);
+    }
+  }
+
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+  }
+
+  /* ------------------------end of slider------------------------  */
+  .leftArrow {
+    top: 0px;
+    left: -70px;
+  }
+
+  .rightArrow {
+    top: 0px;
+    right: -70px;
+  }
+
+  .arrimage {
+    height: 26px;
+    width: 12px;
+  }
+
+  .border-light {
+    border: #ffffff !important;
+  }
+
+  .sectionB {
+    background-color: #e9e5e5;
+    padding-top: 69px;
+    padding-bottom: 5px;
+  }
+
+  .greenDot {
+    z-index: 0 !important;
+    top: 00px;
+  }
+
+  .sectionBTitr {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: right;
+    color: #595676;
+    z-index: 1000 !important;
+    right: 30px;
+    top: 13px;
+  }
+
+  .sectionBText {
+    margin-top: 100px;
+  }
+
+  .sectionBText p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 217.25%;
+    color: #595676;
+  }
+
+  .bold {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #000000 !important;
+  }
+
+  .logoIcon {
+    width: 32px;
+    height: 36px;
+  }
+
+  .specs {
+    margin-top: 100px;
+    height: 120px;
+  }
+
+  .specs p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.025em;
+    color: #000000;
+  }
+
+  .sectionC {
+    padding-top: 110px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: #e9e5e5;
+    /* height: 2000px; */
+  }
+
+  .cardHolder {
+    margin-top: 100px;
+  }
+
+  .cardTitle {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.5px;
+    letter-spacing: -0.025em;
+    color: #000000;
+  }
+
+  .cardTxt1 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 164.25%;
+    text-align: justify;
+    color: #595676;
+  }
+
+  .cardTxtTitr2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    color: #c54577;
+  }
+
+  .span1 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: right;
+
+    color: #595676;
+  }
+
+  .span2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: right;
+
+    color: #292d32;
+  }
+
+  .span3 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: right;
+    color: #0e994a;
+  }
+
+  .myCard {
+    /* height:420px; */
+    background-color: #ffffff;
+    border-radius: 32px;
+    padding-bottom: 20px;
+  }
+
+  .arrowButton {
+    width: 34px;
+    height: 34px;
+    background: rgba(98, 190, 120, 0.22);
+    border-radius: 50%;
+    border: none;
+  }
+
+  .cardTextHolder {
+    margin-bottom: 50px;
+  }
+
+  .arrowButtonHolder {
+    bottom: 20px;
+    left: 30px;
+  }
+
+  .sectionD {
+    height: 1000px;
+    padding-top: 100px;
+    background-color: #00f99e;
+  }
+
+  .sectionE {
+    padding-top: 100px;
+    background-color: #e9e5e5;
+    padding-bottom: 20px;
+  }
+
+  .btnSectionE {
+    left: 0px;
+  }
+
+  .davtalabCardHolder {
+    padding-top: 100px;
+  }
+
+  .davtalabCard {
+  }
+
+  .davtalabCardData {
+    background-color: #ffffff;
+    border-radius: 32px;
+    padding-bottom: 10px;
+  }
+
+  .davtalabCardText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color: #595676;
+  }
+
+  .davtalabCardName {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: justify;
+    color: #000000;
+  }
+
+  .davtalabCardSpec {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: right;
+    color: #595676;
+  }
+
+  .sectionF {
+    padding-top: 100px;
+    background-color: #e9e5e5;
+  }
+
+  .moreLink {
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .moreLink a {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-decoration: none;
+    text-align: right;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .moreLink img {
+    width: 7px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  roydadCardHolder {
+    padding-top: 100px;
+  }
+
+  .roydadCard {
+  }
+
+  .roydadCardData {
+    background-color: #ffffff;
+    border-radius: 32px;
+    padding-bottom: 50px;
+  }
+
+  .roydadCardData img {
+  }
+
+  .roydadCardText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 33px;
+    text-align: right;
+    color: #000000;
+  }
+
+  .roydadCardSpec {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+    color: #595676;
+  }
+
+  .sectionG {
+    background-color: #e9e5e5;
+    padding-top: 69px;
+    padding-bottom: 5px;
+  }
+
+  .btnBox {
+    padding-top: 100px;
+  }
+
+  .sectionGBtn {
+    width: 100%;
+  }
+
+  .button1 {
+    background: #4f6aa5;
+    border-radius: 0px 16px 16px 0px;
+    height: 55px;
+    border: 3px solid rgba(79, 106, 165, 0.81);
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+
+  .button2 {
+    border: 3px solid rgba(79, 106, 165, 0.81);
+    border-radius: 16px 0px 0px 16px;
+    height: 55px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    color: #787878;
+  }
+
+  .akhbarPicBox1 {
+    background: linear-gradient(
+      180deg,
+      rgba(128, 147, 190, 0.55) 0%,
+      rgba(128, 147, 190, 0.04) 100%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarPicBox2 {
+    background: linear-gradient(
+      180deg,
+      rgba(236, 120, 129, 0.74) -0.52%,
+      rgba(236, 120, 129, 0.02) 101.55%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarPicBox3 {
+    background: linear-gradient(
+      180deg,
+      rgba(241, 162, 110, 0.68) 0.52%,
+      rgba(241, 162, 110, 0.06) 87.64%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarPicBox4 {
+    background: linear-gradient(
+      180deg,
+      rgba(126, 195, 228, 0.83) 0%,
+      rgba(126, 195, 228, 0.09) 96.59%
+    );
+    border-radius: 16px;
+  }
+
+  .akhbarTitle {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    color: #000000;
+  }
+
+  .akhbarTextHolder {
+    padding-left: 40px !important;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .dateBox {
+    background: rgba(149, 149, 149, 0.78);
+    border-radius: 10px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3334px;
+    line-height: 21px;
+    text-align: right;
+    color: #ffffff;
+    left: 8px;
+    bottom: 8px;
+    padding: 2px 7px 2px 7px;
+  }
+
+  .sectionH {
+    background-color: #e9e5e5;
+    padding-top: 69px;
+  }
+
+  .questionBox {
+    padding-top: 36px;
+  }
+  .accordion-button {
+    background-color: #e9e5e5 !important;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+    border: none;
+  }
+  .accordion {
+    --bs-accordion-bg: #e9e5e5;
+  }
+  .accordion-body {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 159.75%;
+    color: #595676;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #000000;
+    border: none;
+  }
+  .accordion-button:focus {
+    border: none !important;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #000000;
+  }
+  :focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  .accordion-item {
+    border-bottom: 2px solid rgba(98, 99, 98, 0.24) !important;
+  }
+  .questionTextBox {
+    border-radius: 32px 32px 0px 0px;
+    background-image: url(../picture/bgquestionbox.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 180px;
+  }
+  .questionTextBoxTitr {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .questionTextBoxText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160.75%;
+    color: #595676;
+  }
+  .questionTextBox button {
+    padding: 15px 40px;
+    margin-bottom: 17px;
+  }
+  .questionTextBoxArr {
+    right: -40px;
+    bottom: 50%;
+  }
+  .footer {
+    background-color: #e9e5e5;
+    padding-top: 29px;
+  }
+  .footerLogo {
+    width: 50%;
+  }
+  .footerAboutText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 172.75%;
+    text-align: right;
+    color: #595676;
+    margin-right: 10px;
+    padding-top: 40px;
+    padding-left: 15%;
+  }
+  .footerLink {
+    margin-top: 25px !important;
+  }
+  .titrA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 160.75%;
+    color: #000000;
+    margin-bottom: 24px !important;
+  }
+  .footer li {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.75%;
+    color: #595676;
+    margin-bottom: 24px;
+  }
+  /* .navLink {
+    padding: 0px !important;
+  } */
+  .footerTextCom {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .text2 {
+    line-height: 350%;
+  }
+  .topBox {
+    border-bottom: 1.5px solid rgba(89, 86, 118, 0.22);
+    padding-bottom: 24px;
+  }
+  .footerTextA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 160.75%;
+    text-align: justify;
+    color: #000000;
+  }
+  .footerLinkBox {
+    padding-top: 24px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  ul.list-unstyled.d-flex {
+    margin-bottom: 0px;
+  }
+  .copy {
+    height: 56px;
+    background: #0f6333;
+  }
+  .copy p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0px !important;
+  }
 }
