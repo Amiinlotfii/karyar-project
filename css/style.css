@@ -10,15 +10,16 @@
   src: url(../font/shabnam/Shabnam-FD.woff2) format(woff2);
 }
 
+
 body {
   direction: rtl;
   margin: 0px;
+  padding: 0px;
   border: 0cm;
   background-color: #e9e5e5;
 }
 @media (min-width: 992px) {
   .header {
-    width: 100%;
     height: 112px;
     left: 0px;
     top: 0px;
@@ -32,13 +33,13 @@ body {
   }
 
   .activeHeader {
-    color: #0e994a;
-    text-decoration: underline;
-    font-family: vazirmatn;
-    font-size: 26px;
-    font-weight: 800;
-    line-height: 70px;
-    letter-spacing: 0em;
+    color: #0e994a !important;
+    text-decoration: underline !important;
+    font-family: vazirmatn !important;
+    font-size: 26px !important;
+    font-weight: 800 !important;
+    line-height: 70px !important;
+    letter-spacing: 0em !important;
   }
 
   .notActiveHeader {
@@ -53,21 +54,22 @@ body {
   .btnGreen {
     background-color: #0e994a;
     color: #ffffff;
-
     font-family: Vazirmatn;
-    font-size: 1.5rem !important;
+    font-size: 20px !important;
     font-weight: 800;
-    line-height: 31px;
     letter-spacing: 0em;
-    text-align: left;
     box-shadow: 0px 8px 16px 0px #00000029;
+    margin: 23px 12px ;
   }
 
   .nav-link {
     padding-inline-start: 0px !important;
     padding-inline-end: 40px !important;
   }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color : #0e994a !important;
 
+  }
   .sectionA {
     /* height: 700px; */
     background-color: #e9e5e5;
@@ -124,9 +126,9 @@ body {
     margin-top: 40px;
   }
 
-  .icon {
-    margin-left: 8px;
-    margin-right: 16px;
+  .iconSectionAcontrol {
+    padding-top: 36px;
+    background-color: #4f6aa5;
   }
 
   .iconNumber {
@@ -135,15 +137,6 @@ body {
     font-weight: 800;
     font-size: 28px;
     line-height: 44px;
-    color: #595676;
-  }
-
-  .iconText {
-    font-family: "Vazirmatn";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
     color: #595676;
   }
 
@@ -813,7 +806,7 @@ body {
   }
 
   .activeHeader {
-    color: #0e994a;
+    color: #0e994a !important;
     text-decoration: underline;
     font-family: vazirmatn;
     font-size: 26px;
@@ -829,6 +822,9 @@ body {
     font-size: 24px;
     line-height: 70px;
     color: #0000008a;
+  }
+  .navbar-brand img{
+    width: 131px;
   }
 
   .btnGreen {
@@ -884,16 +880,18 @@ body {
   }
 
   .text1sectionA {
-    font-family: "Vazirmatn";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    letter-spacing: 0.01em;
-    color: rgba(89, 86, 118, 0.95);
     border-right: solid 8px #0e994a;
     border-radius: 4px;
     margin-top: 40px;
     padding-right: 24px;
+
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 157.25%;
+    letter-spacing: 0.01em;
+    color: rgba(89, 86, 118, 0.95);
   }
 
   .iconSectionA {
@@ -910,11 +908,11 @@ body {
   }
 
   .iconNumber {
-    font-family: Vazirmatn;
+    font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
-    line-height: 44px;
+    font-size: 20px;
+    line-height: 31px;
     color: #595676;
   }
 
@@ -922,8 +920,8 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 22px;
     color: #595676;
   }
 
@@ -1033,6 +1031,7 @@ body {
     z-index: 0 !important;
     top: 00px;
   }
+  
 
   .sectionBTitr {
     font-family: "Shabnam";
@@ -1054,17 +1053,25 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 217.25%;
+    font-size: 12px;
+    line-height: 176.75%;
+    /* or 21px */
+
+    text-align: right;
+
     color: #595676;
   }
-
+  .bold p{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
   .bold {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700 !important;
-    font-size: 22px !important;
+    font-size: 12px !important;
     color: #000000 !important;
+    align-items: center !important;
   }
 
   .logoIcon {
@@ -1164,6 +1171,7 @@ body {
     background-color: #ffffff;
     border-radius: 32px;
     padding-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .arrowButton {
@@ -1204,6 +1212,7 @@ body {
   }
 
   .davtalabCard {
+    margin-bottom: 90px;
   }
 
   .davtalabCardData {
@@ -1275,6 +1284,7 @@ body {
   }
 
   .roydadCard {
+    margin-bottom: 50px;
   }
 
   .roydadCardData {
@@ -1460,6 +1470,9 @@ body {
   .accordion-item {
     border-bottom: 2px solid rgba(98, 99, 98, 0.24) !important;
   }
+  .accordion-item2 {
+    border-bottom: none !important;
+  }
   .questionTextBox {
     border-radius: 32px 32px 0px 0px;
     background-image: url(../picture/bgquestionbox.png);
@@ -1508,9 +1521,9 @@ body {
     line-height: 172.75%;
     text-align: right;
     color: #595676;
-    margin-right: 10px;
+    
     padding-top: 40px;
-    padding-left: 15%;
+   
   }
   .footerLink {
     margin-top: 25px !important;
@@ -1544,7 +1557,7 @@ body {
     line-height: 350%;
   }
   .topBox {
-    border-bottom: 1.5px solid rgba(89, 86, 118, 0.22);
+    border-bottom: none;
     padding-bottom: 24px;
   }
   .footerTextA {
@@ -1576,5 +1589,8 @@ body {
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 0px !important;
+  }
+  .footerAccordionBox{
+border-bottom: 1px solid rgba(98, 99, 98, 0.24) !important;
   }
 }
