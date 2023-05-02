@@ -10,7 +10,6 @@
   src: url(../font/shabnam/Shabnam-FD.woff2) format(woff2);
 }
 
-
 body {
   direction: rtl;
   margin: 0px;
@@ -18,7 +17,7 @@ body {
   border: 0cm;
   background-color: #e9e5e5;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .header {
     left: 0px;
     top: 0px;
@@ -53,7 +52,7 @@ body {
     font-weight: 800;
     letter-spacing: 0em;
     box-shadow: 0px 8px 16px 0px #00000029;
-    margin: 23px 12px ;
+    margin: 23px 12px;
     height: 54px;
     width: 201px;
   }
@@ -62,19 +61,24 @@ body {
     padding-inline-start: 0px !important;
     padding-inline-end: 40px !important;
   }
-  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color : #0e994a !important;
-
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: #0e994a !important;
   }
   .sectionA {
-    /* height: 700px; */
     background-color: #e9e5e5;
     padding-bottom: 40px;
-    /* margin-bottom: 40px; */
+  }
+  .iconText {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #595676;
   }
 
   .picsectionA {
-    /* height: 600px; */
     width: 100%;
     margin: auto;
   }
@@ -92,13 +96,13 @@ body {
   }
 
   .titr2sectionA {
-    font-family: Shabnam;
+    margin-top: 16px;
+    font-family: "Shabnam";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    text-align: right;
-    margin-top: 16px;
-    color: rgba(57, 54, 95, 0.5);
+    line-height: 44px;
+    color: #8d8b9a;
   }
 
   .text1sectionA {
@@ -124,7 +128,6 @@ body {
 
   .iconSectionAcontrol {
     padding-top: 36px;
-    background-color: #4f6aa5;
   }
 
   .iconNumber {
@@ -140,24 +143,33 @@ body {
     margin-right: 20px;
   }
 
-  .sectionABtn {
+  .sectionABtnG {
     margin-top: 40px;
+    width: 259px;
+    height: 56px;
+    background: #0e994a;
+    border-radius: 32px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
   }
 
-  .btnText {
-  }
-
-  .btnGreenRev {
-    margin-right: 32px;
+  .sectionABtnW {
+    width: 259px;
+    height: 56px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
     color: #0e994a;
     border: solid 3px #0e994a;
-    font-family: Vazirmatn;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 31px;
-    letter-spacing: 0em;
-    text-align: center;
-    box-shadow: 0px 8px 16px 0px #00000029;
+    margin-top: 40px;
+    margin-right: 32px;
   }
 
   .arwowRight {
@@ -785,7 +797,7 @@ body {
     margin-bottom: 0px !important;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .header {
     width: 100%;
     left: 0px;
@@ -818,12 +830,8 @@ body {
     font-weight: 800;
     letter-spacing: 0em;
     box-shadow: 0px 8px 16px 0px #00000029;
-    margin: 23px 12px ;
-    /* height: 33px;
-    width: 143; */
+    margin: 23px 12px;
   }
-
-
 
   .nav-link {
     padding-inline-start: 0px !important;
@@ -831,14 +839,11 @@ body {
   }
 
   .sectionA {
-    /* height: 700px; */
     background-color: #e9e5e5;
     padding-bottom: 40px;
-    /* margin-bottom: 40px; */
   }
 
   .picsectionA {
-    /* height: 600px; */
     width: 100%;
     margin: auto;
   }
@@ -859,7 +864,7 @@ body {
     font-family: Shabnam;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 20px;
     text-align: right;
     margin-top: 16px;
     color: rgba(57, 54, 95, 0.5);
@@ -874,7 +879,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 157.25%;
     letter-spacing: 0.01em;
     color: rgba(89, 86, 118, 0.95);
@@ -909,32 +914,40 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #595676;
+    background-color: #292d32;
   }
 
   .spacer {
     margin-right: 20px;
   }
 
-  .sectionABtn {
-    margin-top: 16px;
-  }
-
-  .btnText {
-  }
-
-  .btnGreenRev {
-    color: #0e994a;
-    font-family: Vazirmatn;
-    letter-spacing: 0em;
+  .sectionABtnG {
+    margin-top: 40px;
     text-align: center;
-    box-shadow: 0px 8px 16px 0px #00000029;
+    width: 251px;
+    height: 50.2px;
+    background: #0e994a;
+    border-radius: 50.2px;
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 22px;
-    border: 2px solid #0e994a;
-    border-radius: 32px;
+    font-size: 21.9625px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+
+  .sectionABtnW {
+    margin-top: 25px;
+    width: 251px;
+    height: 50.2px;
+    border: 3.1375px solid #0e994a;
+    border-radius: 50.2px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.9625px;
+    line-height: 34px;
+    color: #0e994a;
   }
 
   .arwowRight {
@@ -1017,7 +1030,6 @@ body {
     z-index: 0 !important;
     top: 00px;
   }
-  
 
   .sectionBTitr {
     font-family: "Shabnam";
@@ -1047,7 +1059,7 @@ body {
 
     color: #595676;
   }
-  .bold p{
+  .bold p {
     margin: 0px !important;
     padding: 0px !important;
   }
@@ -1507,9 +1519,8 @@ body {
     line-height: 172.75%;
     text-align: right;
     color: #595676;
-    
+
     padding-top: 40px;
-   
   }
   .footerLink {
     margin-top: 25px !important;
@@ -1576,7 +1587,7 @@ body {
     color: #ffffff;
     margin-bottom: 0px !important;
   }
-  .footerAccordionBox{
-border-bottom: 1px solid rgba(98, 99, 98, 0.24) !important;
+  .footerAccordionBox {
+    border-bottom: 1px solid rgba(98, 99, 98, 0.24) !important;
   }
 }
