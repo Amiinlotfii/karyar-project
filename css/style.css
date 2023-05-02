@@ -20,16 +20,9 @@ body {
 }
 @media (min-width: 992px) {
   .header {
-    height: 112px;
     left: 0px;
     top: 0px;
     box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
-  }
-  .headerLogo {
-    width: 206.19618225097656px;
-    left: -11.1953125px;
-    top: 0.36328125px;
-    border-radius: 0px;
   }
 
   .activeHeader {
@@ -49,6 +42,7 @@ body {
     font-size: 24px;
     line-height: 70px;
     color: #0000008a;
+    height: 56px !important;
   }
 
   .btnGreen {
@@ -60,6 +54,8 @@ body {
     letter-spacing: 0em;
     box-shadow: 0px 8px 16px 0px #00000029;
     margin: 23px 12px ;
+    height: 54px;
+    width: 201px;
   }
 
   .nav-link {
@@ -792,19 +788,10 @@ body {
 @media (max-width: 992px) {
   .header {
     width: 100%;
-    height: 48px;
     left: 0px;
     top: 0px;
     box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
   }
-
-  .headerLogo {
-    width: 206.19618225097656px;
-    left: -11.1953125px;
-    top: 0.36328125px;
-    border-radius: 0px;
-  }
-
   .activeHeader {
     color: #0e994a !important;
     text-decoration: underline;
@@ -823,21 +810,20 @@ body {
     line-height: 70px;
     color: #0000008a;
   }
-  .navbar-brand img{
-    width: 131px;
-  }
-
   .btnGreen {
     background-color: #0e994a;
     color: #ffffff;
-    font-family: "Vazirmatn";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: -0.02em;
-    border: 2px solid #0e994a;
-    border-radius: 32px;
+    font-family: Vazirmatn;
+    font-size: 12px !important;
+    font-weight: 800;
+    letter-spacing: 0em;
+    box-shadow: 0px 8px 16px 0px #00000029;
+    margin: 23px 12px ;
+    /* height: 33px;
+    width: 143; */
   }
+
+
 
   .nav-link {
     padding-inline-start: 0px !important;
