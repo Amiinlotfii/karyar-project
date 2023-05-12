@@ -9,16 +9,19 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container-fluid p-0">  
 
     <!-- ---------------------------navbar--------------------------- -->
-
     <div class="container-fluid header p-0 " style="background-color: #ffffff;">
-        <div class="row  col-12">
-            <div class="col-lg-9 col-md-6 col-sm-8 col-7 d-flex flex-wrap align-items-center justify-content-start mt-lg-2 mt-md-0 "> 
+        <div class="  col-12  d-flex justify-content-between NavPS ">
+            <div class="col-lg-9 col-md-6 col-sm-5 col-5 d-flex align-items-center mt-lg-2 mt-md-0 "> 
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,8 +31,7 @@
                             <img class="headerLogo img-fluid ms-2 d-none d-lg-block" src="picture/logo.png" alt="">
                             <img class="headerLogo img-fluid ms-2 d-block d-lg-none" src="picture/logo-sm.png" alt="">
                         </a>
-
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <div class="collapse navbar-collapse" id="navbarToggler">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link activeHeader" aria-current="page" href="#">خانه</a>
@@ -49,23 +51,23 @@
                 </nav>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-4  col-5 d-flex flex-wrap align-items-center justify-content-end me-0 pe-0"> 
-                <button type="button" class="btn btnGreen rounded-pill">
+            <div class="col-lg-3 col-md-5 col-sm-6 col-6 d-flex align-items-center justify-content-end me-0 pe-0 NavPE"> 
+                <a href="signIn.html" role="button" class="btn btnGreen rounded-pill">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8.89844 7.56023C9.20844 3.96023 11.0584 2.49023 15.1084 2.49023H15.2384C19.7084 2.49023 21.4984 4.28023 21.4984 8.75023V15.2702C21.4984 19.7402 19.7084 21.5302 15.2384 21.5302H15.1084C11.0884 21.5302 9.23844 20.0802 8.90844 16.5402" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M2 12H14.88" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M12.6484 8.65039L15.9984 12.0004L12.6484 15.3504" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                      ورود / ثبت نام
-                </button>
+                </a>
             </div>
         </div>
     </div>
     <!-- ---------------------------navbar--------------------------- -->
     <!-- ------------------------sectionA------------------------ -->
-    <section class="container-fluid sectionA p-0 m-0">
+    <div class="container-fluid sectionA p-0 m-0">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row P70 " >
                     <div class="col-md-7 col-sm-12">
                         <div class="titr1sectionA d-inline-flex col-12">کاریار</div>
                         <div class="titr2sectionA d-inline-flex col-12">مدرسه آنلاین برنامه‌نویسی متصل به بازار کار</div>
@@ -152,7 +154,7 @@
                                     <div class="btnText text-center" >ثبت نام مهارت آموزان</div>
                                 </button>  
                                 <button type="button" class="btn btn-outline-primary sectionABtnW rounded-pill col-5">
-                                    <div class="btnText text-center" >مشاهده دوره ها</div>
+                                    <div class="btnText text-center" ><a href="#Courses">مشاهده دوره ها</a> </div>
                                 </button>                              
                         </div>
                     </div>
@@ -173,356 +175,357 @@
                             <div class="btnText text-center" >مشاهده دوره ها</div>
                         </button>  
                     </div>
-                    <div class=" d-block col-12 d-md-none bg-white" style="margin-top:40px; margin-bottom: 40px;"> 
-                            <div class="container ">
-                                <div class="row col-12 mt-4 ">
-                                    <div class="col-6 d-flex flex-column">
-                                        <div class="d-flex flex-row col-12  justify-content-center">
-                                            <div class="icon me-2 ms-0 p-0">
-                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M29.9969 11.9359C29.8969 11.9193 29.7802 11.9193 29.6802 11.9359C27.3802 11.8526 25.5469 9.96927 25.5469 7.63594C25.5469 5.25261 27.4635 3.33594 29.8469 3.33594C32.2302 3.33594 34.1469 5.26927 34.1469 7.63594C34.1302 9.96927 32.2969 11.8526 29.9969 11.9359Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M28.2805 24.0695C30.5638 24.4529 33.0805 24.0529 34.8471 22.8695C37.1971 21.3029 37.1971 18.7362 34.8471 17.1695C33.0638 15.9862 30.5138 15.5862 28.2305 15.9862" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M9.95078 11.9359C10.0508 11.9193 10.1674 11.9193 10.2674 11.9359C12.5674 11.8526 14.4008 9.96927 14.4008 7.63594C14.4008 5.25261 12.4841 3.33594 10.1008 3.33594C7.71745 3.33594 5.80078 5.26927 5.80078 7.63594C5.81745 9.96927 7.65078 11.8526 9.95078 11.9359Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M11.669 24.0695C9.38567 24.4529 6.86901 24.0529 5.10234 22.8695C2.75234 21.3029 2.75234 18.7362 5.10234 17.1695C6.88568 15.9862 9.43567 15.5862 11.719 15.9862" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M19.993 24.3813C19.893 24.3646 19.7763 24.3646 19.6763 24.3813C17.3763 24.2979 15.543 22.4146 15.543 20.0813C15.543 17.6979 17.4596 15.7812 19.843 15.7812C22.2263 15.7812 24.143 17.7146 24.143 20.0813C24.1263 22.4146 22.293 24.3146 19.993 24.3813Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M15.1453 29.6297C12.7953 31.1964 12.7953 33.763 15.1453 35.3297C17.812 37.113 22.1786 37.113 24.8453 35.3297C27.1953 33.763 27.1953 31.1964 24.8453 29.6297C22.1953 27.863 17.812 27.863 15.1453 29.6297Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    </svg>
-                                            </div>
-                                            <div class="iconNumber">۲۵۹</div>
-                                        </div>
-                                        <div class="col-12 d-flex justify-content-center mb-4 ">
-                                            <div class="iconNumber ">مهارت آموز</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 d-flex flex-column ">
-                                        <div class="d-flex flex-row  col-12 justify-content-center">
-                                            <div class="icon me-2 ms-0 p-0">
-                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M30 31.432H28.7333C27.4 31.432 26.1333 31.9487 25.2 32.882L22.35 35.6987C21.05 36.982 18.9334 36.982 17.6334 35.6987L14.7833 32.882C13.85 31.9487 12.5667 31.432 11.25 31.432H10C7.23333 31.432 5 29.2154 5 26.482V8.28203C5 5.5487 7.23333 3.33203 10 3.33203H30C32.7667 3.33203 35 5.5487 35 8.28203V26.4654C35 29.1987 32.7667 31.432 30 31.432Z" stroke="#349FD7" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M20.1178 14.918C20.0511 14.918 19.951 14.918 19.8677 14.918C18.1177 14.8513 16.7344 13.4346 16.7344 11.668C16.7344 9.86797 18.1844 8.41797 19.9844 8.41797C21.7844 8.41797 23.2344 9.88464 23.2344 11.668C23.2511 13.4346 21.8678 14.868 20.1178 14.918Z" stroke="#349FD7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M15.4164 19.9336C13.1997 21.4169 13.1997 23.8336 15.4164 25.3169C17.9331 27.0003 22.0664 27.0003 24.5831 25.3169C26.7997 23.8336 26.7997 21.4169 24.5831 19.9336C22.0664 18.2669 17.9497 18.2669 15.4164 19.9336Z" stroke="#349FD7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-
-                                            </div>
-                                            <div class="iconNumber">۸۸</div>
-                                        </div>
-                                        <div class="col-12 d-flex justify-content-center mb-4">
-                                            <div class="iconNumber">منتور و مربی</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row col-12 iconSectionAcontrol">
-                                    <div class="col-6 d-flex flex-column">
-                                        <div class="d-flex flex-row col-12 justify-content-center">
-                                            <div class="icon me-2 ms-0 p-0">
-                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M36.6654 27.9002V7.78349C36.6654 5.78349 35.032 4.30015 33.0487 4.46682H32.9487C29.4487 4.76682 24.132 6.55015 21.1654 8.41682L20.882 8.60015C20.3987 8.90015 19.5987 8.90015 19.1154 8.60015L18.6987 8.35015C15.732 6.50015 10.432 4.73349 6.93203 4.45015C4.9487 4.28349 3.33203 5.78348 3.33203 7.76682V27.9002C3.33203 29.5002 4.63203 31.0002 6.23203 31.2002L6.71536 31.2668C10.332 31.7502 15.9154 33.5835 19.1154 35.3335L19.182 35.3668C19.632 35.6168 20.3487 35.6168 20.782 35.3668C23.982 33.6002 29.582 31.7502 33.2154 31.2668L33.7654 31.2002C35.3654 31.0002 36.6654 29.5002 36.6654 27.9002Z" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M20 9.14844V34.1484" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M12.918 14.1484H9.16797" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M14.168 19.1484H9.16797" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </div>
-                                            <div class="iconNumber">۵</div>
-                                        </div>
-                                        <div class="col-12 d-flex justify-content-center mb-4">
-                                            <div class="iconNumber">دوره آموزشی</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 d-flex flex-column ">
-                                        <div class="d-flex flex-row  col-12 justify-content-center">
-                                            <div class="icon me-2 ms-0 p-0">
-                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M16.7505 4.21746L6.71719 10.7675C3.50052 12.8675 3.50052 17.5675 6.71719 19.6675L16.7505 26.2175C18.5505 27.4008 21.5172 27.4008 23.3172 26.2175L33.3005 19.6675C36.5005 17.5675 36.5005 12.8841 33.3005 10.7841L23.3172 4.23413C21.5172 3.03413 18.5505 3.03413 16.7505 4.21746Z" stroke="#E64B57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M9.38385 21.8008L9.36719 29.6174C9.36719 31.7341 11.0005 34.0008 13.0005 34.6674L18.3172 36.4341C19.2339 36.7341 20.7505 36.7341 21.6839 36.4341L27.0005 34.6674C29.0005 34.0008 30.6339 31.7341 30.6339 29.6174V21.8841" stroke="#E64B57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M35.6641 25V15" stroke="#E64B57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </div>
-                                            <div class="iconNumber">%۹۰</div>
-                                        </div>
-                                        <div class="col-12 d-flex justify-content-center mb-4">
-                                            <div class="iconNumber">ورود به بازار کار</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>       
-                    </div>             
+            
             </div>
         </div>
-    </section>
+        <div class=" d-block col-12 d-md-none bg-white" style="margin-top:40px; margin-bottom: 40px; padding-top: 15px;"> 
+            <div class="container ">
+                <div class="row col-12 mt-4 ">
+                    <div class="col-6 d-flex flex-column">
+                        <div class="d-flex flex-row col-12  justify-content-center">
+                            <div class="icon me-2 ms-0 p-0">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29.9969 11.9359C29.8969 11.9193 29.7802 11.9193 29.6802 11.9359C27.3802 11.8526 25.5469 9.96927 25.5469 7.63594C25.5469 5.25261 27.4635 3.33594 29.8469 3.33594C32.2302 3.33594 34.1469 5.26927 34.1469 7.63594C34.1302 9.96927 32.2969 11.8526 29.9969 11.9359Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M28.2805 24.0695C30.5638 24.4529 33.0805 24.0529 34.8471 22.8695C37.1971 21.3029 37.1971 18.7362 34.8471 17.1695C33.0638 15.9862 30.5138 15.5862 28.2305 15.9862" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.95078 11.9359C10.0508 11.9193 10.1674 11.9193 10.2674 11.9359C12.5674 11.8526 14.4008 9.96927 14.4008 7.63594C14.4008 5.25261 12.4841 3.33594 10.1008 3.33594C7.71745 3.33594 5.80078 5.26927 5.80078 7.63594C5.81745 9.96927 7.65078 11.8526 9.95078 11.9359Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11.669 24.0695C9.38567 24.4529 6.86901 24.0529 5.10234 22.8695C2.75234 21.3029 2.75234 18.7362 5.10234 17.1695C6.88568 15.9862 9.43567 15.5862 11.719 15.9862" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.993 24.3813C19.893 24.3646 19.7763 24.3646 19.6763 24.3813C17.3763 24.2979 15.543 22.4146 15.543 20.0813C15.543 17.6979 17.4596 15.7812 19.843 15.7812C22.2263 15.7812 24.143 17.7146 24.143 20.0813C24.1263 22.4146 22.293 24.3146 19.993 24.3813Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.1453 29.6297C12.7953 31.1964 12.7953 33.763 15.1453 35.3297C17.812 37.113 22.1786 37.113 24.8453 35.3297C27.1953 33.763 27.1953 31.1964 24.8453 29.6297C22.1953 27.863 17.812 27.863 15.1453 29.6297Z" stroke="#3A579A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </div>
+                            <div class="iconNumber">۲۵۹</div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mb-4 ">
+                            <div class="iconNumber ">مهارت آموز</div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex flex-column ">
+                        <div class="d-flex flex-row  col-12 justify-content-center">
+                            <div class="icon me-2 ms-0 p-0">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M30 31.432H28.7333C27.4 31.432 26.1333 31.9487 25.2 32.882L22.35 35.6987C21.05 36.982 18.9334 36.982 17.6334 35.6987L14.7833 32.882C13.85 31.9487 12.5667 31.432 11.25 31.432H10C7.23333 31.432 5 29.2154 5 26.482V8.28203C5 5.5487 7.23333 3.33203 10 3.33203H30C32.7667 3.33203 35 5.5487 35 8.28203V26.4654C35 29.1987 32.7667 31.432 30 31.432Z" stroke="#349FD7" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20.1178 14.918C20.0511 14.918 19.951 14.918 19.8677 14.918C18.1177 14.8513 16.7344 13.4346 16.7344 11.668C16.7344 9.86797 18.1844 8.41797 19.9844 8.41797C21.7844 8.41797 23.2344 9.88464 23.2344 11.668C23.2511 13.4346 21.8678 14.868 20.1178 14.918Z" stroke="#349FD7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.4164 19.9336C13.1997 21.4169 13.1997 23.8336 15.4164 25.3169C17.9331 27.0003 22.0664 27.0003 24.5831 25.3169C26.7997 23.8336 26.7997 21.4169 24.5831 19.9336C22.0664 18.2669 17.9497 18.2669 15.4164 19.9336Z" stroke="#349FD7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+
+                            </div>
+                            <div class="iconNumber">۸۸</div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mb-4">
+                            <div class="iconNumber">منتور و مربی</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-12 iconSectionAcontrol">
+                    <div class="col-6 d-flex flex-column">
+                        <div class="d-flex flex-row col-12 justify-content-center">
+                            <div class="icon me-2 ms-0 p-0">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M36.6654 27.9002V7.78349C36.6654 5.78349 35.032 4.30015 33.0487 4.46682H32.9487C29.4487 4.76682 24.132 6.55015 21.1654 8.41682L20.882 8.60015C20.3987 8.90015 19.5987 8.90015 19.1154 8.60015L18.6987 8.35015C15.732 6.50015 10.432 4.73349 6.93203 4.45015C4.9487 4.28349 3.33203 5.78348 3.33203 7.76682V27.9002C3.33203 29.5002 4.63203 31.0002 6.23203 31.2002L6.71536 31.2668C10.332 31.7502 15.9154 33.5835 19.1154 35.3335L19.182 35.3668C19.632 35.6168 20.3487 35.6168 20.782 35.3668C23.982 33.6002 29.582 31.7502 33.2154 31.2668L33.7654 31.2002C35.3654 31.0002 36.6654 29.5002 36.6654 27.9002Z" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20 9.14844V34.1484" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.918 14.1484H9.16797" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14.168 19.1484H9.16797" stroke="#ED8844" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="iconNumber">۵</div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mb-4">
+                            <div class="iconNumber">دوره آموزشی</div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex flex-column ">
+                        <div class="d-flex flex-row  col-12 justify-content-center">
+                            <div class="icon me-2 ms-0 p-0">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.7505 4.21746L6.71719 10.7675C3.50052 12.8675 3.50052 17.5675 6.71719 19.6675L16.7505 26.2175C18.5505 27.4008 21.5172 27.4008 23.3172 26.2175L33.3005 19.6675C36.5005 17.5675 36.5005 12.8841 33.3005 10.7841L23.3172 4.23413C21.5172 3.03413 18.5505 3.03413 16.7505 4.21746Z" stroke="#E64B57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.38385 21.8008L9.36719 29.6174C9.36719 31.7341 11.0005 34.0008 13.0005 34.6674L18.3172 36.4341C19.2339 36.7341 20.7505 36.7341 21.6839 36.4341L27.0005 34.6674C29.0005 34.0008 30.6339 31.7341 30.6339 29.6174V21.8841" stroke="#E64B57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M35.6641 25V15" stroke="#E64B57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="iconNumber">%۹۰</div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mb-4">
+                            <div class="iconNumber">ورود به بازار کار</div>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+    </div> 
+    </div>
     <!-- ------------------------sectionA------------------------ -->
     <!-- ------------------------slider------------------------ -->
-    <div class="col-12 " style="background-color: #ffffff;">
-    <div class="container " >
-        <div class="text-center slider">
-            <div class="row mx-auto my-auto justify-content-center position-relative"> 
-                <div id="recipeCarousel" class="carousel slide position-relative" data-bs-ride="carousel"> 
-                    <div class="carousel-inner" role="listbox"> <div class="carousel-item active"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/1.png" class="img-fluid"> 
+    <div class="container-fluid m-0 p-0 mySlider" style="background-color: #ffffff;">
+        <div class="row col-12 mx-0" >
+            <div class="container " >
+                <div class="text-center slider">
+                    <div class="row mx-auto my-auto justify-content-center position-relative"> 
+                        <div id="recipeCarousel" class="carousel slide position-relative" data-bs-ride="carousel"> 
+                            <div class="carousel-inner" role="listbox"> <div class="carousel-item active"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/1.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
                                 </div> 
                             </div> 
-                        </div> 
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/2.png" class="img-fluid"> 
+                                        </div>
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4 bg-white"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/3.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/4.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/5.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/6.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-sm-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/7.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/8.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/9.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/10.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/11.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-sm-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/12.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/13.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/14.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/15.png" class="img-fluid"> 
+                                        </div>
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="col-md-2 col-4"> 
+                                    <div class="card cardSlider border-light color"> 
+                                        <div class="card-img"> 
+                                            <img src="picture/logo/16.png" class="img-fluid"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev  w-aut position-absolute rightArrow" href="#recipeCarousel" role="button" data-bs-slide="prev"> 
+                            <!-- <span class="carousel-control-prev-icon " aria-hidden="true" ></span>  -->
+                            <img src="picture/rightarr.png" class="carousel-control-prev-icon img-fluid arrimage" alt="">
+                        </a> 
+                        <a class="carousel-control-next  w-aut position-absolute leftArrow" href="#recipeCarousel" role="button" data-bs-slide="next"> 
+                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>  -->
+                            <img src="picture/leftarr.png" class="carousel-control-next-icon img-fluid arrimage" alt="">
+                        </a> 
                     </div> 
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/2.png" class="img-fluid"> 
-                                </div>
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/3.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/4.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/5.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/6.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/7.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/8.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/9.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/10.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/11.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/12.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/13.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/14.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/15.png" class="img-fluid"> 
-                                </div>
-                            </div> 
-                        </div> 
-                    </div>
-                    <div class="carousel-item"> 
-                        <div class="col-lg-2 col-md-4"> 
-                            <div class="card cardSlider border-light"> 
-                                <div class="card-img"> 
-                                    <img src="picture/logo/16.png" class="img-fluid"> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </div>
+                </div> 
                 </div>
-                <a class="carousel-control-prev  w-aut position-absolute rightArrow" href="#recipeCarousel" role="button" data-bs-slide="prev"> 
-                    <!-- <span class="carousel-control-prev-icon " aria-hidden="true" ></span>  -->
-                    <img src="picture/rightarr.png" class="carousel-control-prev-icon img-fluid arrimage" alt="">
-                </a> 
-                <a class="carousel-control-next  w-aut position-absolute leftArrow" href="#recipeCarousel" role="button" data-bs-slide="next"> 
-                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>  -->
-                    <img src="picture/leftarr.png" class="carousel-control-next-icon img-fluid arrimage" alt="">
-                </a> 
-            </div> 
-        </div> 
-        </div>
-    </div>
-    </div>
-<!-- ------------------------end of slider------------------------ -->
-<!-- ------------------------sectionB چرا مدرسه آنلاین کاریار؟------------------------ -->
-    <section class="sectionB col-lg-12"  >
-    <div class="container">
-        <div class="row d-flex position-relative">
-            <div class="sectionBTitr position-absolute">چرا مدرسه آنلاین کاریار؟</div>
-            <div class="position-absolute greenDot">
-                <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
-                     fill="#C9EDD8" fill-opacity="0.6"/>
-                </svg>                               
             </div>
         </div>
-        <div class="row d-flex">
-            <div class="col-lg-6 col-md-12  ">
-                <div class=" sectionBText">
-                    <div class="d-flex ">
-                        <p>کاریار، موسسه غیرانتفاعی در زمینه آموزش IT به خصوص کدنویسی می باشد که فرصت رشد را برای همه افراد جامعه و در هر قشری فراهم میکند.</p>
-        
+    </div>
+    <!-- ------------------------end of slider------------------------ -->
+    <!-- ------------------------sectionB چرا مدرسه آنلاین کاریار؟------------------------ -->
+    <div class="container-fluid sectionB mx-0 px-0"  >
+        <div class="container-fluid"  >
+            <div class="row d-flex position-relative P70 " >
+                <div class="sectionBTitr position-absolute col-10">چرا مدرسه آنلاین کاریار؟</div>
+                <div class="position-absolute greenDot">
+                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
+                         fill="#C9EDD8" fill-opacity="0.6"/>
+                    </svg>                               
+                </div>
+            </div>
+            <div class="row d-flex P70" >
+                <div class="col-md-6 col-sm-12  ">
+                    <div class=" sectionBText">
+                        <div class="d-flex ">
+                            <p>کاریار، موسسه غیرانتفاعی در زمینه آموزش IT به خصوص کدنویسی می باشد که فرصت رشد را برای همه افراد جامعه و در هر قشری فراهم میکند.</p>
+            
+                        </div>
+                        <div class="d-flex mt-md-3 mt-sm-1">
+                            <p>هدف اصلی موسسه کاریار، ارائه آموزش های کاربردی و پروژه محور است تا مهارت آموزان با کسب مهارت تخصصی خود، آماده ورود به دنیای واقعی بازارکار شوند.</p>    
+                        </div> 
+                        <div class="d-flex mt-md-0 mt-sm-2 mt-3 align-items-sm-top">
+                            <img  class="logoIcon  my-sm-2" src="picture/logo-small.png">
+                            <p class="bold  mt-md-0  mt-3 ms-1 align-items-center justify-content-center ">در واقع کاریار فقط آموزش نیست؛ آموزش معطوف به کسب و کار است!</p>    
+                        </div> 
                     </div>
-                    <div class="d-flex mt-3">
-                        <p>هدف اصلی موسسه کاریار، ارائه آموزش های کاربردی و پروژه محور است تا مهارت آموزان با کسب مهارت تخصصی خود، آماده ورود به دنیای واقعی بازارکار شوند.</p>    
-                    </div> 
-                    <div class="d-flex mt-lg-3 mt-md-3 mt-sm-3 align-items-md-center">
-                        <img  class="logoIcon mt-lg-1 my-md-auto" src="picture/logo-small.png">
-                        <p class="bold  mt-md-2 mt-sm-2 mt-xs-3 ms-1 align-items-center justify-content-center ">در واقع کاریار فقط آموزش نیست؛ آموزش معطوف به کسب و کار است!</p>    
-                    </div> 
                 </div>
+                <div class="col-md-6 col-sm-12 d-flex align-items-md-end mb-2 mt-2 justify-content-center">
+                    <img src="picture/2.png" class="img-fluid rounded-1 d-block m-md-2  " alt="">
+                </div>            
             </div>
-            <div class="col-lg-6 col-md-12 d-flex align-items-lg-end mb-2 mt-2 justify-content-center">
-                <img src="picture/2.png" class="img-fluid rounded-1 d-block m-md-2  " alt="">
-            </div>            
+        </div>
+        <div class="container">
+            <div class="row specs col-12 d-flex align-items-center  justify-content-center mb-sm-5">
+                <div class="col-md-3 col-6 d-inline-block">
+                    <div class="d-flex  justify-content-center align-items-center">
+                        <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M53.1654 28.7329V30.8837C53.1654 39.487 51.0145 41.6137 42.4354 41.6137H15.562C6.98286 41.6137 4.83203 39.4629 4.83203 30.8837V15.562C4.83203 6.98286 6.98286 4.83203 15.562 4.83203H19.332" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M29 41.6133V53.1649" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.83203 31.418H53.1654" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18.125 53.168H39.875" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M43.1648 22.6499H31.6615C28.3265 22.6499 27.2148 20.4266 27.2148 18.2033V9.69661C27.2148 7.03828 29.3898 4.86328 32.0482 4.86328H43.1648C45.6298 4.86328 47.6115 6.84495 47.6115 9.30995V18.2033C47.6115 20.6683 45.6298 22.6499 43.1648 22.6499Z" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M50.5296 19.1367L47.6055 17.0826V10.4126L50.5296 8.35839C51.9796 7.36756 53.1638 7.97173 53.1638 9.73589V17.7834C53.1638 19.5476 51.9796 20.1517 50.5296 19.1367Z" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="d-flex  justify-content-center text-center mt-sm-2">
+                        <p>کلاس های آنلاین</p>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 col-6 d-inline-block ">
+                    <div class="d-flex  justify-content-center align-items-center">
+                        <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.9">
+                            <path d="M19.3353 54.1667H38.6686C48.3836 54.1667 50.1236 50.2758 50.6311 45.5392L52.4436 26.2058C53.0961 20.3092 51.4044 15.5 41.0853 15.5H16.9186C6.59944 15.5 4.90777 20.3092 5.56027 26.2058L7.37277 45.5392C7.88027 50.2758 9.62028 54.1667 19.3353 54.1667Z" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.332 15.4987V13.5654C19.332 9.28786 19.332 5.83203 27.0654 5.83203H30.932C38.6654 5.83203 38.6654 9.28786 38.6654 13.5654V15.4987" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M33.8346 32.4167V34.8333C33.8346 34.8575 33.8346 34.8575 33.8346 34.8817C33.8346 37.5158 33.8105 39.6667 29.0013 39.6667C24.2163 39.6667 24.168 37.54 24.168 34.9058V32.4167C24.168 30 24.168 30 26.5846 30H31.418C33.8346 30 33.8346 30 33.8346 32.4167Z" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M52.3195 27.582C46.737 31.642 40.357 34.0587 33.832 34.8804" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.33594 28.2344C11.7734 31.956 17.9118 34.2035 24.1709 34.9044" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg> 
+                    </div>
+                    <div class="d-flex  justify-content-center mt-sm-2 text-center">
+                        <p>دوره های پروژه محور</p>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 col-6 d-inline-block ">
+                    <div class="d-flex  justify-content-center align-items-center">
+                        <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.9">
+                            <path d="M28.9948 31.4193C30.3295 31.4193 31.4115 30.3373 31.4115 29.0026C31.4115 27.6679 30.3295 26.5859 28.9948 26.5859C27.6601 26.5859 26.5781 27.6679 26.5781 29.0026C26.5781 30.3373 27.6601 31.4193 28.9948 31.4193Z" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M29.0052 16.9141C26.6154 16.9141 24.2792 17.6227 22.2921 18.9505C20.305 20.2782 18.7562 22.1654 17.8417 24.3733C16.9271 26.5812 16.6878 29.0108 17.1541 31.3547C17.6203 33.6987 18.7711 35.8517 20.461 37.5416C22.1509 39.2315 24.3039 40.3823 26.6479 40.8486C28.9918 41.3148 31.4214 41.0755 33.6293 40.1609C35.8372 39.2464 37.7244 37.6976 39.0521 35.7105C40.3799 33.7234 41.0885 31.3873 41.0885 28.9974" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M31.4249 7.38171C26.9446 6.87907 22.4187 7.78114 18.4735 9.96312C14.5282 12.1451 11.3586 15.4992 9.40287 19.5614C7.4472 23.6236 6.80219 28.1931 7.55707 32.6379C8.31196 37.0827 10.4294 41.1831 13.6166 44.3718C16.8037 47.5606 20.903 49.6801 25.3474 50.4372C29.7919 51.1943 34.3617 50.5516 38.4249 48.598C42.4881 46.6444 45.8437 43.4764 48.0277 39.5322C50.2117 35.5881 51.116 31.0627 50.6156 26.5821" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M36.25 14.5V21.75H43.5L50.75 14.5H43.5V7.25L36.25 14.5Z" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M36.25 21.75L29 29" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>    
+                    </div>
+                    <div class="d-flex  justify-content-center mt-sm-2 text-center">
+                        <p>حضور راهنمای باتجربه</p>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 col-6 d-inline-block ">
+                    <div class="d-flex  justify-content-center align-items-center ">
+                        <svg width="56" height="58" viewBox="0 0 56 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.2001 30.8C17.991 30.8 17.7819 30.8306 17.5824 30.8954C16.4484 31.2638 15.2558 31.5 14.0001 31.5C12.7445 31.5 11.5519 31.2638 10.417 30.8954C10.2175 30.8306 10.0093 30.8 9.80014 30.8C4.36989 30.8 -0.0287336 35.217 0.000141354 40.6543C0.0123914 42.952 1.90152 44.8 4.20014 44.8H23.8001C26.0988 44.8 27.9879 42.952 28.0001 40.6543C28.029 35.217 23.6304 30.8 18.2001 30.8ZM14.0001 28C18.6394 28 22.4001 24.2393 22.4001 19.6C22.4001 14.9608 18.6394 11.2 14.0001 11.2C9.36089 11.2 5.60014 14.9608 5.60014 19.6C5.60014 24.2393 9.36089 28 14.0001 28ZM51.8001 0H18.2001C15.884 0 14.0001 1.94688 14.0001 4.33913V8.4C16.0494 8.4 17.9464 8.99325 19.6001 9.9575V5.6H50.4001V30.8H44.8001V25.2H33.6001V30.8H26.9291C28.6004 32.2604 29.8271 34.1889 30.402 36.4H51.8001C54.1163 36.4 56.0001 34.4531 56.0001 32.0609V4.33913C56.0001 1.94688 54.1163 0 51.8001 0Z" fill="#667DB0"/>
+                        </svg>                                                        
+                    </div>
+                    <div class="d-flex  justify-content-center mt-sm-2 text-center">
+                        <p>حضور راهنمای باتجربه</p>
+                    </div>
+                </div>
+    
+            </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row specs col-12 d-flex align-items-center  justify-content-center mb-md-5">
-            <div class="col-lg-3 col-md-6 col-sm-6 d-inline-block ">
-                <div class="d-flex  justify-content-center align-items-center">
-                    <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M53.1654 28.7329V30.8837C53.1654 39.487 51.0145 41.6137 42.4354 41.6137H15.562C6.98286 41.6137 4.83203 39.4629 4.83203 30.8837V15.562C4.83203 6.98286 6.98286 4.83203 15.562 4.83203H19.332" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M29 41.6133V53.1649" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M4.83203 31.418H53.1654" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M18.125 53.168H39.875" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M43.1648 22.6499H31.6615C28.3265 22.6499 27.2148 20.4266 27.2148 18.2033V9.69661C27.2148 7.03828 29.3898 4.86328 32.0482 4.86328H43.1648C45.6298 4.86328 47.6115 6.84495 47.6115 9.30995V18.2033C47.6115 20.6683 45.6298 22.6499 43.1648 22.6499Z" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M50.5296 19.1367L47.6055 17.0826V10.4126L50.5296 8.35839C51.9796 7.36756 53.1638 7.97173 53.1638 9.73589V17.7834C53.1638 19.5476 51.9796 20.1517 50.5296 19.1367Z" stroke="#4AAADB" stroke-width="3.625" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="d-flex  justify-content-center">
-                    <p>کلاس های آنلاین</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 d-inline-block ">
-                <div class="d-flex  justify-content-center align-items-center">
-                    <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g opacity="0.9">
-                        <path d="M19.3353 54.1667H38.6686C48.3836 54.1667 50.1236 50.2758 50.6311 45.5392L52.4436 26.2058C53.0961 20.3092 51.4044 15.5 41.0853 15.5H16.9186C6.59944 15.5 4.90777 20.3092 5.56027 26.2058L7.37277 45.5392C7.88027 50.2758 9.62028 54.1667 19.3353 54.1667Z" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M19.332 15.4987V13.5654C19.332 9.28786 19.332 5.83203 27.0654 5.83203H30.932C38.6654 5.83203 38.6654 9.28786 38.6654 13.5654V15.4987" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M33.8346 32.4167V34.8333C33.8346 34.8575 33.8346 34.8575 33.8346 34.8817C33.8346 37.5158 33.8105 39.6667 29.0013 39.6667C24.2163 39.6667 24.168 37.54 24.168 34.9058V32.4167C24.168 30 24.168 30 26.5846 30H31.418C33.8346 30 33.8346 30 33.8346 32.4167Z" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M52.3195 27.582C46.737 31.642 40.357 34.0587 33.832 34.8804" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M6.33594 28.2344C11.7734 31.956 17.9118 34.2035 24.1709 34.9044" stroke="#ED8844" stroke-width="3.625" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </g>
-                    </svg> 
-                </div>
-                <div class="d-flex  justify-content-center">
-                    <p>دوره های پروژه محور</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 mt-md-4 d-inline-block ">
-                <div class="d-flex  justify-content-center align-items-center">
-                    <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g opacity="0.9">
-                        <path d="M28.9948 31.4193C30.3295 31.4193 31.4115 30.3373 31.4115 29.0026C31.4115 27.6679 30.3295 26.5859 28.9948 26.5859C27.6601 26.5859 26.5781 27.6679 26.5781 29.0026C26.5781 30.3373 27.6601 31.4193 28.9948 31.4193Z" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M29.0052 16.9141C26.6154 16.9141 24.2792 17.6227 22.2921 18.9505C20.305 20.2782 18.7562 22.1654 17.8417 24.3733C16.9271 26.5812 16.6878 29.0108 17.1541 31.3547C17.6203 33.6987 18.7711 35.8517 20.461 37.5416C22.1509 39.2315 24.3039 40.3823 26.6479 40.8486C28.9918 41.3148 31.4214 41.0755 33.6293 40.1609C35.8372 39.2464 37.7244 37.6976 39.0521 35.7105C40.3799 33.7234 41.0885 31.3873 41.0885 28.9974" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M31.4249 7.38171C26.9446 6.87907 22.4187 7.78114 18.4735 9.96312C14.5282 12.1451 11.3586 15.4992 9.40287 19.5614C7.4472 23.6236 6.80219 28.1931 7.55707 32.6379C8.31196 37.0827 10.4294 41.1831 13.6166 44.3718C16.8037 47.5606 20.903 49.6801 25.3474 50.4372C29.7919 51.1943 34.3617 50.5516 38.4249 48.598C42.4881 46.6444 45.8437 43.4764 48.0277 39.5322C50.2117 35.5881 51.116 31.0627 50.6156 26.5821" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M36.25 14.5V21.75H43.5L50.75 14.5H43.5V7.25L36.25 14.5Z" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M36.25 21.75L29 29" stroke="#E33442" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                        </g>
-                    </svg>    
-                </div>
-                <div class="d-flex  justify-content-center">
-                    <p>حضور راهنمای باتجربه</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 mt-md-4  d-inline-block ">
-                <div class="d-flex  justify-content-center align-items-center">
-                    <svg width="56" height="58" viewBox="0 0 56 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18.2001 30.8C17.991 30.8 17.7819 30.8306 17.5824 30.8954C16.4484 31.2638 15.2558 31.5 14.0001 31.5C12.7445 31.5 11.5519 31.2638 10.417 30.8954C10.2175 30.8306 10.0093 30.8 9.80014 30.8C4.36989 30.8 -0.0287336 35.217 0.000141354 40.6543C0.0123914 42.952 1.90152 44.8 4.20014 44.8H23.8001C26.0988 44.8 27.9879 42.952 28.0001 40.6543C28.029 35.217 23.6304 30.8 18.2001 30.8ZM14.0001 28C18.6394 28 22.4001 24.2393 22.4001 19.6C22.4001 14.9608 18.6394 11.2 14.0001 11.2C9.36089 11.2 5.60014 14.9608 5.60014 19.6C5.60014 24.2393 9.36089 28 14.0001 28ZM51.8001 0H18.2001C15.884 0 14.0001 1.94688 14.0001 4.33913V8.4C16.0494 8.4 17.9464 8.99325 19.6001 9.9575V5.6H50.4001V30.8H44.8001V25.2H33.6001V30.8H26.9291C28.6004 32.2604 29.8271 34.1889 30.402 36.4H51.8001C54.1163 36.4 56.0001 34.4531 56.0001 32.0609V4.33913C56.0001 1.94688 54.1163 0 51.8001 0Z" fill="#667DB0"/>
-                    </svg>
-                                            
-                            
-                </div>
-                <div class="d-flex  justify-content-center">
-                    <p>حضور راهنمای باتجربه</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    </section>
 <!-- ------------------------sectionB------------------------ -->
 <!-- ------------------------sectionC دوره های آموزشی کاریار------------------------ -->
-    <section class="sectionC col-12">
-    <div class="container">
+<div class="container-fluid sectionC mx-0 px-0" style="margin-bottom: 160px;" id="Courses">
+    <div class="container P70">
         <div class="d-flex">
             <div class="col-12 position-relative ">
-                <div class="col-md-12 sectionBTitr position-absolute">دوره های آموزشی کاریار</div>
+                <div class="col-sm-12 sectionBTitr position-absolute">دوره های آموزشی کاریار</div>
                 <div class="position-absolute greenDot">
                     <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
@@ -532,11 +535,11 @@
             </div>
         </div>
     </div>
-    <div class="container cardHolder">
-        <div class="col-lg-12 my-4">
-            <div class="d-lg-flex flex-lg-row ">
-                <div class="col-lg-6 col-md-12 myCard me-4 my-lg-2 my-md-4 position-relative">
-                    <div class="container-fluid m-0 p-0">
+    <div class="container-fluid cardHolder px-0 mx-0">
+        <div class="row P70">
+            <div class="col-md-6 col-12  pe-md-3 pb-md-3 pb-3 cardMoveUp">
+                <div class="myCard position-relative h-100">
+                    <div class="container m-0 p-0">
                         <div class="d-flex m-0">
                             <div class="col-4" style="margin-top: 90px;margin-left: 10px; ">
                                 <img src="picture/card1.png" class="img-fluid rounded-start" alt="...">
@@ -594,8 +597,8 @@
                                 </div>
                                 <div class="container">
                                     <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
+                                        <button type="button"  class="arrowButton  d-flex align-items-center">
+                                            <div class="explain">
                                                 توضیحات بیشتر
                                             </div>
                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -610,8 +613,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 myCard ms-4 my-lg-2 my-md-4 position-relative">
-                    <div class="container-fluid m-0 p-0">
+            </div>
+            <div class="col-md-6 col-12  ps-md-3 pb-md-3 pb-3 pt-3 pt-md-0 cardMoveUp">
+                <div class="myCard position-relative h-100">
+                    <div class="container m-0 p-0">
                         <div class="d-flex m-0">
                             <div class="col-4" style="margin-top: 90px;margin-left: 10px; ">
                                 <img src="picture/card2.png" class="img-fluid rounded-start" alt="...">
@@ -667,11 +672,11 @@
                                         <span class="span3">(جنگو)</span>
                                     </p>                                   
                                 </div>
-
+    
                                 <div class="container">
-                                    <div class="d-flex justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
+                                    <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                                        <button type="button"  class="arrowButton  d-flex align-items-center">
+                                            <div class="explain">
                                                 توضیحات بیشتر
                                             </div>
                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -681,17 +686,15 @@
                                             </svg>
                                         </button>
                                     </div>
-                                </div>                       
+                                </div>                        
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>          
-        </div>
-        <div class="col-lg-12 my-2">
-            <div class="d-lg-flex flex-lg-row ">
-                <div class="col-lg-6 col-md-12 myCard me-4 my-lg-2 my-md-4 position-relative">
-                    <div class="container-fluid m-0 p-0">
+            </div>
+            <div class="col-md-6 col-12 pe-md-3 pt-md-3 pb-md-3 pt-3 pb-3 cardMoveUp">
+                <div class="myCard position-relative h-100">
+                    <div class="container m-0 p-0">
                         <div class="d-flex m-0">
                             <div class="col-4" style="margin-top: 90px;margin-left: 10px; ">
                                 <img src="picture/card3.png" class="img-fluid rounded-start" alt="...">
@@ -748,9 +751,9 @@
                                     </p>                                   
                                 </div>
                                 <div class="container">
-                                    <div class="d-flex justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
+                                    <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                                        <button type="button"  class="arrowButton  d-flex align-items-center">
+                                            <div class="explain">
                                                 توضیحات بیشتر
                                             </div>
                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -760,14 +763,15 @@
                                             </svg>
                                         </button>
                                     </div>
-                                </div>                       
+                                </div>                
                             </div>
                         </div>
                     </div>
                 </div>
-
-               <div class="col-lg-6 col-md-12 myCard ms-4 my-lg-2 my-md-4 position-relative">
-                    <div class="container-fluid m-0 p-0">
+            </div>
+            <div class="col-md-6 col-12 ps-md-3 pt-md-3 pb-md-3 pt-3 pb-3 cardMoveUp">
+                <div class="myCard position-relative h-100">
+                    <div class="container m-0 p-0">
                         <div class="d-flex m-lg-0 ">
                             <div class="col-4" style="margin-top: 140px;margin-left: 10px; ">
                                 <img src="picture/card4.png" class="img-fluid rounded-start" alt="...">
@@ -824,9 +828,9 @@
                                     </p>                                   
                                 </div>
                                 <div class="container">
-                                    <div class="d-flex justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
+                                    <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                                        <button type="button"  class="arrowButton  d-flex align-items-center">
+                                            <div class="explain">
                                                 توضیحات بیشتر
                                             </div>
                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -836,607 +840,681 @@
                                             </svg>
                                         </button>
                                     </div>
-                                </div>                       
+                                </div>                 
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>         
-        </div>
-    </div>
-    
-    </section>
-<!-- ------------------------sectionC------------------------ -->
-<!-- ------------------------sectionD نظرات مهارت آموزان ------------------------ -->
-    <div class=" sectionD col-12">
-    <div class="container">
-        <div class="d-flex ">
-            <div class="col-12 position-relative ">
-                <div class="col-md-12 sectionBTitr position-absolute">نظرات مهارت آموزان </div>
-                <div class="position-absolute greenDot">
-                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
-                         fill="#C9EDD8" fill-opacity="0.6"/>
-                    </svg>                               
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-<!-- ------------------------sectionD------------------------ -->
-<!-- ------------------------sectionE داوطلبان کاریار------------------------ -->
-        <div class=" sectionE col-12">
-    <div class="container position-relative ">
-        <div class="d-flex ">
-            <div class="col-12 position-relative ">
-                <div class="col-md-12 sectionBTitr position-absolute">داوطلبان کاریار</div>
-                <div class="position-absolute greenDot">
-                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
-                         fill="#C9EDD8" fill-opacity="0.6"/>
-                    </svg>                               
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container position-relative end-0 d-lg-block d-none">
-        <div class="col-lg-12 my-2 d-flex justify-content-end">
-            <button type="button" class="btn btnGreen rounded-pill ">
-                ثبت نام داوطلبان
-            </button>
-        </div>
-    </div>
-    <div class="container davtalabCardHolder">
-        <div class="row col-12 d-flex justify-content-center mt-5">
-            <div class="col-lg-4 col-md-12 davtalabCard  d-flex justify-content-center">
-                <div class="col-11 justify-content-center davtalabCardData">
-                    <div class="position-relative">
-                        <img src="picture/davtalab1.png"  alt="" class="rounded-start-circle rounded-end-circle position-absolute top-0 start-50 translate-middle">
-                    </div>
-                    <div class="text-center mt-5 pt-5 ">
-                        <svg width="45" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M29.8298 22.1643H38.6235C38.4735 30.5314 36.7485 31.911 31.3673 34.9568C30.7485 35.3151 30.5423 36.0676 30.9173 36.6768C31.2923 37.268 32.0798 37.4651 32.7173 37.1068C39.0548 33.5235 41.2673 31.3376 41.2673 20.9101V11.253C41.2673 8.1893 38.661 5.7168 35.4735 5.7168H29.8485C26.5485 5.7168 24.0548 8.09971 24.0548 11.253V16.628C24.036 19.7814 26.5298 22.1643 29.8298 22.1643Z" fill="#349FD7"/>
-                            <path d="M9.54375 22.1643H18.3375C18.1875 30.5314 16.4625 31.911 11.0812 34.9568C10.4625 35.3151 10.2562 36.0676 10.6313 36.6768C11.0063 37.268 11.7937 37.4651 12.4313 37.1068C18.7688 33.5235 20.9812 31.3376 20.9812 20.9101V11.253C20.9812 8.1893 18.375 5.7168 15.1875 5.7168H9.5625C6.24375 5.7168 3.75 8.09971 3.75 11.253V16.628C3.75 19.7814 6.24375 22.1643 9.54375 22.1643Z" fill="#349FD7"/>
-                        </svg>                            
-                    </div>
-                    <div class="davtalabCardText mx-3 mt-4" >
-                        <p>هدف من برای همکاری با کاریار کمک به توسعه دسترسی افرادی است که دسترسی کمتری به منابع دارند و امیدوارم بتوانم الگوی مثبتی برای کارآموزهای کاریار باشم.</p>
-                    </div>
-                    <div class="davtalabCardName text-center mt-5 pt-2">
-                        <p class="mb-0 pb-0">اميرحسين كيانی</p>
-                    </div>
-                    <div class="text-center mt-0 pt-0">
-                        <svg width="237" height="1" viewBox="0 0 237 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="237" y1="0.5" x2="4.37114e-08" y2="0.500021" stroke="#595676" stroke-opacity="0.37"/>
-                        </svg>                            
-                    </div>
-                    <div >
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                </div>
-                                <div class="col-11 davtalabCardSpec ">
-                                    <p>ارشد علوم کامپیوتر دانشگاه استنفورد مدیر </p>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                </div>
-                                <div class="col-11 davtalabCardSpec">
-                                    <p>مدیر محصول شرکت گوگل</p>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                </div>
-                                <div class="col-11 davtalabCardSpec ">
-                                    <p>منتور کاریار</p>
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 davtalabCard  d-flex justify-content-center">
-                <div class="col-11 justify-content-center davtalabCardData">
-                    <div class="position-relative">
-                        <img src="picture/davtalab2.png"  alt="" class="rounded-start-circle rounded-end-circle position-absolute top-0 start-50 translate-middle">
-                    </div>
-                    <div class="text-center mt-5 pt-5 ">
-                        <svg width="45" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M29.8298 22.1643H38.6235C38.4735 30.5314 36.7485 31.911 31.3673 34.9568C30.7485 35.3151 30.5423 36.0676 30.9173 36.6768C31.2923 37.268 32.0798 37.4651 32.7173 37.1068C39.0548 33.5235 41.2673 31.3376 41.2673 20.9101V11.253C41.2673 8.1893 38.661 5.7168 35.4735 5.7168H29.8485C26.5485 5.7168 24.0548 8.09971 24.0548 11.253V16.628C24.036 19.7814 26.5298 22.1643 29.8298 22.1643Z" fill="#ED8844"/>
-                            <path d="M9.54375 22.1643H18.3375C18.1875 30.5314 16.4625 31.911 11.0812 34.9568C10.4625 35.3151 10.2562 36.0676 10.6313 36.6768C11.0063 37.268 11.7937 37.4651 12.4313 37.1068C18.7688 33.5235 20.9812 31.3376 20.9812 20.9101V11.253C20.9812 8.1893 18.375 5.7168 15.1875 5.7168H9.5625C6.24375 5.7168 3.75 8.09971 3.75 11.253V16.628C3.75 19.7814 6.24375 22.1643 9.54375 22.1643Z" fill="#ED8844"/>
-                            </svg>                                                        
-                    </div>
-                    <div class="davtalabCardText mx-3 mt-4" >
-                        <p>من تجربه کار داوطلبانه با سازمان‌های زیادی را داشته‌ام که چون اهداف و چارچوب ها برای آنها مشخص نیست، همکاری‌ام را محدود کرده‌ام. اما همکاری با کاریار من را به وجد آورده و حتی دوست دارم در حوزه‌های مختلف با کاریار همکاری کنم.</p>
-                    </div>
-                    <div class="davtalabCardName text-center mt-5 pt-2">
-                        <p class="mb-0 pb-0">هانیه فلاح</p>
-                    </div>
-                    <div class="text-center mt-0 pt-0">
-                        <svg width="237" height="1" viewBox="0 0 237 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="237" y1="0.5" x2="4.37114e-08" y2="0.500021" stroke="#595676" stroke-opacity="0.37"/>
-                        </svg>                            
-                    </div>
-                    <div >
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                </div>
-                                <div class="col-11 davtalabCardSpec ">
-                                    <p>ارشد مددکاری اجتماعی دانشگاه علامه طباطبایی</p>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                </div>
-                                <div class="col-11 davtalabCardSpec">
-                                    <p>مددکار اجتماعی</p>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                </div>
-                                <div class="col-11 davtalabCardSpec ">
-                                    <p>همکار داوطلب کاریار</p>
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 davtalabCard  d-flex justify-content-center">
-                <div class="col-11 justify-content-center davtalabCardData">
-                    <div class="position-relative">
-                        <img src="picture/davtalab3.png"  alt="" class="rounded-start-circle rounded-end-circle position-absolute top-0 start-50 translate-middle">
-                    </div>
-                    <div class="text-center mt-5 pt-5 ">
-                        <svg width="45" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M29.8298 22.1643H38.6235C38.4735 30.5314 36.7485 31.911 31.3673 34.9568C30.7485 35.3151 30.5423 36.0676 30.9173 36.6768C31.2923 37.268 32.0798 37.4651 32.7173 37.1068C39.0548 33.5235 41.2673 31.3376 41.2673 20.9101V11.253C41.2673 8.1893 38.661 5.7168 35.4735 5.7168H29.8485C26.5485 5.7168 24.0548 8.09971 24.0548 11.253V16.628C24.036 19.7814 26.5298 22.1643 29.8298 22.1643Z" fill="#349FD7"/>
-                            <path d="M9.54375 22.1643H18.3375C18.1875 30.5314 16.4625 31.911 11.0812 34.9568C10.4625 35.3151 10.2562 36.0676 10.6313 36.6768C11.0063 37.268 11.7937 37.4651 12.4313 37.1068C18.7688 33.5235 20.9812 31.3376 20.9812 20.9101V11.253C20.9812 8.1893 18.375 5.7168 15.1875 5.7168H9.5625C6.24375 5.7168 3.75 8.09971 3.75 11.253V16.628C3.75 19.7814 6.24375 22.1643 9.54375 22.1643Z" fill="#349FD7"/>
-                        </svg>                            
-                    </div>
-                    <div class="davtalabCardText mx-3 mt-4" >
-                        <p>من دانشجوی ترم هشتم مهندسی کامپیوتر دانشگاه تهران و ۲۲ ساله هستم. از طریق دانشگاه و یکی از استادان با کاریار آشنا شدم و فکر کردم که کاریار ایده خیلی قشنگی دارد و جایی هست که من می‏توانم به اندازه خودم در آن موثر باشم.</p>
-                    </div>
-                    <div class="davtalabCardName text-center mt-5 pt-2">
-                        <p class="mb-0 pb-0">احسان آقازاده</p>
-                    </div>
-                    <div class="text-center mt-0 pt-0">
-                        <svg width="237" height="1" viewBox="0 0 237 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="237" y1="0.5" x2="4.37114e-08" y2="0.500021" stroke="#595676" stroke-opacity="0.37"/>
-                        </svg>                            
-                    </div>
-                    <div >
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>                                        
-                                </div>
-                                <div class="col-11 davtalabCardSpec ">
-                                    <p>لیسانس مهندسی کامپیوتر دانشگاه تهران</p>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>                                        
-                                </div>
-                                <div class="col-11 davtalabCardSpec">
-                                    <p> مربی حل تمرین کاریار</p>
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 d-lg-none d-md-inline  justify-content-center   ">
-                <div class="row justify-content-center">
-                    <div class="col-5">
-                        <button type="button" class="btn btnGreen rounded-pill  w-100 ">
-                            ثبت نام داوطلبان
-                        </button> 
-                    </div>
-                </div>                           
             </div>
         </div>
     </div>    
-</section>
+</div>
+<!-- ------------------------sectionC------------------------ -->
+<!-- ------------------------sectionD نظرات مهارت آموزان ------------------------ -->
+<div class="container-fluid sectionD m-0 NavPS NavPE">
+    <div class="row ">
+        <div class="col-12 position-relative ">
+            <div class="col-md-12 sectionBTitr position-absolute">نظرات مهارت آموزان </div>
+            <div class="position-absolute greenDot">
+                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
+                         fill="#C9EDD8" fill-opacity="0.6"/>
+                    </svg>                               
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between " style="margin-top: 130px; margin-bottom: 190px;">
+        <div class="col-1 d-flex align-items-center justify-content-center">
+            <img src="picture/R-Arr.png" alt="" class="">
+        </div>
+        <div class="col-3 d-md-flex d-none align-items-center justify-content-center commentCard cardMoveUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="picture/nazarat 1.jpg" alt="" class="commentPic">
+                    </div>
+                    <div class="col-9 ps-3">
+                        <div class="commentName">مجتبی یعقوب پور</div>
+                        <div class="commentSubject">مهارت آموز دوره فرانت اند کاریار</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>من قبل اینکه وارد کاریار بشوم، کمی سرگردان بودم، نمی‌دانستم کدام راه را انتخاب کنم و درسم را چه کار کنم. کاریار انگیزه من را برای آن حرفه‌ای که داشتم دنبال می‌کردم، بیشتر کرد.</p>
+                </div>
+                <div class="d-flex commenStar">
+                    <img src="picture/star ouline.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                </div>
+            </div>
+        </div>
+        <div class="col-9 col-md-3  d-flex align-items-center justify-content-center commentCard cardMoveUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="picture/nazarat 2.jpg" alt="" class="commentPic">
+                    </div>
+                    <div class="col-9 ps-3">
+                        <div class="commentName">فاطمه خواجه</div>
+                        <div class="commentSubject">مهارت آموز دوره بک اند کاریار</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>من فکر می کنم سخت ترین بخش ، همین روند پیدا کردن کار باشد; منتورم در کاریار به من کمک کرد که در مسیر پیدا کردن شغل توانایی‌های خودم را آنطور که هست نشان بدهم و خودم را دست کم نگیرم.</p>
+                </div>
+                <div class="d-flex commenStar">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-md-flex d-none align-items-center justify-content-center commentCard cardMoveUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="picture/nazarat 3.jpg" alt="" class="commentPic">
+                    </div>
+                    <div class="col-9 ps-3">
+                        <div class="commentName">سهند کریم نژاد</div>
+                        <div class="commentSubject">مهارت آموز دوره فرانت اند کاریار</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>بزرگترین دستاورد من از دوره‌های آموزشی کاریار، هدایت من برای ورود به دنیای کار برنامه‌نویسی و آشنا شدن با گزینه های پیش رویم است. کاریار و منتورها به من کمک کردند تا دیدم خیلی بازتر شود</p>                
+                </div>
+                <div class="d-flex commenStar">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                    <img src="picture/star.png" alt="" class="star">
+                </div>
+            </div>
+        </div>       
+        <div class="col-1 d-flex align-items-center justify-content-center">
+            <img src="picture/L-Arr.png" alt="">  
+        </div>
+    </div>
+</div>
+<!-- ------------------------sectionD------------------------ -->
+<!-- ------------------------sectionE داوطلبان کاریار------------------------ -->
+<div class="container-fluid sectionE p-0 m-0">
+    <div class="row P70 justify-content-between">
+        <div class="col-7">
+            <div class="d-flex ">
+                <div class="col-12 position-relative ">
+                    <div class="col-md-12 sectionBTitr position-absolute">داوطلبان کاریار</div>
+                    <div class="position-absolute greenDot">
+                        <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
+                             fill="#C9EDD8" fill-opacity="0.6"/>
+                        </svg>                               
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4  d-md-flex d-none">
+            <div class="col-md-12 my-2 d-flex justify-content-end">
+                <button type="button" class="btn btnSectionE rounded-pill ">
+                    ثبت نام داوطلبان
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row P70">
+        <div class="container davtalabCardHolder">
+            <div class="row col-12 d-flex justify-content-center mt-5">
+                <div class="col-md-4 col-sm-12 davtalabCard  d-flex justify-content-md-start justify-content-sm-center cardMoveUp">
+                    <div class="col-11 justify-content-center davtalabCardData">
+                        <div class="position-relative">
+                            <img src="picture/davtalab1.png"  alt="" class="rounded-start-circle rounded-end-circle position-absolute top-0 start-50 translate-middle">
+                        </div>
+                        <div class="text-center mt-5 pt-5 ">
+                            <svg width="45" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M29.8298 22.1643H38.6235C38.4735 30.5314 36.7485 31.911 31.3673 34.9568C30.7485 35.3151 30.5423 36.0676 30.9173 36.6768C31.2923 37.268 32.0798 37.4651 32.7173 37.1068C39.0548 33.5235 41.2673 31.3376 41.2673 20.9101V11.253C41.2673 8.1893 38.661 5.7168 35.4735 5.7168H29.8485C26.5485 5.7168 24.0548 8.09971 24.0548 11.253V16.628C24.036 19.7814 26.5298 22.1643 29.8298 22.1643Z" fill="#349FD7"/>
+                                <path d="M9.54375 22.1643H18.3375C18.1875 30.5314 16.4625 31.911 11.0812 34.9568C10.4625 35.3151 10.2562 36.0676 10.6313 36.6768C11.0063 37.268 11.7937 37.4651 12.4313 37.1068C18.7688 33.5235 20.9812 31.3376 20.9812 20.9101V11.253C20.9812 8.1893 18.375 5.7168 15.1875 5.7168H9.5625C6.24375 5.7168 3.75 8.09971 3.75 11.253V16.628C3.75 19.7814 6.24375 22.1643 9.54375 22.1643Z" fill="#349FD7"/>
+                            </svg>                            
+                        </div>
+                        <div class="davtalabCardText mx-3 mt-4" >
+                            <p>هدف من برای همکاری با کاریار کمک به توسعه دسترسی افرادی است که دسترسی کمتری به منابع دارند و امیدوارم بتوانم الگوی مثبتی برای کارآموزهای کاریار باشم.</p>
+                        </div>
+                        <div class="davtalabCardName text-center mt-5 pt-2">
+                            <p class="mb-0 pb-0">اميرحسين كيانی</p>
+                        </div>
+                        <div class="text-center mt-0 pt-0  overflow-hidden">
+                            <svg width="237" height="1" viewBox="0 0 237 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="237" y1="0.5" x2="4.37114e-08" y2="0.500021" stroke="#595676" stroke-opacity="0.37"/>
+                            </svg>                            
+                        </div>
+                        <div >
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec ">
+                                        <p>ارشد علوم کامپیوتر دانشگاه استنفورد مدیر </p>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec">
+                                        <p>مدیر محصول شرکت گوگل</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#349FD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec ">
+                                        <p>منتور کاریار</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 davtalabCard  d-flex justify-content-md-center justify-content-sm-center cardMoveUp">
+                    <div class="col-11 justify-content-center davtalabCardData">
+                        <div class="position-relative">
+                            <img src="picture/davtalab2.png"  alt="" class="rounded-start-circle rounded-end-circle position-absolute top-0 start-50 translate-middle">
+                        </div>
+                        <div class="text-center mt-5 pt-5 ">
+                            <svg width="45" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M29.8298 22.1643H38.6235C38.4735 30.5314 36.7485 31.911 31.3673 34.9568C30.7485 35.3151 30.5423 36.0676 30.9173 36.6768C31.2923 37.268 32.0798 37.4651 32.7173 37.1068C39.0548 33.5235 41.2673 31.3376 41.2673 20.9101V11.253C41.2673 8.1893 38.661 5.7168 35.4735 5.7168H29.8485C26.5485 5.7168 24.0548 8.09971 24.0548 11.253V16.628C24.036 19.7814 26.5298 22.1643 29.8298 22.1643Z" fill="#ED8844"/>
+                                <path d="M9.54375 22.1643H18.3375C18.1875 30.5314 16.4625 31.911 11.0812 34.9568C10.4625 35.3151 10.2562 36.0676 10.6313 36.6768C11.0063 37.268 11.7937 37.4651 12.4313 37.1068C18.7688 33.5235 20.9812 31.3376 20.9812 20.9101V11.253C20.9812 8.1893 18.375 5.7168 15.1875 5.7168H9.5625C6.24375 5.7168 3.75 8.09971 3.75 11.253V16.628C3.75 19.7814 6.24375 22.1643 9.54375 22.1643Z" fill="#ED8844"/>
+                                </svg>                                                        
+                        </div>
+                        <div class="davtalabCardText mx-3 mt-4" >
+                            <p>من تجربه کار داوطلبانه با سازمان‌های زیادی را داشته‌ام که چون اهداف و چارچوب ها برای آنها مشخص نیست، همکاری‌ام را محدود کرده‌ام. اما همکاری با کاریار من را به وجد آورده و حتی دوست دارم در حوزه‌های مختلف با کاریار همکاری کنم.</p>
+                        </div>
+                        <div class="davtalabCardName text-center mt-5 pt-2">
+                            <p class="mb-0 pb-0">هانیه فلاح</p>
+                        </div>
+                        <div class="text-center mt-0 pt-0 overflow-hidden">
+                            <svg width="237" height="1" viewBox="0 0 237 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="237" y1="0.5" x2="4.37114e-08" y2="0.500021" stroke="#595676" stroke-opacity="0.37"/>
+                            </svg>                            
+                        </div>
+                        <div >
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec ">
+                                        <p>ارشد مددکاری اجتماعی دانشگاه علامه طباطبایی</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec">
+                                        <p>مددکار اجتماعی</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#EF9558" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec ">
+                                        <p>همکار داوطلب کاریار</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 davtalabCard  d-flex justify-content-md-end justify-content-sm-center cardMoveUp">
+                    <div class="col-11 justify-content-center davtalabCardData">
+                        <div class="position-relative">
+                            <img src="picture/davtalab3.png"  alt="" class="rounded-start-circle rounded-end-circle position-absolute top-0 start-50 translate-middle">
+                        </div>
+                        <div class="text-center mt-5 pt-5 ">
+                            <svg width="45" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M29.8298 22.1643H38.6235C38.4735 30.5314 36.7485 31.911 31.3673 34.9568C30.7485 35.3151 30.5423 36.0676 30.9173 36.6768C31.2923 37.268 32.0798 37.4651 32.7173 37.1068C39.0548 33.5235 41.2673 31.3376 41.2673 20.9101V11.253C41.2673 8.1893 38.661 5.7168 35.4735 5.7168H29.8485C26.5485 5.7168 24.0548 8.09971 24.0548 11.253V16.628C24.036 19.7814 26.5298 22.1643 29.8298 22.1643Z" fill="#349FD7"/>
+                                <path d="M9.54375 22.1643H18.3375C18.1875 30.5314 16.4625 31.911 11.0812 34.9568C10.4625 35.3151 10.2562 36.0676 10.6313 36.6768C11.0063 37.268 11.7937 37.4651 12.4313 37.1068C18.7688 33.5235 20.9812 31.3376 20.9812 20.9101V11.253C20.9812 8.1893 18.375 5.7168 15.1875 5.7168H9.5625C6.24375 5.7168 3.75 8.09971 3.75 11.253V16.628C3.75 19.7814 6.24375 22.1643 9.54375 22.1643Z" fill="#349FD7"/>
+                            </svg>                            
+                        </div>
+                        <div class="davtalabCardText mx-3 mt-4" >
+                            <p>من دانشجوی ترم هشتم مهندسی کامپیوتر دانشگاه تهران و ۲۲ ساله هستم. از طریق دانشگاه و یکی از استادان با کاریار آشنا شدم و فکر کردم که کاریار ایده خیلی قشنگی دارد و جایی هست که من می‏توانم به اندازه خودم در آن موثر باشم.</p>
+                        </div>
+                        <div class="davtalabCardName text-center mt-5 pt-2">
+                            <p class="mb-0 pb-0">احسان آقازاده</p>
+                        </div>
+                        <div class="text-center mt-0 pt-0 overflow-hidden">
+                            <svg width="237" height="1" viewBox="0 0 237 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="237" y1="0.5" x2="4.37114e-08" y2="0.500021" stroke="#595676" stroke-opacity="0.37"/>
+                            </svg>                            
+                        </div>
+                        <div >
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                        
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec ">
+                                        <p>لیسانس مهندسی کامپیوتر دانشگاه تهران</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.37891 12.0001L10.7889 14.4201L15.6189 9.58008" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.7489 2.45031C11.4389 1.86031 12.5689 1.86031 13.2689 2.45031L14.8489 3.81031C15.1489 4.07031 15.7089 4.28031 16.1089 4.28031H17.8089C18.8689 4.28031 19.7389 5.15031 19.7389 6.21031V7.91031C19.7389 8.30031 19.9489 8.87031 20.2089 9.17031L21.5689 10.7503C22.1589 11.4403 22.1589 12.5703 21.5689 13.2703L20.2089 14.8503C19.9489 15.1503 19.7389 15.7103 19.7389 16.1103V17.8103C19.7389 18.8703 18.8689 19.7403 17.8089 19.7403H16.1089C15.7189 19.7403 15.1489 19.9503 14.8489 20.2103L13.2689 21.5703C12.5789 22.1603 11.4489 22.1603 10.7489 21.5703L9.16891 20.2103C8.86891 19.9503 8.30891 19.7403 7.90891 19.7403H6.17891C5.11891 19.7403 4.24891 18.8703 4.24891 17.8103V16.1003C4.24891 15.7103 4.03891 15.1503 3.78891 14.8503L2.43891 13.2603C1.85891 12.5703 1.85891 11.4503 2.43891 10.7603L3.78891 9.17031C4.03891 8.87031 4.24891 8.31031 4.24891 7.92031V6.20031C4.24891 5.14031 5.11891 4.27031 6.17891 4.27031H7.90891C8.29891 4.27031 8.86891 4.06031 9.16891 3.80031L10.7489 2.45031Z" stroke="#3A579A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                        
+                                    </div>
+                                    <div class="col-11 davtalabCardSpec">
+                                        <p> مربی حل تمرین کاریار</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 d-md-none d-inline  justify-content-center   ">
+                    <div class="row ">
+                        <div class="col-12 d-flex justify-content-center ">
+                            <button type="button" class="btn btnSectionE rounded-pill ">
+                                ثبت نام داوطلبان
+                            </button> 
+                        </div>
+                    </div>                           
+                </div>
+            </div>
+        </div>
+    </div>    
 </div>
 <!-- ------------------------sectionE------------------------ -->
 <!-- ------------------------sectionF رویدادهای کاریار------------------------ -->
-    <div class=" sectionF col-12">
-    <div class="container position-relative">
-        <div class="d-flex ">
-            <div class="col-12 position-relative ">
-                <div class="col-md-12 sectionBTitr position-absolute">رویدادهای کاریار</div>
-                <div class="position-absolute greenDot">
-                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
-                         fill="#C9EDD8" fill-opacity="0.6"/>
-                    </svg>                               
+<div class="container-fluid  m-0 p-0">
+    <div class="row P70 justify-content-between sectionF">
+        <div class="col-7">
+            <div class="d-flex ">
+                <div class="col-12 position-relative ">
+                    <div class="col-md-12 sectionBTitr position-absolute">رویدادهای کاریار</div>
+                    <div class="position-absolute greenDot">
+                        <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
+                             fill="#C9EDD8" fill-opacity="0.6"/>
+                        </svg>                               
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4  d-md-flex d-none">
+            <div class="col-md-12 my-2 d-flex justify-content-end">
+                <div class="col-lg-12 my-3 d-flex justify-content-end moreLink">
+                    <a href="#">مشاهده بیشتر</a>
+                    <img src="picture/leftarrow.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="row  P70 ">
+        <div class="container davtalabCardHolder">
+            <div  class="row col-12 d-flex justify-content-between mt-5">
+                <div class="col-md-4 col-sm-12 roydadCard d-flex justify-content-md-start justify-content-sm-center cardMoveUp">
+                    <div class="col-11 roydadCardData pt-4 position-relative">
+                            <div class="container">
+                                <div class="row col-12 d-flex mx-auto ">
+                                    <img src="picture/roydad1.png"  alt="" class="rounded  img-fluid rounded-5 ">
+                                </div>
+                            </div>
+                            
+                            <div class="container">
+                                <div class="row roydadCardText   mt-4" >
+                                    <p>در رویداد “تا...کد” زاهدان چه گذشت؟</p>
+                                </div>
+                            </div>
+        
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 roydadCardSpec d-flex  mx-auto">
+                                        <p>رویداد “تا … کد” کاریار در استان سیستان و بلوچستان، در تاریخ‌ ٩ اسفند ماه در شهر زاهدان به صورت حضوری برگزار شد و ۳٢ نفر از دانشجویان و علاقه‌مندان به اشتغال در حوزه IT در این رویداد شرکت کردند ... </p>
+                                    </div>
+                                </div>                            
+                            </div>
+        
+                            <div class="container">
+                                <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                                    <button type="button"  class="arrowButton  d-flex align-items-center">
+                                        <div class="explain">
+                                            توضیحات بیشتر
+                                        </div>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div> 
+                             
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 roydadCard d-flex justify-content-md-center justify-content-sm-center cardMoveUp">
+                        <div class="col-11 roydadCardData pt-4 position-relative">
+                            <div class="container">
+                                <div class="row col-12 d-flex mx-auto ">
+                                    <img src="picture/roydad2.png"  alt="" class="rounded  img-fluid rounded-5">
+                                </div>
+                            </div>
+        
+                            <div class="container">
+                                <div class="row roydadCardText   mt-4" >
+                                    <p>رویداد “یاد بگیر و به کار بگیر” در سه شهر تهران، بیرجند و قائن برگزار شد</p>
+                                </div>
+                            </div>
+        
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 roydadCardSpec d-flex  mx-auto">
+                                            <p>این رویداد در تاریخ‌های ٢٧ بهمن، ۳۰ بهمن و ١ اسفند ماه در شهرهای تهران، بیرجند و قائن به صورت حضوری برگزار شد. این کارگاه با یک فعالیت گروهی ...</p>
+                                    </div>
+                                </div>                            
+                            </div>
+        
+                            <div class="container">
+                                <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                                    <button type="button"  class="arrowButton  d-flex align-items-center">
+                                        <div class="explain">
+                                            توضیحات بیشتر
+                                        </div>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div> 
+                        </div>
+                </div>
+                <div class="col-md-4 col-sm-12 roydadCard d-flex justify-content-md-end justify-content-sm-center cardMoveUp">
+                        <div class="col-11 roydadCardData pt-4 position-relative">
+        
+                            <div class="row col-12 d-flex mx-auto">
+                                <img src="picture/roydad3.png"  alt="" class="rounded  img-fluid rounded-5">
+                            </div>
+        
+                            <div class="container">
+                                <div class="row roydadCardText   mt-4" >
+                                    <p>مراسم تقدیر از داوطلبان کاریار برگزار شد</p>
+                                </div>
+                            </div>
+        
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 roydadCardSpec d-flex  mx-auto">
+                                        <p>شکل‌گیری و رشد کاریار مدیون حضور و همراهی داوطلبان است؛ تا به امروز داوطلبان بسیاری در نقش منتور، مشاور، مدرس و مربی حل تمرین همراه کاریار بودند و مسیر کاریار را برای دستیابی به هدفش هموار کردند ...</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                            
+                            <div class="container">
+                                <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                                    <button type="button"  class="arrowButton  d-flex align-items-center">
+                                        <div class="explain">
+                                            توضیحات بیشتر
+                                        </div>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div> 
+                        </div>
+                </div>
+                <div class="col-sm-12 d-md-none d-inline  justify-content-center   ">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center  moreLink">
+                            <a href="#">مشاهده بیشتر</a>
+                            <img src="picture/leftarrow.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container position-relative end-0 d-lg-flex d-none">
-        <div class="col-lg-12 my-3 d-flex justify-content-end moreLink">
-            <a href="#">مشاهده بیشتر</a>
-            <img src="picture/leftarrow.png" alt="">
-        </div>
-    </div>
-    <div class="container davtalabCardHolder">
-        <div class="row">
-            <div class="col-lg-4 col-md-12 roydadCard d-flex">
-                <div class="col-11 roydadCardData pt-4 position-relative">
-                    <div class="container">
-                        <div class="row col-12 d-flex mx-auto ">
-                            <img src="picture/roydad1.png"  alt="" class="rounded  img-fluid rounded-5 ">
-                        </div>
-                    </div>
-                    
-                    <div class="container">
-                        <div class="row roydadCardText   mt-4" >
-                            <p>در رویداد “تا...کد” زاهدان چه گذشت؟</p>
-                        </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 roydadCardSpec d-flex  mx-auto">
-                                <p>رویداد “تا … کد” کاریار در استان سیستان و بلوچستان، در تاریخ‌ ٩ اسفند ماه در شهر زاهدان به صورت حضوری برگزار شد و ۳٢ نفر از دانشجویان و علاقه‌مندان به اشتغال در حوزه IT در این رویداد شرکت کردند ... </p>
-                            </div>
-                        </div>                            
-                    </div>
-
-                    <div class="container">
-                        <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                            <button type="button"  class="arrowButton pb-1">
-                                <div class="d-none">
-                                    توضیحات بیشتر
-                                </div>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                     
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 roydadCard  d-flex">
-                <div class="col-11 roydadCardData pt-4 position-relative">
-                    <div class="container">
-                        <div class="row col-12 d-flex mx-auto ">
-                            <img src="picture/roydad2.png"  alt="" class="rounded  img-fluid rounded-5">
-                        </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="row roydadCardText   mt-4" >
-                            <p>رویداد “یاد بگیر و به کار بگیر” در سه شهر تهران، بیرجند و قائن برگزار شد</p>
-                        </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 roydadCardSpec d-flex  mx-auto">
-                                    <p>این رویداد در تاریخ‌های ٢٧ بهمن، ۳۰ بهمن و ١ اسفند ماه در شهرهای تهران، بیرجند و قائن به صورت حضوری برگزار شد. این کارگاه با یک فعالیت گروهی ...</p>
-                            </div>
-                        </div>                            
-                    </div>
-
-                    <div class="container">
-                        <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                            <button type="button"  class="arrowButton pb-1">
-                                <div class="d-none">
-                                    توضیحات بیشتر
-                                </div>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </button>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 roydadCard d-flex">
-                <div class="col-11 roydadCardData pt-4 position-relative">
-
-                    <div class="row col-12 d-flex mx-auto">
-                        <img src="picture/roydad3.png"  alt="" class="rounded  img-fluid rounded-5">
-                    </div>
-
-                    <div class="container">
-                        <div class="row roydadCardText   mt-4" >
-                            <p>مراسم تقدیر از داوطلبان کاریار برگزار شد</p>
-                        </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 roydadCardSpec d-flex  mx-auto">
-                                <p>شکل‌گیری و رشد کاریار مدیون حضور و همراهی داوطلبان است؛ تا به امروز داوطلبان بسیاری در نقش منتور، مشاور، مدرس و مربی حل تمرین همراه کاریار بودند و مسیر کاریار را برای دستیابی به هدفش هموار کردند ...</p>
-                            </div>
-                        </div>                            
-                    </div>
-                    
-                    <div class="container">
-                        <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                            <button type="button"  class="arrowButton pb-1">
-                                <div class="d-none">
-                                    توضیحات بیشتر
-                                </div>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </button>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div> 
-    <div class="container d-lg-none d-flex justify-content-center">
-        <div class="col-lg-12 my-2  moreLink">
-            <a href="#">مشاهده بیشتر</a>
-            <img src="picture/leftarrow.png" alt="">
-        </div>
-    </div>   
-</section>
-    </div>
+</div>
 <!-- ------------------------sectionF------------------------ -->
 <!-- ------------------------sectionG اخبار و دانستنی های کاریار------------------------ -->
-<section class="sectionG col-12">
-    <div class="container">
-        <div class="d-flex">
-            <div class="col-12 position-relative ">
-                <div class="col-md-12 sectionBTitr position-absolute">اخبار و دانستنی های کاریار</div>
-                <div class="position-absolute greenDot">
-                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
-                         fill="#C9EDD8" fill-opacity="0.6"/>
-                    </svg>                               
+<div class="container-fluid p-0 m-0">
+    <div class="row P70  sectionG">
+        <div class="col-12">
+            <div class="d-flex ">
+                <div class="col-12 position-relative ">
+                    <div class="col-md-12 sectionBTitr position-absolute">اخبار و دانستنی های کاریار</div>
+                    <div class="position-absolute greenDot">
+                        <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
+                             fill="#C9EDD8" fill-opacity="0.6"/>
+                        </svg>                               
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container btnBox ">
-        <div class="row">
-            <div class="col-lg-4 col-md-12 d-flex">
-                <div class="col-6"><button class="sectionGBtn button1">آخرین اخبار</button></div>
-                <div class="col-6"><button class="sectionGBtn button2">همه اخبار</button></div>
+        <div class="col-12 btnBox">
+            <div class="container-fluid p-0 m-0">
+                <div class="row p-0 m-0">
+                    <button class="sectionGBtn button1">آخرین اخبار</button>
+                    <button class="sectionGBtn button2">همه اخبار</button>
+                </div>
+            </div>          
+        </div>
+    </div> 
+    <div class="container-fluid cardHolder px-0 mx-0">
+        <div class="row P70">
+            <div class="col-md-6 col-12  pe-md-3 pb-md-3 pb-3 cardMoveUp">
+                <div class="container-fluid m-0 p-0 myCard h-100 position-relative">
+                    <div class="d-flex m-0 ">
+                        <div class="col-4 akhbarPicBox1 position-relative"  style="margin:10px; ">
+                            <img src="picture/akhbar11.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
+                            <div class="position-absolute dateBox">۹ اسفند ۱۴۰۱</div>
+                        </div>
+                        <div class="col-8  pt-5 akhbarTextHolder">
+                            <div class="akhbarTitle">
+                                <p>جلسه ارائه پروژه پایانی مهارت‌آموزان تحلیل داده برگزار شد</p>
+                            </div>   
+                            <div class="cardTxt1">
+                                <p>اولین دوره تحلیل داده پیشرفته کاریار با حضور مدرسین حرفه‌ای و برگزاری کارگاه‌های عملی به پایان رسیده‌ و مرحله داوری پروژه‌ها توسط خانم آرزو کشاورز و آزاده سنجری ....</p>
+                            </div>                       
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                            <button type="button"  class="arrowButtonB  d-flex align-items-center">
+                                <div class="explain">
+                                    مشاهده ادامه خبر
+                                </div>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-md-6 col-12  ps-md-3 pb-md-3 pb-3 pt-3 pt-md-0 cardMoveUp">
+                <div class="container-fluid m-0 p-0 myCard h-100 position-relative">
+                    <div class="d-flex m-0 ">
+                        <div class="col-4 akhbarPicBox2 position-relative"  style="margin:10px; ">
+                            <img src="picture/akhbar22.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
+                            <div class="position-absolute dateBox">۲ اسفند ۱۴۰۱</div>
+                        </div>
+                        <div class="col-8  pt-5 akhbarTextHolder">
+                            <div class="akhbarTitle">
+                                <p>جلسه ارائه پروژه پایانی مهارت‌آموزان طراحی وب مقدماتی ۰۵ برگزار شد</p>
+                            </div>   
+                            <div class="cardTxt1">
+                                <p>جلسه ارائه پروژه طراحی وب مقدماتی کاریار در تاریخ ۲۵ بهمن‌ماه سال ۱۴۰۱ برگزار شد که در آن ابوالفضل فرخ‌رو مدرس موسسه لایتک و محمد نبی‌زاده ....</p>
+                            </div>                       
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                            <button type="button"  class="arrowButtonB  d-flex align-items-center">
+                                <div class="explain">
+                                    مشاهده ادامه خبر
+                                </div>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-md-6 col-12 pe-md-3 pt-md-3 pb-md-3 pt-3 pb-3 cardMoveUp">
+                <div class="container-fluid m-0 p-0 myCard h-100 position-relative">
+                    <div class="d-flex m-0 ">
+                        <div class="col-4 akhbarPicBox3 position-relative"  style="margin:10px; ">
+                            <img src="picture/akhbar33.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
+                            <div class="position-absolute dateBox">۱۶ بهمن ۱۴۰۱</div>
+                        </div>
+                        <div class="col-8  pt-5 akhbarTextHolder">
+                            <div class="akhbarTitle">
+                                <p>دوره‌ی دوم آموزش حرفه‌ای مدرسه کاریار برگزار شد</p>
+                            </div>   
+                            <div class="cardTxt1">
+                                <p>آموزش رزومه‌نویسی، مصاحبه شغلی، نت‌ورکینگ، بررسی تجربیات و چالش‌های اول کار، مسئولیت اجتماعی و رفتار حرفه‌ای از جمله عناوین کارگاه‌های این دوره هستند ....</p>                                
+                            </div>                      
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                            <button type="button"  class="arrowButtonB  d-flex align-items-center">
+                                <div class="explain">
+                                    مشاهده ادامه خبر
+                                </div>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 ps-md-3 pt-md-3 pb-md-3 pt-3 pb-3 cardMoveUp">
+                <div class="container-fluid m-0 p-0 myCard h-100 position-relative">
+                    <div class="d-flex m-0 ">
+                        <div class="col-4 akhbarPicBox4 position-relative"  style="margin:10px; ">
+                            <img src="picture/akhbar44.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
+                            <div class="position-absolute dateBox">۱۲ بهمن ۱۴۰۱</div>
+                        </div>
+                        <div class="col-8  pt-5 akhbarTextHolder">
+                            <div class="akhbarTitle">
+                                <p>فراخوان ثبت نام دوره آموزشی کاریار در بهار سال ۱۴۰۲ </p>
+                            </div>   
+                            <div class="cardTxt1">
+                                <p>اگر دوست داری برنامه‌نویس بشی و نمی‌دونی چطور شروع کنی، با کاریار همراه شو. کاریار با برگزاری دوره‌های آموزشی پروژه محور به مهارت‌آموزان کمک می‌کند علاوه بر افزایش ...</p>
+                            </div>                       
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="d-block justify-content-end position-absolute arrowButtonHolder">
+                            <button type="button"  class="arrowButtonB  d-flex align-items-center">
+                                <div class="explain">
+                                    مشاهده ادامه خبر
+                                </div>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container cardHolder">
-        <div class="col-12 my-4">
-            <div class="d-lg-flex flex-lg-row ">
-                <div class="col-lg-6 col-md-12 myCard me-4 my-lg-2 my-md-5 position-relative">
-                    <div class="container-fluid m-0 p-0">
-                        <div class="d-flex m-0 ">
-                            <div class="col-4 akhbarPicBox1 position-relative"  style="margin:10px; ">
-                                <img src="picture/akhbar11.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
-                                <div class="position-absolute dateBox">۹ اسفند ۱۴۰۱</div>
-                            </div>
-                            <div class="col-8  pt-5 akhbarTextHolder">
-                                <div class="akhbarTitle">
-                                    <p>جلسه ارائه پروژه پایانی مهارت‌آموزان تحلیل داده برگزار شد</p>
-                                </div>   
-                                <div class="cardTxt1">
-                                    <p>اولین دوره تحلیل داده پیشرفته کاریار با حضور مدرسین حرفه‌ای و برگزاری کارگاه‌های عملی به پایان رسیده‌ و مرحله داوری پروژه‌ها توسط خانم آرزو کشاورز و آزاده سنجری ....</p>
-                                </div>
-
-                                <div class="container">
-                                    <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
-                                                توضیحات بیشتر
-                                            </div>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>                       
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 myCard ms-4 my-lg-2 my-md-5 position-relative">
-                    <div class="container-fluid m-0 p-0">
-                        <div class="d-flex m-0 ">
-                            <div class="col-4 akhbarPicBox2 position-relative"  style="margin:10px; ">
-                                <img src="picture/akhbar22.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
-                                <div class="position-absolute dateBox">۲ اسفند ۱۴۰۱</div>
-                            </div>
-                            <div class="col-8  pt-5 akhbarTextHolder">
-                                <div class="akhbarTitle">
-                                    <p>جلسه ارائه پروژه پایانی مهارت‌آموزان طراحی وب مقدماتی ۰۵ برگزار شد</p>
-                                </div>   
-                                <div class="cardTxt1">
-                                    <p>جلسه ارائه پروژه طراحی وب مقدماتی کاریار در تاریخ ۲۵ بهمن‌ماه سال ۱۴۰۱ برگزار شد که در آن ابوالفضل فرخ‌رو مدرس موسسه لایتک و محمد نبی‌زاده ....</p>
-                                </div>
-
-                                <div class="container">
-                                    <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
-                                                توضیحات بیشتر
-                                            </div>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>                       
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>          
-        </div>
-        <div class="col-12 my-4">
-            <div class="d-lg-flex flex-lg-row ">
-                <div class="col-lg-6 col-md-12 myCard me-4 my-lg-2 my-md-5 position-relative">
-                    <div class="container-fluid m-0 p-0">
-                        <div class="d-flex m-0 ">
-                            <div class="col-4 akhbarPicBox3 position-relative"  style="margin:10px; ">
-                                <img src="picture/akhbar33.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
-                                <div class="position-absolute dateBox">۱۶ بهمن ۱۴۰۱</div>
-                            </div>
-                            <div class="col-8  pt-5 akhbarTextHolder">
-                                <div class="akhbarTitle">
-                                    <p>دوره‌ی دوم آموزش حرفه‌ای مدرسه کاریار برگزار شد</p>
-                                </div>   
-                                <div class="cardTxt1">
-                                    <p>آموزش رزومه‌نویسی، مصاحبه شغلی، نت‌ورکینگ، بررسی تجربیات و چالش‌های اول کار، مسئولیت اجتماعی و رفتار حرفه‌ای از جمله عناوین کارگاه‌های این دوره هستند ....</p>                                
-                                </div>
-
-                                <div class="container">
-                                    <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
-                                                توضیحات بیشتر
-                                            </div>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>                       
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 myCard ms-4 my-lg-2 my-md-5 position-relative">
-                    <div class="container-fluid m-0 p-0">
-                        <div class="d-flex m-0 ">
-                            <div class="col-4 akhbarPicBox4 position-relative"  style="margin:10px; ">
-                                <img src="picture/akhbar44.png" class="img-fluid rounded-2 position-absolute top-50 start-50 translate-middle " alt="...">
-                                <div class="position-absolute dateBox">۱۲ بهمن ۱۴۰۱</div>
-                            </div>
-                            <div class="col-8  pt-5 akhbarTextHolder">
-                                <div class="akhbarTitle">
-                                    <p>فراخوان ثبت نام دوره آموزشی کاریار در بهار سال ۱۴۰۲ </p>
-                                </div>   
-                                <div class="cardTxt1">
-                                    <p>اگر دوست داری برنامه‌نویس بشی و نمی‌دونی چطور شروع کنی، با کاریار همراه شو. کاریار با برگزاری دوره‌های آموزشی پروژه محور به مهارت‌آموزان کمک می‌کند علاوه بر افزایش ...</p>
-                                </div>
-
-                                <div class="container">
-                                    <div class="d-block justify-content-end position-absolute arrowButtonHolder">
-                                        <button type="button"  class="arrowButton pb-1">
-                                            <div class="d-none">
-                                                توضیحات بیشتر
-                                            </div>
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10.0013 18.3307C14.6037 18.3307 18.3346 14.5998 18.3346 9.9974C18.3346 5.39502 14.6037 1.66406 10.0013 1.66406C5.39893 1.66406 1.66797 5.39502 1.66797 9.9974C1.66797 14.5998 5.39893 18.3307 10.0013 18.3307Z" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M12.918 10H7.91797" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M9.58203 7.5L7.08203 10L9.58203 12.5" stroke="#0E994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>                       
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>          
-        </div>
-    </div>
-    
-</section>
+    </div>    
+</div>
 <!-- ------------------------sectionG------------------------ -->
 <!-- ------------------------sectionH پرسش های متداول------------------------ -->
-
-<section class="sectionH container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-12">
-                <div class="container position-relative col-12">
-                    <div class="row d-flex col-lg-12 mb-md-5">
-                        <div class="col-8 position-relative ">
-                            <div class="col-8 sectionBTitr position-absolute">پرسش های متداول</div>
-                            <div class="position-absolute greenDot">
-                                <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
-                                     fill="#C9EDD8" fill-opacity="0.6"/>
-                                </svg>                               
-                            </div>
+<section class="container-fluid p-0 m-0">
+    <div class="row sectionH P70">        
+        <div class="row col-md-8 col-sm-12 justify-content-between mb-sm-5">
+            <div class="col-md-6 col-12">
+                <div class="d-flex ">
+                    <div class="col-12 position-relative ">
+                        <div class="col-md-12 sectionBTitr position-absolute">پرسش های متداول</div>
+                        <div class="position-absolute greenDot">
+                            <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="32.8672" y="-6" width="64" height="64" rx="16" transform="rotate(37.7313 32.8672 -6)"
+                                 fill="#C9EDD8" fill-opacity="0.6"/>
+                            </svg>                               
                         </div>
-                        <div class="col-lg-4 container end-0 top-0 d-none d-lg-flex">
-                            <div class=" col-lg-12 my-3 d-flex justify-content-end moreLink">
-                                <a href="#">مشاهده بیشتر</a>
-                                <img src="picture/leftarrow.png" alt="">
-                            </div>
-                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4  d-md-flex d-none">
+                <div class="col-md-12 my-2 d-flex justify-content-end">
+                    <div class="col-lg-12 my-3 d-flex justify-content-end moreLink">
+                        <a href="#">مشاهده بیشتر</a>
+                        <img src="picture/leftarrow.png" alt="">
                     </div>
                 </div>
             </div>
         </div>    
         <div class="row text-center align-items-center">
             <div class="col-md-8 col-sm-12">
-                <div class="container col-12 questionBox">
+                <div class="container-fluid col-12 questionBox">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                           <p class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <button class="accordion-button bgG collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                 آیا در پایان دوره مدرک خاصی دریافت میکنم؟
                             </button>
                         </p>
@@ -1446,7 +1524,7 @@
                         </div>
                         <div class="accordion-item">
                           <p class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <button class="accordion-button bgG collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                 آیا بعد از گذراندن دوره ها امکان اشتغال برای من فراهم می شود؟
                             </button>
                           </p>
@@ -1456,7 +1534,7 @@
                         </div>
                         <div class="accordion-item">
                           <p class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <button class="accordion-button bgG collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                 مراحل پذیرش در دوره های کاریار چگونه امکان پذیر است؟
                             </button>
                           </p>
@@ -1466,7 +1544,7 @@
                         </div>
                         <div class="accordion-item">
                             <p class="accordion-header">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                              <button class="accordion-button bgG collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                 در صورت نداشتن کامپیوتر، آیا کاریار می تواند به من کامپیوتری امانت دهد؟ 
                               </button>
                             </p>
@@ -1475,22 +1553,22 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-lg-4 container d-lg-none d-md-flex  justify-content-center mt-3">
-                        <div class=" col-lg-12 my-3 d-flex moreLink">
+                    <div class=" d-lg-none d-md-flex mt-3">
+                        <div class="col-12 my-3 mb-5 d-flex moreLink justify-content-center">
                             <a href="#">مشاهده بیشتر</a>
                             <img src="picture/leftarrow.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 ">
-                <img src="picture/questionPic.png" alt="" class="img-fluid col-12">
+            <div class="col-md-4 col-sm-12">
+                <img src="picture/questionPic.png" alt="" class="img-fluid col-12 questionPic">
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-lg-10 col-md-12 questionTextBox">
+            <div class="col-md-10 col-sm-12 questionTextBox">
                 <div class="col-12 text-center  ">
                     <p class="questionTextBoxTitr">مسیر شغلی خود را از همین امروز شروع کنید</p>
                 </div>
@@ -1498,7 +1576,7 @@
                     <p class="questionTextBoxText">به ما بپیوندید، آموزش کاربردی ببینید و بعد از رسیدن به درآمد هزینه‌اش را بپردازید.</p>
                 </div>
                 <div class="col-12 text-center">
-                        <button type="button" class="btn btnGreen rounded-pill  questionTextBoxBtn position-relative">
+                        <button type="button" class="btn rounded-pill  questionTextBoxBtn position-relative">
                             ثبت نام مهارت آموزان<img src="" alt="">
                             <div class="questionTextBoxArr position-absolute translate-middle badge "><img src="picture/questionArrow.png" alt=""></div> 
                         </button>                        
@@ -1507,12 +1585,12 @@
         </div>
     </div>
 </section>
-
-<!-- ------------------------sectionH footer------------------------ -->
-<div class="container-fluid">
-    <footer class="footer">
+<!-- ------------------------sectionH------------------------ -->
+<!-- ------------------------footer------------------------ -->
+<div class="container-fluid" style="background-color: #ffffff;" id="footer">
+    <footer class="footer P70 " style="background-color: #ffffff;">
         <div class="row topBox">
-            <div class="col-lg-5 col-md-12">
+            <div class="col-md-5 col-sm-12">
                 <div class="footerLogo col-12 mx-0 ps-0">
                     <img src="picture/logo.png" alt="" class="img-fluid">
                 </div>
@@ -1520,17 +1598,17 @@
                     <p>کاریار استارت‌آپی اجتماعی ، متعهد به عدالت، دسترسی و فرصت همگانی است که با ایجاد محیطی با دسترسی مناسب در زمینه‌ی آموزش IT فرصت رشد را فراهم کرد. کاریار در ابتدای سال ۱۳۹۹ فعالیت خود را شروع کرد که توانست با تیمی مجرب از افراد متخصص ، فرصت اشتغال از راه دور را برای عموم علاقه‌مندان به دانش کامپیوتر فراهم کند.</p>
                 </div>
             </div>
-            <div class="col-md-12 d-lg-none d-flex footerAccordionBox">
-                <div class="container col-12 questionBox">
+            <div class="col-sm-12 d-md-none d-flex footerAccordionBox">
+                <div class="container-fluid col-12 questionBox jus m-0 p-0">
                     <div class="accordion accordion-flush" id="accordionFlushExample2">
                         <div class="accordion-item accordion-item2">
                             <p class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
+                                <button class="accordion-button bgW collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
                                     <p class="titrA">دسترسی سریع</p>
                                 </button>
                             </p>
                             <div id="flush-collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">
+                                <div class="accordion-body bgW">
                                     <div class="col-12 footerLink">  
                                         <ul class="nav flex-column">
                                             <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">صفحه اصلی کاریار</a></li>
@@ -1544,12 +1622,12 @@
                         </div>
                         <div class="accordion-item accordion-item2">
                           <p class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo2">
+                            <button class="accordion-button bgW collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo2">
                                 <p class="titrA">با کاریار</p>                           
                             </button>
                           </p>
                           <div id="flush-collapseTwo2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                            <div class="accordion-body">
+                            <div class="accordion-body bgW">
                                 <div class="col-12 footerLink d-block">
                                     <ul class="nav flex-column">
                                         <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">درباره کاریار</a></li>
@@ -1563,12 +1641,12 @@
                         </div>
                         <div class="accordion-item  accordion-item2">
                           <p class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree2" aria-expanded="false" aria-controls="flush-collapseThree2">
+                            <button class="accordion-button bgW collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree2" aria-expanded="false" aria-controls="flush-collapseThree2">
                                 <p class="titrA">راه های ارتباطی</p>                            
                             </button>
                           </p>
                           <div id="flush-collapseThree2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                            <div class="accordion-body">
+                            <div class="accordion-body bgW">
                                 <div class="col-12 footerLink d-block">
                                     <ul class="nav flex-column ">
                                         <li class="nav-item  mt-3">
@@ -1606,7 +1684,7 @@
                     </div>
                 </div>
             </div>  
-            <div class="col-2 footerLink d-lg-block d-none">
+            <div class="col-2 footerLink d-md-block d-none">
                 <p class="titrA">دسترسی سریع</p>
                 <ul class="nav flex-column">
                     <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">صفحه اصلی کاریار</a></li>
@@ -1616,7 +1694,7 @@
                 </ul>
             </div>
   
-            <div class="col-2 footerLink d-lg-block d-none">
+            <div class="col-2 footerLink d-md-block d-none">
                 <p class="titrA">با کاریار</p>
                 <ul class="nav flex-column">
                     <li class="nav-item mt-3"><a href="#" class="nav-link navLink p-0 text-body-secondary">درباره کاریار</a></li>
@@ -1626,7 +1704,7 @@
                 </ul>
             </div>
 
-            <div class="col-3 footerLink d-lg-block d-none">
+            <div class="col-3 footerLink d-md-block d-none">
                 <p class="titrA">راه های ارتباطی</p>
                 <ul class="nav flex-column ">
                     <li class="nav-item  mt-3">
@@ -1724,6 +1802,7 @@
     </div>
 </div>
 </div>
+<!-- ------------------------footer------------------------ -->
 <script src="js/script.js"></script>
 </body>
 </html>
