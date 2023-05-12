@@ -3,6 +3,24 @@
   font-style: normal;
   src: url(../font/vazirmatn/Vazirmatn-Regular.woff2) format(woff2);
 }
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bold;
+  src: url(../font/vazirmatn/Vazirmatn-Bold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(../font/vazirmatn/Vazirmatn-ExtraBold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: lighter;
+  src: url(../font/vazirmatn/Vazirmatn-Light.woff2) format(woff2);
+}
 
 @font-face {
   font-family: shabnam;
@@ -17,13 +35,38 @@ body {
   border: 0cm;
   background-color: #e9e5e5;
 }
-@media (min-width: 768px) {
+a {
+  text-decoration: none;
+  color: #0e994a;
+}
+.cardMoveUp {
+  transition: 0.3s;
+}
+.cardMoveUp:hover {
+  transform: translate(0, -15px);
+  box-shadow: 0px 8px 24px rgba(205, 230, 211, 0.54);
+}
+
+@media (min-width: 767px) {
+  /* ------------------ index page-------------------------- */
   .header {
     left: 0px;
     top: 0px;
     box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
   }
-
+  .P70 {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .NavPS {
+    padding-right: 70px;
+  }
+  .NavPE {
+    padding-left: 70px !important;
+  }
+  .color {
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
   .activeHeader {
     color: #0e994a !important;
     text-decoration: underline !important;
@@ -33,7 +76,6 @@ body {
     line-height: 70px !important;
     letter-spacing: 0em !important;
   }
-
   .notActiveHeader {
     font-family: "Vazirmatn";
     font-style: normal;
@@ -43,7 +85,6 @@ body {
     color: #0000008a;
     height: 56px !important;
   }
-
   .btnGreen {
     background-color: #0e994a;
     color: #ffffff;
@@ -53,11 +94,22 @@ body {
     letter-spacing: 0em;
     box-shadow: 0px 8px 16px 0px #00000029;
     margin: 23px 12px;
+    height: 54px !important;
+    width: 201px !important;
+  }
+  .btnGreen:hover {
+    color: #ffffff;
+    font-family: Vazirmatn;
+    font-size: 20px !important;
+    font-weight: 800;
+    letter-spacing: 0em;
+    box-shadow: 0px 8px 16px 0px #00000029;
+    margin: 23px 12px;
     height: 54px;
     width: 201px;
+    background: #11783d !important;
   }
-
-  .nav-link {
+  #navbarToggler .nav-link {
     padding-inline-start: 0px !important;
     padding-inline-end: 40px !important;
   }
@@ -77,12 +129,6 @@ body {
     line-height: 25px;
     color: #595676;
   }
-
-  .picsectionA {
-    width: 100%;
-    margin: auto;
-  }
-
   .titr1sectionA {
     font-family: Shabnam;
     font-style: normal;
@@ -94,7 +140,6 @@ body {
     block-size: auto;
     color: #595676;
   }
-
   .titr2sectionA {
     margin-top: 16px;
     font-family: "Shabnam";
@@ -104,7 +149,6 @@ body {
     line-height: 44px;
     color: #8d8b9a;
   }
-
   .text1sectionA {
     font-family: "Vazirmatn";
     font-style: normal;
@@ -117,19 +161,14 @@ body {
     margin-top: 40px;
     padding-right: 24px;
   }
-
   .iconSectionA {
-    /* width: 100%; */
-    /* height: 87px; */
     background-color: #ffffff;
     border-radius: 16px;
     margin-top: 40px;
   }
-
   .iconSectionAcontrol {
     padding-top: 36px;
   }
-
   .iconNumber {
     font-family: Vazirmatn;
     font-style: normal;
@@ -138,13 +177,12 @@ body {
     line-height: 44px;
     color: #595676;
   }
-
   .spacer {
     margin-right: 20px;
   }
-
   .sectionABtnG {
     margin-top: 40px;
+    margin-bottom: 40px;
     width: 259px;
     height: 56px;
     background: #0e994a;
@@ -157,7 +195,21 @@ body {
     text-align: center;
     color: #ffffff;
   }
-
+  .sectionABtnG:hover {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 259px;
+    height: 56px;
+    background: #11783d;
+    border-radius: 32px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+  }
   .sectionABtnW {
     width: 259px;
     height: 56px;
@@ -169,26 +221,40 @@ body {
     color: #0e994a;
     border: solid 3px #0e994a;
     margin-top: 40px;
+    margin-bottom: 40px;
     margin-right: 32px;
   }
-
-  .arwowRight {
-    top: 300px;
-    right: 50px;
+  .sectionABtnW:hover {
+    width: 259px;
+    height: 56px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: #0e994a;
+    border: solid 3px #0e994a;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 32px;
+    background-color: #ffffff;
   }
 
+  /*---------------------------------------------------------------- slider */
   .slider {
     height: 120px;
     padding-top: 25px;
     filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.05));
   }
-
-  /* ------------------------slider------------------------  */
   .cardSlider {
     border: none !important;
-    background-color: #ffffff00;
+    /* background-color: none !important; */
   }
-
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 3%;
+  }
+  /* ------------------------slider------------------------  */
   @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
       display: none;
@@ -221,16 +287,15 @@ body {
   .carousel-inner .carousel-item-start {
     transform: translateX(0);
   }
-
   /* ------------------------end of slider------------------------  */
   .leftArrow {
     top: 0px;
-    left: -70px;
+    left: 0px;
   }
 
   .rightArrow {
     top: 0px;
-    right: -70px;
+    right: 0px;
   }
 
   .arrimage {
@@ -389,8 +454,17 @@ body {
     width: 34px;
     height: 34px;
     background: rgba(98, 190, 120, 0.22);
-    border-radius: 50%;
+    border-radius: 17px;
     border: none;
+    transition: all 2s;
+  }
+  .arrowButtonB {
+    width: 34px;
+    height: 34px;
+    background: rgba(98, 190, 120, 0.22);
+    border-radius: 17px;
+    border: none;
+    transition: all 2s;
   }
 
   .cardTextHolder {
@@ -400,12 +474,49 @@ body {
   .arrowButtonHolder {
     bottom: 20px;
     left: 30px;
+    overflow: hidden;
+  }
+
+  .arrowButtonHolder:hover .arrowButton {
+    width: 148px;
+    border-radius: 17px;
+    background: #0e994a;
+    transition: all 0.2s;
+  }
+  .arrowButtonHolder:hover .arrowButtonB {
+    width: 168px;
+    border-radius: 17px;
+    background: #0e994a;
+    transition: all 0.2s;
+  }
+  .arrowButtonHolder:hover svg {
+    filter: invert(138%) sepia(106%) hue-rotate(140deg) brightness(300%)
+      saturate(4);
+  }
+  .explain {
+    display: none;
+    overflow: hidden;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 32;
+    text-align: right;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    padding-right: 16px;
+    padding-left: 8px;
+    transition: width 0.3s ease 0.6s;
+  }
+
+  .arrowButtonHolder:hover .explain {
+    display: flex;
+    overflow: hidden;
   }
 
   .sectionD {
-    height: 1000px;
-    padding-top: 100px;
-    background-color: #00f99e;
+    /* padding-top: 100px; */
+    background-color: #e9e5e5;
   }
 
   .sectionE {
@@ -415,14 +526,32 @@ body {
   }
 
   .btnSectionE {
-    left: 0px;
+    width: 209px;
+    height: 56px;
+    background: #0e994a;
+    border-radius: 30px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .btnSectionE:hover {
+    width: 209px;
+    height: 56px;
+    background: #11783d;
+    border-radius: 30px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    color: #ffffff;
   }
 
   .davtalabCardHolder {
     padding-top: 100px;
-  }
-
-  .davtalabCard {
   }
 
   .davtalabCardData {
@@ -489,20 +618,14 @@ body {
     margin-top: 10px;
   }
 
-  roydadCardHolder {
+  .roydadCardHolder {
     padding-top: 100px;
-  }
-
-  .roydadCard {
   }
 
   .roydadCardData {
     background-color: #ffffff;
     border-radius: 32px;
     padding-bottom: 50px;
-  }
-
-  .roydadCardData img {
   }
 
   .roydadCardText {
@@ -540,10 +663,13 @@ body {
   }
 
   .button1 {
-    background: #4f6aa5;
-    border-radius: 0px 16px 16px 0px;
+    box-sizing: border-box;
+    width: 196px;
     height: 55px;
-    border: 3px solid rgba(79, 106, 165, 0.81);
+    background: #4f6aa5;
+    border: none;
+    border-radius: 0px 16px 16px 0px;
+    border-color: #4f6aa5;
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700;
@@ -553,15 +679,30 @@ body {
   }
 
   .button2 {
-    border: 3px solid rgba(79, 106, 165, 0.81);
-    border-radius: 16px 0px 0px 16px;
+    box-sizing: border-box;
+    width: 196px;
     height: 55px;
+    border: 3px solid #4f6aa5;
+    border-radius: 16px 0px 0px 16px;
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 34px;
     color: #787878;
+  }
+  .button2:hover {
+    box-sizing: border-box;
+    width: 196px;
+    height: 55px;
+    border: 3px solid #4f6aa5;
+    border-radius: 16px 0px 0px 16px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    color: #4f6aa5;
   }
 
   .akhbarPicBox1 {
@@ -637,10 +778,10 @@ body {
     padding-top: 69px;
   }
 
-  .questionBox {
+  .sectionH .questionBox {
     padding-top: 36px;
   }
-  .accordion-button {
+  .sectionH .accordion-button {
     background-color: #e9e5e5 !important;
     font-family: "Vazirmatn";
     font-style: normal;
@@ -651,10 +792,10 @@ body {
     color: #000000;
     border: none;
   }
-  .accordion {
+  .sectionH .accordion {
     --bs-accordion-bg: #e9e5e5;
   }
-  .accordion-body {
+  .sectionH .accordion-body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
@@ -662,21 +803,21 @@ body {
     line-height: 159.75%;
     color: #595676;
   }
-  .accordion-button:not(.collapsed) {
+  .sectionH .accordion-button:not(.collapsed) {
     color: #000000;
     border: none;
   }
-  .accordion-button:focus {
+  .sectionH .accordion-button:focus {
     border: none !important;
   }
-  .accordion-button:not(.collapsed) {
+  .sectionH .accordion-button:not(.collapsed) {
     color: #000000;
   }
   :focus {
     outline: 0 !important;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
   }
-  .accordion-item {
+  .sectionH .accordion-item {
     border-bottom: 2px solid rgba(98, 99, 98, 0.24) !important;
   }
   .questionTextBox {
@@ -704,9 +845,35 @@ body {
     line-height: 160.75%;
     color: #595676;
   }
-  .questionTextBox button {
+  .questionTextBoxBtn {
     padding: 15px 40px;
     margin-bottom: 17px;
+    position: absolute;
+    width: 283px;
+    height: 64px;
+    background: #0e994a;
+    border-radius: 30px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 36px;
+    color: #ffffff;
+  }
+  .questionTextBoxBtn:hover {
+    padding: 15px 40px;
+    margin-bottom: 17px;
+    position: absolute;
+    width: 283px;
+    height: 64px;
+    background: #11783d;
+    border-radius: 30px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 36px;
+    color: #ffffff;
   }
   .questionTextBoxArr {
     right: -40px;
@@ -721,12 +888,13 @@ body {
   }
   .footerAboutText {
     font-family: "Vazirmatn";
-    font-style: normal;
     font-weight: 500;
-    font-size: 18px;
     line-height: 172.75%;
     text-align: right;
     color: #595676;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
     margin-right: 10px;
     padding-top: 40px;
     padding-left: 15%;
@@ -796,13 +964,274 @@ body {
     color: #ffffff;
     margin-bottom: 0px !important;
   }
+  .commentCard {
+    background: #ffffff;
+    border-radius: 32px;
+    padding: 23px 23px 26px 23px;
+  }
+  .commentPic {
+    width: 55.86px;
+    height: 55.86px;
+    border-radius: 50%;
+  }
+  .commentName {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.025em;
+    color: #595676;
+  }
+  .commentSubject {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: right;
+    color: #595676;
+  }
+  .comment {
+    padding-top: 25px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: justify;
+    color: #595676;
+  }
+  .star {
+    width: 15px;
+    height: 15px;
+  }
+  /* ------------------end of index page-------------------------- */
+  #sign .imageHolder {
+    background-image: url(../picture/signinback.png);
+    background-color: #0e994a38;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .formHolder {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  #sign .signupTitrA {
+    margin-top: 56px;
+  }
+  #sign .signupTitrA p {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #0f6333;
+    margin-left: 17px;
+  }
+  .signupForm {
+    margin-top: 48px;
+  }
+  .formWidth {
+    width: 580px;
+  }
+  .form-label {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39px;
+    color: #595676;
+    margin-bottom: 16px;
+  }
+  .form-control {
+    height: 56px;
+    border: 2px solid #999ca6;
+    border-radius: 10px;
+  }
+  ::placeholder {
+    font-family: "Vazirmatn" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+    color: #8e8c9f !important;
+    padding-right: 0px !important;
+  }
+  input[type="text"] {
+    padding-right: 46px !important;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+  }
+  input[type="password"] {
+    padding-right: 46px !important;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .form-control:focus {
+    border: 3px solid #0e994a;
+  }
+  .placeholderImageA {
+    width: 24px;
+    height: 24px;
+    top: 69px;
+    right: 16px;
+  }
+  .eye {
+    width: 24px;
+    height: 24px;
+    top: 69px;
+    left: 16px;
+  }
+  .closeeye {
+    width: 24px;
+    height: 24px;
+    top: 69px;
+    left: 16px;
+    display: none;
+  }
+  .form-check-input {
+    width: 32px !important ;
+    height: 32px !important ;
+    border: 2.5px solid #595676;
+    border-radius: 8px;
+    background-color: #ffffff00;
+  }
+  .form-check-input:checked {
+    background-color: #0e994a;
+    border-color: #0e994a;
+  }
+  .form-check-label {
+    margin-right: 8px;
+    margin-top: 4px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: #63607e;
+  }
+  #sign #top a {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  #sign .bottonA {
+    width: 394px;
+    height: 56px;
+    background: #0e994a;
+    border-radius: 10px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 17px 83px;
+  }
+  #sign .bottonA:hover {
+    background: #11783d;
+  }
+  #sign .bottonA p {
+    margin-top: 10px;
+  }
+  .signuptext1 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: #595676;
+    margin: 32px;
+  }
+  .entranceBtn {
+    margin-top: 48px;
+  }
+  .signuptext2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 16px;
+  }
+  #sign .bottonB {
+    width: 394px;
+    height: 56px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+    color: #0e994a;
+    max-width: 17px 83px;
+    border: 3px solid #0e994a;
+    border-radius: 10px;
+    padding: 17px;
+  }
+  .signArrow1 {
+    top: -60px;
+    left: -120px;
+  }
+  .redP {
+    margin-top: 65px;
+    margin-bottom: 56px;
+  }
+  .signuptext3 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(211, 75, 128, 0.9);
+  }
+  .signArrow2 {
+    top: 0px;
+    right: -10px;
+  }
+  .signArrow3 {
+    top: 0px;
+    left: -28px;
+  }
+  #sign .bottonB:hover {
+    background-color: #ffffff;
+  }
+
+  /* -----------------------end of signin page------------------- */
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  /* ------------------ index page-------------------------- */
+
   .header {
     width: 100%;
     left: 0px;
     top: 0px;
     box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
+  }
+  .P70 {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .NavPS {
+    padding-right: 25px;
+  }
+  .NavPE {
+    padding-left: 25px !important;
   }
   .activeHeader {
     color: #0e994a !important;
@@ -823,6 +1252,8 @@ body {
     color: #0000008a;
   }
   .btnGreen {
+    width: 142.2px !important;
+    height: 33.46px !important;
     background-color: #0e994a;
     color: #ffffff;
     font-family: Vazirmatn;
@@ -831,6 +1262,18 @@ body {
     letter-spacing: 0em;
     box-shadow: 0px 8px 16px 0px #00000029;
     margin: 23px 12px;
+  }
+  .btnGreen:hover {
+    width: 142.2px !important;
+    height: 33.46px !important;
+    color: #ffffff;
+    font-family: Vazirmatn;
+    font-size: 12px !important;
+    font-weight: 800;
+    letter-spacing: 0em;
+    box-shadow: 0px 8px 16px 0px #00000029;
+    margin: 23px 12px;
+    background: #11783d !important;
   }
 
   .nav-link {
@@ -845,29 +1288,32 @@ body {
 
   .picsectionA {
     width: 100%;
-    margin: auto;
+    padding-left: 102px;
+    padding-right: 102px;
   }
 
   .titr1sectionA {
-    font-family: Shabnam;
+    font-family: "Shabnam";
     font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    margin-top: 109px;
+    font-weight: bold;
+    font-size: 39.9436px;
+    line-height: 55px;
+    color: #595676;
+    margin-top: 40px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     block-size: auto;
-    color: #595676;
   }
 
   .titr2sectionA {
-    font-family: Shabnam;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
     text-align: right;
     margin-top: 16px;
-    color: rgba(57, 54, 95, 0.5);
+    color: #8d8b9a;
+    font-family: "Shabnam";
+    font-size: 19.9718px;
+    line-height: 27px;
   }
 
   .text1sectionA {
@@ -875,14 +1321,14 @@ body {
     border-radius: 4px;
     margin-top: 40px;
     padding-right: 24px;
-
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 157.25%;
+    line-height: 176.25%;
+    text-align: right;
     letter-spacing: 0.01em;
-    color: rgba(89, 86, 118, 0.95);
+    color: rgba(89, 86, 118);
   }
 
   .iconSectionA {
@@ -914,7 +1360,6 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #595676;
-    background-color: #292d32;
   }
 
   .spacer {
@@ -927,6 +1372,20 @@ body {
     width: 251px;
     height: 50.2px;
     background: #0e994a;
+    border-radius: 50.2px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.9625px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+  .sectionABtnG:hover {
+    margin-top: 40px;
+    text-align: center;
+    width: 251px;
+    height: 50.2px;
+    background: #11783d;
     border-radius: 50.2px;
     font-family: "Vazirmatn";
     font-style: normal;
@@ -949,12 +1408,20 @@ body {
     line-height: 34px;
     color: #0e994a;
   }
-
-  .arwowRight {
-    top: 300px;
-    right: 50px;
+  .sectionABtnW:hover {
+    margin-top: 25px;
+    width: 251px;
+    height: 50.2px;
+    border: 3.1375px solid #0e994a;
+    border-radius: 50.2px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.9625px;
+    line-height: 34px;
+    color: #0e994a;
+    background-color: #ffffff;
   }
-
   .slider {
     height: 120px;
     padding-top: 25px;
@@ -966,8 +1433,12 @@ body {
     border: none !important;
     background-color: #ffffff00;
   }
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 3%;
+  }
 
-  @media (max-width: 767px) {
+  @media (min-width: 768px) {
     .carousel-inner .carousel-item > div {
       display: none;
     }
@@ -983,15 +1454,15 @@ body {
     display: flex;
   }
 
-  @media (min-width: 768px) {
+  @media (max-width: 767px) {
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
-      transform: translateX(-16.666666666666666666666666666667%);
+      transform: translateX(-33.666666666666666666666666666667%);
     }
 
     .carousel-inner .carousel-item-start.active,
     .carousel-inner .carousel-item-prev {
-      transform: translateX(16.666666666666666666666666666667%);
+      transform: translateX(33.666666666666666666666666666667%);
     }
   }
 
@@ -999,16 +1470,15 @@ body {
   .carousel-inner .carousel-item-start {
     transform: translateX(0);
   }
-
   /* ------------------------end of slider------------------------  */
   .leftArrow {
     top: 0px;
-    left: -70px;
+    left: 0px;
   }
 
   .rightArrow {
     top: 0px;
-    right: -70px;
+    right: 0px;
   }
 
   .arrimage {
@@ -1035,7 +1505,7 @@ body {
     font-family: "Shabnam";
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 29px;
     text-align: right;
     color: #595676;
     z-index: 1000 !important;
@@ -1045,13 +1515,19 @@ body {
 
   .sectionBText {
     margin-top: 100px;
+
+    /* or 31px */
+
+    text-align: right;
+
+    color: #d1db0a;
   }
 
   .sectionBText p {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 17.4006px;
     line-height: 176.75%;
     /* or 21px */
 
@@ -1067,7 +1543,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700 !important;
-    font-size: 12px !important;
+    font-size: 17px !important;
     color: #000000 !important;
     align-items: center !important;
   }
@@ -1086,7 +1562,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: -0.025em;
     color: #000000;
   }
@@ -1107,7 +1583,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700;
-    font-size: 20.5px;
+    font-size: 16.5px;
     letter-spacing: -0.025em;
     color: #000000;
   }
@@ -1116,8 +1592,8 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 164.25%;
+    font-size: 11.5187px;
+    line-height: 18px;
     text-align: justify;
     color: #595676;
   }
@@ -1126,7 +1602,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
     text-align: justify;
     color: #c54577;
@@ -1135,8 +1611,8 @@ body {
   .span1 {
     font-family: "Vazirmatn";
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 23px;
     text-align: right;
 
@@ -1146,8 +1622,8 @@ body {
   .span2 {
     font-family: "Vazirmatn";
     font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 12px;
     line-height: 23px;
     text-align: right;
 
@@ -1158,7 +1634,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 23px;
     text-align: right;
     color: #0e994a;
@@ -1188,11 +1664,53 @@ body {
     bottom: 20px;
     left: 30px;
   }
+  .arrowButtonHolder:hover .arrowButton {
+    width: 150px;
+    border-radius: 17px;
+    background: #0e994a;
+    transition: all 0.2s;
+  }
+  .explain {
+    display: none;
+    overflow: hidden;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 32;
+    text-align: right;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    padding-right: 16px;
+    padding-left: 8px;
+    transition: width 0.3s ease 0.6s;
+  }
+  .arrowButtonB {
+    width: 34px;
+    height: 34px;
+    background: rgba(98, 190, 120, 0.22);
+    border-radius: 17px;
+    border: none;
+    transition: all 2s;
+  }
+  .arrowButtonHolder:hover .arrowButtonB {
+    width: 168px;
+    border-radius: 17px;
+    background: #0e994a;
+    transition: all 0.2s;
+  }
+  .arrowButtonHolder:hover svg {
+    filter: invert(138%) sepia(106%) hue-rotate(140deg) brightness(300%)
+      saturate(4);
+  }
+  .arrowButtonHolder:hover .explain {
+    display: flex;
+    overflow: hidden;
+  }
 
   .sectionD {
-    height: 1000px;
-    padding-top: 100px;
-    background-color: #00f99e;
+    /* padding-top: 100px; */
+    background-color: #e9e5e5;
   }
 
   .sectionE {
@@ -1202,7 +1720,28 @@ body {
   }
 
   .btnSectionE {
-    left: 0px;
+    width: 254.5px;
+    height: 65.44px;
+    background: #0e994a;
+    border-radius: 58.171px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.0855px;
+    line-height: 45px;
+    color: #ffffff;
+  }
+  .btnSectionE:hover {
+    width: 254.5px;
+    height: 65.44px;
+    background: #11783d;
+    border-radius: 58.171px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.0855px;
+    line-height: 45px;
+    color: #ffffff;
   }
 
   .davtalabCardHolder {
@@ -1291,9 +1830,6 @@ body {
     padding-bottom: 50px;
   }
 
-  .roydadCardData img {
-  }
-
   .roydadCardText {
     font-family: "Vazirmatn";
     font-style: normal;
@@ -1329,28 +1865,43 @@ body {
   }
 
   .button1 {
+    height: 52.49px;
+    width: 50%;
     background: #4f6aa5;
-    border-radius: 0px 16px 16px 0px;
-    height: 55px;
-    border: 3px solid rgba(79, 106, 165, 0.81);
+    border-radius: 0px 18.84px 18.84px 0px;
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 20.1779px;
+    line-height: 32px;
     color: #ffffff;
   }
 
   .button2 {
-    border: 3px solid rgba(79, 106, 165, 0.81);
-    border-radius: 16px 0px 0px 16px;
-    height: 55px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 52.49px;
+    border: 3.53249px solid rgba(79, 106, 165, 0.81);
+    border-radius: 18.84px 0px 0px 18.84px;
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 20.1779px;
+    line-height: 32px;
     color: #787878;
+  }
+  .button2:hover {
+    box-sizing: border-box;
+    width: 50%;
+    height: 52.49px;
+    border: 3.53249px solid rgba(79, 106, 165, 0.81);
+    border-radius: 18.84px 0px 0px 18.84px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20.1779px;
+    line-height: 32px;
+    color: #4f6aa5;
   }
 
   .akhbarPicBox1 {
@@ -1393,7 +1944,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 15.6325px;
     line-height: 30px;
     text-align: justify;
     letter-spacing: -0.015em;
@@ -1412,7 +1963,7 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
-    font-size: 13.3334px;
+    font-size: 11.3334px;
     line-height: 21px;
     text-align: right;
     color: #ffffff;
@@ -1429,46 +1980,59 @@ body {
   .questionBox {
     padding-top: 36px;
   }
-  .accordion-button {
+  .bgG {
     background-color: #e9e5e5 !important;
+  }
+  .bgW {
+    background-color: #ffffff !important;
+  }
+
+  .sectionH .accordion-button {
     font-family: "Vazirmatn";
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 38px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 33px;
     text-align: right;
     color: #000000;
     border: none;
   }
-  .accordion {
+  .sectionH .accordion {
     --bs-accordion-bg: #e9e5e5;
   }
-  .accordion-body {
+  .sectionH .accordion-body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 159.75%;
     color: #595676;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5101px;
+    line-height: 159.75%;
+    text-align: right;
+    color: #595676;
   }
-  .accordion-button:not(.collapsed) {
+  .sectionH .accordion-button:not(.collapsed) {
     color: #000000;
     border: none;
   }
-  .accordion-button:focus {
+  .sectionH .accordion-button:focus {
     border: none !important;
   }
-  .accordion-button:not(.collapsed) {
+  .sectionH .accordion-button:not(.collapsed) {
     color: #000000;
   }
   :focus {
     outline: 0 !important;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
   }
-  .accordion-item {
+  .sectionH .accordion-item {
     border-bottom: 2px solid rgba(98, 99, 98, 0.24) !important;
   }
-  .accordion-item2 {
+  .sectionH .accordion-item2 {
     border-bottom: none !important;
   }
   .questionTextBox {
@@ -1479,26 +2043,56 @@ body {
     background-size: cover;
     margin-top: 180px;
   }
+  .questionPic {
+    padding-left: 124px;
+    padding-right: 128px;
+  }
   .questionTextBoxTitr {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 28px;
     color: #000000;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 25px 30px;
   }
   .questionTextBoxText {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 19px;
     line-height: 160.75%;
     color: #595676;
+    margin-right: 56px;
+    margin-left: 56px;
+    margin-bottom: 16px;
   }
-  .questionTextBox button {
-    padding: 15px 40px;
+  .questionTextBoxBtn {
+    padding: 10px 29px;
     margin-bottom: 17px;
+    width: 271.15px;
+    height: 59.36px;
+    background: #0e994a;
+    border-radius: 48.1335px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24.0668px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+  .questionTextBoxBtn:hover {
+    padding: 10px 29px;
+    margin-bottom: 17px;
+    width: 271.15px;
+    height: 59.36px;
+    background: #11783d;
+    border-radius: 48.1335px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24.0668px;
+    line-height: 38px;
+    color: #ffffff;
   }
   .questionTextBoxArr {
     right: -40px;
@@ -1513,14 +2107,15 @@ body {
   }
   .footerAboutText {
     font-family: "Vazirmatn";
-    font-style: normal;
     font-weight: 500;
-    font-size: 18px;
     line-height: 172.75%;
     text-align: right;
     color: #595676;
-
+    padding-left: 24px;
     padding-top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
   }
   .footerLink {
     margin-top: 25px !important;
@@ -1534,7 +2129,7 @@ body {
     color: #000000;
     margin-bottom: 24px !important;
   }
-  .footer li {
+  /* .footer li {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 400;
@@ -1542,10 +2137,28 @@ body {
     line-height: 160.75%;
     color: #595676;
     margin-bottom: 24px;
-  }
-  /* .navLink {
-    padding: 0px !important;
   } */
+  #footer .accordion {
+    --bs-accordion-bg: #ffffff;
+  }
+  #footer .accordion-button {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.1426px;
+    line-height: 160.75%;
+    color: #000000;
+  }
+  #footer .accordion-body {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 22.4623px !important;
+    line-height: 177.75% !important;
+    text-align: right !important;
+    color: #595676;
+  }
+
   .footerTextCom {
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -1583,11 +2196,288 @@ body {
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     color: #ffffff;
     margin-bottom: 0px !important;
   }
   .footerAccordionBox {
     border-bottom: 1px solid rgba(98, 99, 98, 0.24) !important;
   }
+  .commentCard {
+    background: #ffffff;
+    border-radius: 32px;
+    padding: 23px 23px 26px 23px;
+  }
+  .commentPic {
+    width: 55.86px;
+    height: 55.86px;
+    border-radius: 50%;
+  }
+  .commentName {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.025em;
+    color: #595676;
+  }
+  .commentSubject {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: right;
+    color: #595676;
+  }
+  .comment {
+    padding-top: 25px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+    color: #595676;
+  }
+  .star {
+    width: 15px;
+    height: 15px;
+  }
+  /* ------------------end of index page-------------------------- */
+  /* ------------------end of index page-------------------------- */
+
+  #sign .imageHolder {
+    background-image: url(../picture/signinback.png);
+    background-color: #0e994a38;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgImageSignup {
+    background-image: url(../picture/pattern.png);
+    background-color: #0e994a38;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .formHolder {
+    margin-top: 128px;
+    width: 70%;
+    background: #f2f7fa;
+    border-radius: 13.575px;
+    margin-bottom: 200px;
+  }
+  #sign .signupTitrA {
+    margin-top: 32px;
+  }
+  #sign .signupTitrA svg {
+    width: 24px;
+    height: 24px;
+  }
+  #sign .signupTitrA p {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.1498px;
+    line-height: 30px;
+    color: #0f6333;
+  }
+  .signupForm {
+    margin-top: 48px;
+  }
+  .formWidth {
+    width: 345px;
+  }
+  .form-label {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.0049px;
+    line-height: 30px;
+    color: #595676;
+    margin-bottom: 16px;
+  }
+  .form-control {
+    height: 56px;
+    border: 2px solid #999ca6;
+    border-radius: 10px;
+  }
+  ::placeholder {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.2175px;
+    line-height: 19px;
+    color: #8e8c9f;
+  }
+  input[type="text"] {
+    padding-right: 46px !important;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+  }
+  input[type="password"] {
+    padding-right: 46px !important;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .form-control:focus {
+    border: 3px solid #0e994a;
+  }
+  .placeholderImageA {
+    width: 24px;
+    height: 24px;
+    top: 59px;
+    right: 16px;
+  }
+  .eye {
+    width: 24px;
+    height: 24px;
+    top: 59px;
+    left: 16px;
+  }
+  .closeeye {
+    width: 24px;
+    height: 24px;
+    top: 59px;
+    left: 16px;
+    display: none;
+  }
+  .form-check-input {
+    width: 21.72px !important ;
+    height: 21.72px !important ;
+    border: 1.3575px solid #595676;
+    border-radius: 5.42998px;
+    background-color: #ffffff00;
+  }
+  .form-check-input:checked {
+    background-color: #0e994a;
+    border-color: #0e994a;
+  }
+  .form-check-label {
+    margin-right: 8px;
+    margin-top: 4px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.575px;
+    line-height: 21px;
+    color: #63607e;
+  }
+  #sign a {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.575px;
+    line-height: 21px;
+    color: #000000;
+  }
+  #sign .bottonA {
+    width: 255px;
+    height: 41px;
+    background: #0e994a;
+    border-radius: 6.5px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.4031px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+    padding: 13px 52px;
+  }
+  #sign .bottonA:hover {
+    background: #11783d;
+  }
+  #sign .bottonA p {
+    margin-top: 0px;
+  }
+  .signuptext1 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: #595676;
+    margin-top: 28px;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 21.8px;
+  }
+  #sign .line img {
+    max-width: 140px;
+  }
+  .signuptext2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.575px;
+    line-height: 21px;
+    color: #595676;
+    margin-bottom: 46px;
+  }
+  #sign .bottonB {
+    width: 255px;
+    height: 41px;
+    border: 1.69687px solid #0e994a;
+    border-radius: 6.56123px;
+    color: #0e994a;
+    border: 3px solid #0e994a;
+    border-radius: 10px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.4031px;
+    line-height: 14px;
+    text-align: center;
+  }
+  #sign .bottonB p {
+    /* margin: 13px; */
+    padding: 5px;
+    margin: auto;
+  }
+  .signArrow1 {
+    width: 68px;
+    height: 68px;
+    top: -42.5px;
+    left: -70px;
+  }
+  .redP {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  .signuptext3 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.2175px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(211, 75, 128, 0.9);
+    margin: 0px;
+    padding: 0px;
+  }
+  .signArrow2 {
+    top: 0px;
+    right: -10px;
+  }
+  .signArrow3 {
+    top: 0px;
+    left: -28px;
+  }
+  #sign .bottonB:hover {
+    background-color: #ffffff;
+  }
+  /* -----------------------end of signin page------------------- */
 }
+/* -------------------------------------- */
