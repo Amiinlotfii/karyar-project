@@ -1,0 +1,355 @@
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  src: url(../font/vazirmatn/Vazirmatn-Regular.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bold;
+  src: url(../font/vazirmatn/Vazirmatn-Bold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(../font/vazirmatn/Vazirmatn-ExtraBold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: lighter;
+  src: url(../font/vazirmatn/Vazirmatn-Light.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: shabnam;
+  font-style: normal;
+  src: url(../font/shabnam/Shabnam-FD.woff2) format(woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+}
+
+@media (min-width: 767px) {
+  .abuotSectionA {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 139px;
+    margin-bottom: 127px;
+    background: #f2f7fa;
+  }
+  .abuotSectionATitr {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    color: #595676;
+  }
+  .abuotSectionATitr img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+  }
+  .abuotSectionATxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: rgba(89, 86, 118, 0.95);
+    padding-right: 24px;
+    border-right: 6px solid #0e994a;
+    border-radius: 4px;
+    margin-top: 49px;
+  }
+  .numberImageHolder {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .numberImage {
+    width: 100vw;
+  }
+  .story {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 100px;
+    margin-bottom: 137px;
+  }
+  .storyTitrHolder {
+    margin-bottom: 110px;
+  }
+  .philosophyTitrHolder {
+    margin-bottom: 110px;
+  }
+  .storyTxtA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: right;
+    color: #595676;
+  }
+  .storyTxtB {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: right;
+    color: #595676;
+    padding-left: 20px;
+  }
+  .storyImgB {
+    margin-top: 70px;
+  }
+  .storyArrA {
+    bottom: -100px;
+    left: -110px;
+  }
+  .philosophy {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 137px;
+  }
+  .philosophyTxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 46px;
+    text-align: right;
+    color: #595676;
+  }
+  .philosophyTxt2 {
+    margin-top: 32px;
+  }
+  .Property {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .Propertytable {
+    padding-top: 91px;
+  }
+  .PropertyIconText {
+    box-sizing: border-box;
+    color: rgba(89, 86, 118, 1);
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 188.25%;
+    text-align: center;
+  }
+  .colorPink {
+    color: rgba(215, 92, 140, 1);
+  }
+  #Propertyimg1 {
+    margin-right: 33.5px;
+    margin-bottom: 12px;
+  }
+  #Propertyimg2 {
+    margin-bottom: 23px;
+  }
+  #Propertyimg3 {
+    margin-left: 55px;
+    margin-bottom: 14px;
+  }
+  #Propertyimg4 {
+    margin-right: 43.5px;
+    margin-top: 81px;
+    margin-bottom: 23px;
+  }
+  #Propertyimg5 {
+    margin-top: 75px;
+    margin-bottom: 23px;
+  }
+  #Propertyimg6 {
+    margin-top: 75px;
+    margin-left: 45px;
+    margin-bottom: 23px;
+  }
+  #Propertyimg7 {
+    margin-top: 104px;
+    margin-bottom: 23px;
+  }
+  #PropertyIconText7 {
+    margin-bottom: 160px;
+  }
+}
+@media (max-width: 767px) {
+  .abuotSectionA {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 81px;
+    background: #f2f7fa;
+  }
+
+  .abuotSectionATitr {
+    margin-top: 59px;
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #595676;
+  }
+  .abuotSectionATitr img {
+    width: 24px;
+    height: 22px;
+    margin-right: 4px;
+  }
+  .abuotSectionATxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 24px;
+    border-right: 5px solid #0e994a;
+    border-radius: 4px;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 179.75%;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: rgba(89, 86, 118, 0.95);
+  }
+  .abuotSectionAImg {
+    width: 66.8vw;
+    margin-right: 16.5vw;
+    margin-top: 40px;
+  }
+  .numberImageHolder {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 80px;
+  }
+  .numberImage {
+    width: 100vw;
+  }
+  .story {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 81px;
+  }
+  .storyTitrHolder {
+    margin-bottom: 130px;
+  }
+  .storyTxtA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 201.75%;
+    text-align: right;
+    color: #595676;
+  }
+  .storyPicA{
+    width: 44vw;
+  }
+  .storyArrA {
+    bottom: -170px;
+    right: 40px;
+  }
+  .storyTxtB {
+    margin-top: 32px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 201.75%;
+    text-align: right;
+    color: #595676;
+  }
+  .storyImgB {
+    margin-top: 34px;
+    width: 47vw;
+  }
+  .philosophy {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 80px;
+  }
+  .philosophyTitrHolder{
+    padding-top: 102px;
+
+  }
+  .philosophyTxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 210.75%;
+    text-align: right;
+    color: #595676;
+  }
+  .philosophyTxt2 {
+    margin-top: 24px;
+  }
+  .philosophyImg{
+    padding-top: 42px;
+    width: 59.3vw;
+  }
+  .Property {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .PropertyIconText {
+    box-sizing: border-box;
+    color: rgba(89, 86, 118, 1);
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.6042px;
+    line-height: 179.25%;
+    text-align: center;
+  }
+  .colorPink {
+    color: rgba(215, 92, 140, 1);
+  }
+  #Propertyimg1 {
+    margin-bottom: 16px;
+    width: 78px;
+  }
+  #Propertyimg2 {
+    margin-bottom: 19px;
+    width: 79px;
+
+  }
+  #Propertyimg3 {
+    margin-top: 55px;
+    margin-bottom: 6px;
+    width: 67px;
+  }
+  #Propertyimg4 {
+    margin-top: 56px;
+    margin-bottom: 4px;
+    width: 71px;
+  }
+  #Propertyimg5 {
+    margin-top: 65px;
+    margin-bottom: 6px;
+    width: 74px;
+  }
+  #Propertyimg6 {
+    margin-top: 56px;
+    margin-bottom: 15px;
+    width: 74px;
+  }
+  #Propertyimg7 {
+    margin-top: 51px;
+    margin-bottom: 6px;
+    width: 75px;
+  }
+  #PropertyIconText7 {
+    margin-bottom:126px;
+  }
+}

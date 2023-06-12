@@ -1,0 +1,292 @@
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  src: url(../font/vazirmatn/Vazirmatn-Regular.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bold;
+  src: url(../font/vazirmatn/Vazirmatn-Bold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(../font/vazirmatn/Vazirmatn-ExtraBold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: lighter;
+  src: url(../font/vazirmatn/Vazirmatn-Light.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: shabnam;
+  font-style: normal;
+  src: url(../font/shabnam/Shabnam-FD.woff2) format(woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+}
+
+@media (min-width: 767px) {
+  .cons {
+    margin: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 134px;
+    padding-bottom: 132px;
+  }
+  .consModalHolder {
+    padding-top: 148px;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+  .cardImage {
+    width: 280px;
+    border-radius: 50%;
+    padding-bottom: 27px;
+  }
+  .membername {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 162.25%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #595676;
+    padding-bottom: 8px;
+  }
+  .memberposition {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 162.25%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #7b7993;
+    padding-bottom: 100px;
+  }
+  .fixedwidth {
+    width: 290px;
+  }
+  .modalBtn {
+    margin: 0px;
+    padding: 0px;
+    width: 56px;
+    height: 56px;
+    background: #0e994a;
+    bottom: 46px;
+    left: 10px;
+    border-radius: 50%;
+  }
+
+  .modalHeaderImage {
+    width: 177px;
+    border-radius: 50%;
+  }
+  .modalHeaderTitr1 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.2795px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #595676;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    padding-right: 47px;
+  }
+  .modalHeaderTitr2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.853px;
+    line-height: 162.25%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #7b7993;
+    padding-right: 47px;
+  }
+  .modal-header {
+    border-bottom: 0 none;
+  }
+  .modal-lg {
+    --bs-modal-width: 1100px;
+  }
+  .modalHeaderDivider {
+    height: 15px;
+    width: 800px;
+  }
+  .modalHeaderDivider img {
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+  }
+  .modal-body p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.4824px;
+    line-height: 38px;
+    text-align: right;
+    color: #595676;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-bottom: 45px;
+  }
+  .modal-backdrop {
+    background-color: rgba(0, 0, 0);
+    opacity: 0.8 !important;
+  }
+  .Executive{
+    margin: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 132px;
+  }
+  .adviser{
+    margin: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 132px;
+  }
+
+}
+@media (max-width: 767px) {
+    .cons {
+      margin: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 46px;
+    padding-bottom: 80px;
+  }
+  .consModalHolder {
+    padding-top: 101px;
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+  .cardImage {
+    width: 200px;
+    border-radius: 50%;
+    padding-bottom: 13px;
+  }
+  .membername {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 162.25%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #595676;
+    padding-bottom: 8px;
+  }
+  .memberposition {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 162.25%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #7b7993;
+    padding-bottom: 100px;
+  }
+  .fixedwidth {
+    width: 150px;
+  }
+  .modalBtn {
+    margin: 0px;
+    padding: 0px;
+    width: 32px;
+    height: 32px;
+    background: #0e994a;
+    bottom: 46px;
+    left: -10px;
+    border-radius: 50%;
+  }
+
+  .modalHeaderImage {
+    width: 93px;
+    border-radius: 50%;
+  }
+  .modalHeaderTitr1 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 162.25%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #595676;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-right: 16px;
+  }
+  .modalHeaderTitr2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 162.25%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #7b7993;
+    padding-right: 16px;
+  }
+  .modal-header {
+    border-bottom: 0 none;
+  }
+  .modal-dialog {
+    width:63%;
+    margin: auto;
+  }
+
+  .modalHeaderDivider {
+    height: 15px;
+    width: 90%;
+  }
+  .modalHeaderDivider img {
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+  }
+  .modal-body p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 174.75%;
+    text-align: right;
+    color: #595676;
+    padding-left: 24;
+    padding-right: 26;
+    padding-bottom: 23;
+  }
+  .modal-backdrop {
+    background-color: rgba(0, 0, 0);
+    opacity: 0.8 !important;
+  }
+  .Executive{
+    margin: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 80px; 
+  }
+  .adviser{
+    margin: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 80px; 
+  }
+}
