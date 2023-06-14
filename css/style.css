@@ -33,7 +33,7 @@ body {
   margin: 0px;
   padding: 0px;
   border: 0cm;
-  background-color: #f2f7fa;
+  background-color: #F2F7FA;
 }
 a {
   text-decoration: none;
@@ -118,8 +118,8 @@ padding: 0px;
     background: #0e994a;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
     border-radius: 30px;
+    height: 54px;
     width: 201px;
-    height: 56px;
     font-family: 'Vazirmatn';
     font-style: normal;
     font-weight: 800;
@@ -129,8 +129,22 @@ padding: 0px;
     padding-top: 10px;
   }
   .btnGreen:hover {
-    color: #ffffff;
-    font-family: Vazirmatn;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    height: 54px;
+    width: 201px;
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    background: #11783d !important;
+  }
+  .btnGreen:active {
+    color: #ffffff !important;
+    font-family: 'Vazirmatn';
     font-size: 20px !important;
     font-weight: 800;
     letter-spacing: 0em;
@@ -226,7 +240,7 @@ padding: 0px;
     text-align: center;
     color: #ffffff;
   }
-  .sectionABtnG:hover {
+  .sectionABtnG:hover  {
     margin-top: 40px;
     margin-bottom: 40px;
     width: 259px;
@@ -241,6 +255,20 @@ padding: 0px;
     text-align: center;
     color: #ffffff;
   }
+   .sectionABtnG:active{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 259px;
+    height: 56px;
+    background: #11783d !important;
+    border-radius: 32px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff !important;  }
   .sectionABtnW {
     width: 259px;
     height: 56px;
@@ -265,6 +293,21 @@ padding: 0px;
     line-height: 38px;
     color: #0e994a;
     border: solid 3px #0e994a;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 32px;
+    background-color: #ffffff;
+  }
+  .sectionABtnW:active {
+    width: 259px;
+    height: 56px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: #0e994a !important;
+    border: solid 3px #0e994a !important;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 32px;
@@ -404,7 +447,7 @@ padding: 0px;
   .sectionC {
     padding-top: 110px;
     padding-bottom: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 165px;
     background-color: #f2f7fa;
     /* height: 2000px; */
   }
@@ -548,7 +591,11 @@ padding: 0px;
   .sectionD {
     /* padding-top: 100px; */
     background-color: #f2f7fa;
+    margin-top: 130px;
+
   }
+
+
 
   .sectionE {
     padding-top: 100px;
@@ -582,7 +629,6 @@ padding: 0px;
   }
 
   .davtalabCardHolder {
-    padding-top: 100px;
   }
 
   .davtalabCardData {
@@ -810,7 +856,10 @@ padding: 0px;
   }
 
   .sectionH .questionBox {
-    padding-top: 36px;
+    padding-top: 0px;
+  }
+  .acco{
+    /* padding-top: 35px; */
   }
   .sectionH .accordion-button {
     background-color: #f2f7fa !important;
@@ -1000,6 +1049,10 @@ padding: 0px;
     background: #ffffff;
     border-radius: 32px;
     padding: 23px 23px 26px 23px;
+  }
+  .margin{
+    padding-top: 113px;
+    padding-bottom: 175px;
   }
   .commentPic {
     width: 55.86px;
@@ -1254,6 +1307,7 @@ padding: 0px;
     left: 0px;
     top: 0px;
     box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
   }
   .P70 {
     margin-left: 25px;
@@ -1311,23 +1365,27 @@ border: none;
 margin: 0px;
 padding: 0px;
   }
+  .btnGreen a{
+    padding: 0px;
+    margin: 0px;
+  }
   .btnGreen {
     width: 142.2px !important;
     height: 33.46px !important;
     background-color: #0e994a;
     color: #ffffff;
-    font-family: Vazirmatn;
+    font-family: "Vazirmatn";
     font-size: 12px !important;
     font-weight: 800;
     letter-spacing: 0em;
+    line-height: 33px;
     box-shadow: 0px 8px 16px 0px #00000029;
-    margin: 23px 12px;
   }
   .btnGreen:hover {
     width: 142.2px !important;
     height: 33.46px !important;
     color: #ffffff;
-    font-family: Vazirmatn;
+    font-family: "Vazirmatn";
     font-size: 12px !important;
     font-weight: 800;
     letter-spacing: 0em;
@@ -1427,36 +1485,52 @@ padding: 0px;
   }
 
   .sectionABtnG {
-    margin-top: 40px;
-    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 25px;
     width: 251px;
-    height: 50.2px;
+    height: 50px;
     background: #0e994a;
-    border-radius: 50.2px;
+    border-radius: 32px;
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 600;
-    font-size: 21.9625px;
+    font-size: 21px;
     line-height: 34px;
+    text-align: center;
     color: #ffffff;
   }
   .sectionABtnG:hover {
-    margin-top: 40px;
+    margin-top: 1px;
     text-align: center;
     width: 251px;
     height: 50.2px;
-    background: #11783d;
+    background: #11783d ;
     border-radius: 50.2px;
     font-family: "Vazirmatn";
     font-style: normal;
     font-weight: 600;
     font-size: 21.9625px;
     line-height: 34px;
-    color: #ffffff;
+    color: #ffffff !important;
+  }
+  .sectionABtnG:active {
+    margin-top: 1px;
+    text-align: center;
+    width: 251px;
+    height: 50.2px;
+    background: #11783d !important;
+    border-radius: 50.2px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.9625px;
+    line-height: 34px;
+    color: #ffffff !important;
   }
 
+
   .sectionABtnW {
-    margin-top: 25px;
+    margin-top:0px;
     width: 251px;
     height: 50.2px;
     border: 3.1375px solid #0e994a;
@@ -1469,7 +1543,7 @@ padding: 0px;
     color: #0e994a;
   }
   .sectionABtnW:hover {
-    margin-top: 25px;
+    margin-top: 0px;
     width: 251px;
     height: 50.2px;
     border: 3.1375px solid #0e994a;
@@ -1480,7 +1554,21 @@ padding: 0px;
     font-size: 21.9625px;
     line-height: 34px;
     color: #0e994a;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
+  }
+  .sectionABtnW:active {
+    margin-top: 0px;
+    width: 251px;
+    height: 50.2px;
+    border: 3.1375px solid #0e994a !important;
+    border-radius: 50.2px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.9625px;
+    line-height: 34px;
+    color: #0e994a !important;
+    background-color: #ffffff !important;
   }
   .slider {
     height: 120px;
@@ -1560,6 +1648,10 @@ padding: 0px;
     z-index: 0 !important;
     top: 00px;
   }
+  .greenDot img{
+    max-width: 58px;
+
+  }
 
   .sectionBTitr {
     font-family: "Shabnam";
@@ -1630,7 +1722,7 @@ padding: 0px;
   .sectionC {
     padding-top: 110px;
     padding-bottom: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 105px;
     background-color: #f2f7fa;
     /* height: 2000px; */
   }
@@ -2046,6 +2138,9 @@ padding: 0px;
   .bgW {
     background-color: #ffffff !important;
   }
+  .acco{
+    padding-top: 35px;
+  }
 
   .sectionH .accordion-button {
     font-family: "Vazirmatn";
@@ -2267,6 +2362,10 @@ padding: 0px;
     background: #ffffff;
     border-radius: 32px;
     padding: 23px 23px 26px 23px;
+  }
+  .margin{
+    padding-top: 80px;
+    padding-bottom: 98px;
   }
   .commentPic {
     width: 55.86px;
