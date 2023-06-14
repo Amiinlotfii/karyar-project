@@ -628,6 +628,7 @@ padding: 0px;
   }
 
   .davtalabCardHolder {
+    margin-top: 60px;
   }
 
   .davtalabCardData {
@@ -1051,7 +1052,7 @@ padding: 0px;
   }
   .margin{
     padding-top: 113px;
-    padding-bottom: 175px;
+    padding-bottom: 100px;
   }
   .commentPic {
     width: 55.86px;
