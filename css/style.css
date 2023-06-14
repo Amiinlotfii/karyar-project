@@ -1297,6 +1297,7 @@ padding: 0px;
     background-color: #ffffff;
   }
 
+
   /* -----------------------end of signin page------------------- */
 }
 @media (max-width: 767px) {
@@ -2636,6 +2637,9 @@ padding: 0px;
   }
   #sign .bottonB:hover {
     background-color: #ffffff;
+  }
+  .footerSocial{
+     margin-bottom: 40px !important;
   }
   /* -----------------------end of signin page------------------- */
 }
