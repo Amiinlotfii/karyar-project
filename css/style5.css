@@ -1,0 +1,641 @@
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  src: url(../font/vazirmatn/Vazirmatn-Regular.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bold;
+  src: url(../font/vazirmatn/Vazirmatn-Bold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(../font/vazirmatn/Vazirmatn-ExtraBold.woff2) format(woff2);
+}
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: lighter;
+  src: url(../font/vazirmatn/Vazirmatn-Light.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: shabnam;
+  font-style: normal;
+  src: url(../font/shabnam/Shabnam-FD.woff2) format(woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 767px) {
+  .cooprationA {
+    margin-top: 106px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .cooprationATitr {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    color: #595676;
+    margin-top: 25px;
+  }
+  .cooprationATitr img {
+    margin-right: 19px;
+    margin-top: 12px;
+    width: 31px;
+    height: 35px;
+  }
+  .cooprationATxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 35px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: rgba(89, 86, 118, 0.95);
+    padding-right: 24px;
+    border-right: 6px solid #0e994a;
+    border-radius: 4px;
+    margin-top: 54px;
+  }
+  .cooprationAImg {
+    max-width: 548px;
+  }
+  /* ------------------------- */
+  .cooprationB {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 157px;
+  }
+  .cooprationBArr {
+    top: -50px;
+    right: -150px;
+  }
+  .cooprationBArr2 {
+    bottom: -150px;
+    right: -60px;
+  }
+  .cooprationBParent {
+    margin-top: 89px;
+    margin-bottom: 150px;
+  }
+  .cooprationBTitrHolder {
+    margin-bottom: 34px;
+  }
+
+  .cooprationBImg img {
+    width: 79.5%;
+  }
+  .cooprationBTxtHolder {
+    background: #ffffff;
+    box-shadow: 0px 8px 24px rgba(205, 229, 211, 0.54);
+    border-radius: 20px;
+    padding-top: 51px;
+    padding-right: 31px;
+    padding-left: 31px;
+  }
+  .cooprationBTitrB {
+    margin-right: 11px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 42px;
+    color: #595676;
+  }
+  .cooprationBtext {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 177.8%;
+    text-align: right;
+    color: #8b899e;
+    margin-top: 16px;
+    margin-bottom: 53px;
+  }
+  /* ------------------------ */
+  .formsection {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .formsectionTitr {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 41px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 53px;
+  }
+  .form-label {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 38px;
+    text-align: right;
+    color: #595676;
+  }
+  .form-label span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 41px;
+    text-align: right;
+    color: #e10808;
+  }
+
+  input {
+    padding-right: 24px !important;
+  }
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    padding-right: 24px !important;
+  }
+  textarea {
+    padding-right: 24px !important;
+    padding-top: 18px !important;
+  }
+  .formBox {
+    max-width: 489px;
+    height: 56px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .formBox100 {
+    height: 157px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .form-control::placeholder {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: right;
+    color: #8e8c9f;
+  }
+  .leftForm {
+    margin-left: 20px;
+    margin-bottom: 64px;
+  }
+  .rightForm {
+    margin-bottom: 64px;
+  }
+  .rightForm2 {
+    margin-bottom: 64px;
+    padding-left: 5.4vw;
+  }
+  .submitBtn {
+    width: 201px;
+    height: 56px;
+    background: #0e994a;
+    border-radius: 30px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 41px;
+    color: #f2f7fa;
+    margin-bottom: 157px;
+  }
+  .submitBtn:hover {
+    background: #11783d;
+    color: #f2f7fa;
+  }
+  /* ------------------------------ */
+  .cooprationD {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .cooprationDTitrHolder {
+    margin-bottom: 102px;
+  }
+  .cooprationDText {
+    padding-left: 84px;
+    /* padding-right: 0px; */
+    margin-bottom: 160px;
+  }
+  .cooprationDText2 {
+    padding-left: 0px;
+    padding-right: 84px;
+    margin-bottom: 160px;
+  }
+  .cooprationDTextA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 194.25%;
+    text-align: right;
+    color: #595676;
+    margin-bottom: 32px;
+  }
+  .cooprationDTextB {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 175.75%;
+    text-align: right;
+    color: #0e994a;
+  }
+
+  .cooprationDImg {
+    max-width: 486px;
+    margin-bottom: 160px;
+  }
+  /* ------------------------- */
+
+  .sectionquestion {
+    background-color: #f2f7fa;
+    padding-top: 0px !important;
+  }
+  /* ----------------------- */
+  .call {
+    margin-top: 176px;
+    margin-bottom: 176px;
+  }
+  .callImage {
+    padding-top: 62px;
+    padding-left: 27px;
+    padding-bottom: 38px;
+  }
+  .callTextHolder {
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  .callTitr {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: right;
+    color: #0e994a;
+    padding-top: 40px;
+    padding-right: 18px;
+
+  }
+  .callLocation {
+    padding-right: 18px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color: #595676;
+    padding-top: 39px;
+  }
+  .callNumber {
+    padding-right: 18px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160.75%;
+    text-align: right;
+    color: #595676;
+    padding-top: 39px;
+  }
+  .callEmail {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: #595676;
+    padding-top: 39px;
+    padding-right: 18px;
+
+  }
+  .callSocial img {
+    padding-top: 39px;
+    width: 27px;
+  }
+  .imageA{
+    margin-left: 24px;
+  }
+  .locationIcon{
+    width: 24px;
+    margin-left: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .cooprationA {
+    margin-top: 41px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .cooprationATitr {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #595676;
+    margin-top: 15px;
+  }
+  .cooprationATitr img {
+    margin-right: 8px;
+    width: 24px;
+    height: 27px;
+  }
+  .cooprationATxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175.75%;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: rgba(89, 86, 118, 0.95);
+    padding-right: 16px;
+    border-right: 5px solid #0e994a;
+    border-radius: 4px;
+    margin-top: 32px;
+  }
+  .cooprationAImg {
+    max-width: 61.5%;
+    margin-top: 53px;
+  }
+  /* ------------------------- */
+  .cooprationB {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 98px;
+  }
+  .cooprationBArr {
+    top: -80px;
+    left: -30px;
+  }
+
+  .cooprationBArr2 {
+    bottom: -78px;
+    right: 0px;
+  }
+  .cooprationBParent {
+    margin-top: 89px;
+    margin-bottom: 95px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .cooprationBTitrHolder {
+    margin-bottom: 34px;
+  }
+  .cooprationBImg img {
+    width: 79.5%;
+  }
+  .cooprationBTxtHolder {
+    margin-top: 39px;
+    background: #ffffff;
+    box-shadow: 0px 6.20963px 18.6289px rgba(205, 229, 211, 0.54);
+    border-radius: 15.5241px;
+    padding-top: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: 67px;
+  }
+  .cooprationBTitrB {
+    margin-right: 8px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20.9575px;
+    line-height: 33px;
+    color: #595676;
+  }
+  .cooprationBtext {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 177.8%;
+    text-align: right;
+    color: #8b899e;
+    margin-top: 12px;
+    margin-bottom: 44px;
+  }
+  /* ------------------------ */
+  .formsection {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .formsectionTitr {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: right;
+    margin-bottom: 39px;
+  }
+  .form-label {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: right;
+    color: #595676;
+  }
+  .form-label span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color: #e10808;
+  }
+
+  input {
+    padding-right: 16px !important;
+  }
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    padding-right: 16px !important;
+  }
+  textarea {
+    padding-right: 16px !important;
+    padding-top: 13px !important;
+    height: 152px;
+  }
+  .formBox {
+    max-width: 67vw;
+    height: 56px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .formBox100 {
+    max-width: 67vw;
+    height: 152px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .form-control::placeholder {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #8e8c9f;
+  }
+  .leftForm {
+    margin-bottom: 32px;
+  }
+  .rightForm {
+    margin-bottom: 32px;
+  }
+  .rightForm2 {
+    margin-bottom: 32px;
+  }
+  .submitBtn {
+    width: 125px;
+    height: 34.83px;
+    background: #0e994a;
+    border-radius: 18.6567px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.1692px;
+    line-height: 25px;
+    color: #f2f7fa;
+    margin-bottom: 106px;
+  }
+  .submitBtn:hover {
+    background: #11783d;
+    color: #f2f7fa;
+  }
+  /* -------------------- */
+  .cooprationD {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .cooprationDTitrHolder {
+    margin-bottom: 70px;
+  }
+  .cooprationDText {
+    margin-bottom: 32px;
+  }
+  .cooprationDText2 {
+    margin-bottom: 32px;
+  }
+  .cooprationDTextA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 194.25%;
+    text-align: right;
+    color: #595676;
+    margin-bottom: 16px;
+  }
+  .cooprationDTextB {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175.75%;
+    text-align: right;
+    color: #0e994a;
+  }
+
+  .cooprationDImg {
+    max-width: 344px;
+    margin-bottom: 113px;
+  }
+  /* ---------------- */
+  .sectionquestion {
+    background-color: #f2f7fa;
+    padding-top: 0px;
+  }
+  .questionPic2{
+
+  }
+
+  .ArrImageCall{
+    max-width: 48px;
+  }
+  .callTitr{
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #0e994a;
+    padding-top: 40px;
+    padding-right: 18px;
+    margin-top: 160px;
+
+  }
+  .callImage{
+    max-width: 197px;
+  }
+  .locationIcon{
+    width: 15px;
+    margin-left: 10px;
+
+  }
+  .callLocation {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6879px;
+    line-height: 20px;
+    text-align: right;
+    color: #595676;
+    padding-top: 39px;
+  }
+  .callNumber {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6879px;
+    line-height: 160.75%;
+    text-align: right;
+    color: #595676;
+    padding-top: 27px;
+  }
+  .callEmail {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.6879px;
+    line-height: 17px;
+    text-align: right;
+    color: #595676;
+    padding-top:27px;
+
+  }
+  .callSocial img {
+    padding-top: 13px;
+    width: 19px;
+  }
+  .imageA{
+    margin-left: 17px;
+  }
+}
