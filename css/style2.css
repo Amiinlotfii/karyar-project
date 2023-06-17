@@ -1,0 +1,1200 @@
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 767px) {
+  .coursSA {
+    background-color: #f2f7fa;
+    padding-left: 70px;
+  }
+  .padingCorse{
+    padding-top: 104px;
+    padding-right: 72px;
+    padding-bottom: 64px;
+  }
+  .coursSAPic {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 28px;
+  }
+  .coursSAText {
+    /* height: 368px;
+    width: 592px; */
+    background-image: url(../picture/course/R701.png);
+    background-size: 100% 100%;
+    padding:24px 23px 33px 45px;
+
+
+  }
+  .coursSATextA {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 216.25%;   
+    text-align: right;
+    color: #8b899f;
+  }
+  .coursSATextB {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 216.25%;
+    text-align: right;
+    color: #0e994a;
+    border-right: solid 4px rgba(211, 75, 128, 0.9);
+    border-radius: 4px;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+  .coursSATextC {
+    background: #f2f7fa;
+    border-radius: 24px;
+    margin-top: 30px;
+  }
+  .coursSATextCLineA {
+    margin-top: 12px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 23px;
+  }
+  .coursSATextCLineA_2 {
+    margin-top: 12px;
+    margin-right: 21px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .coursSATextCLineAT {
+    padding-right: 11px;
+  }
+
+  .coursSATextCLineB {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.025em;
+    color: #595676;
+    margin-right: 52px;
+    margin-top: 5px;
+  }
+  .coursSATextCLineB_2 {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.025em;
+    color: #595676;
+    margin-right: 52px;
+    margin-top: 5px;
+  }
+  .coursSABtnHolder {
+    padding-top: 32px;
+    padding-right: 27px;
+  }
+  .coursSABtnA {
+    width: 176px;
+    height: 39px;
+    background: #0e994a;
+    border-radius: 22.4865px;
+    color: #fff;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .coursSABtnA:hover {
+    background: #11783d;
+    color: #fff;
+  }
+  .coursSABtnB {
+    margin-right: 24px;
+    box-sizing: border-box;
+    width: 178px;
+    height: 39px;
+    border: 2.27197px solid #0e994a;
+    border-radius: 24.2343px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.1757px;
+    line-height: 28px;
+    color: #0e994a;
+  }
+  .coursSABtnB:hover {
+    background-color: #fff;
+    color: #0e994a;
+    border: 2.27197px solid #0e994a;
+  }
+  .stikynav {
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+  }
+  .stikynavItem {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    margin-right: 70px;
+  }
+  .stikyActive {
+    color: #0e994a;
+  }
+  .stikyNavBtn {
+    width: 135px;
+    height: 29.91px;
+    background: #0e994a;
+    border-radius: 17.2482px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.9361px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .stikyNavBtn:hover {
+    background: #11783d;
+    color: #ffffff;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  .introduction {
+    background-color: #f2f7fa;
+    padding-top: 69px;
+    padding-bottom: 5px;
+  }
+  .introductionBg {
+    background-color: #fff;
+  }
+  .introductionText {
+    padding-top: 44px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.4385px;
+    line-height: 214.75%;
+    text-align: right;
+    color: #595676;
+  }
+  .Advantages {
+    padding-top: 24;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: #f2f7fa;
+  }
+  .courseTitr {
+    margin-top: 70px;
+    margin-bottom: 32px;
+  }
+  .introductionPic {
+    margin-top: 49px;
+    margin-bottom: 56px;
+  }
+  .AdvantagesTable {
+    box-sizing: border-box;
+    padding-top: 55px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 108px;
+  }
+  #img1 {
+    margin-right: 33.5px;
+  }
+  #img2 {
+  }
+  #img3 {
+    margin-left: 55px;
+  }
+  #img4 {
+    margin-right: 43.5px;
+    margin-top: 81px;
+  }
+  #img5 {
+    margin-top: 75px;
+  }
+  #img6 {
+    margin-top: 75px;
+    margin-left: 45px;
+  }
+  #img7 {
+    margin-right: 33.5px;
+    margin-top: 104px;
+  }
+  #img8 {
+    margin-top: 110px;
+  }
+  #img9 {
+    margin-top: 110px;
+    margin-left: 55px;
+  }
+  .AdvantagesIconText {
+    box-sizing: border-box;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 207.25%;
+    text-align: center;
+    color: #595676;
+  }
+  .colorPink {
+    color: #d34b80e5;
+  }
+
+  .steps {
+    margin-top: 105px;
+    box-sizing: border-box !important;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .stepsB {
+    padding-top: 32px;
+    padding-right: 34px;
+    margin-bottom: 40px;
+  }
+  .stepsTitr {
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: right;
+    color: #0e994a;
+  }
+  .stepsArr {
+    margin-top: 15px;
+  }
+  .stepsTitr2 {
+    margin-top: 10px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+  }
+  .stepsUnderline {
+    right: 60px;
+    top: 49px;
+  }
+  .stepsTxtA {
+    margin-top: 32px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 220.75%;
+    color: #595676;
+  }
+  .stepsTxtB {
+    margin-top: 34px;
+  }
+  .stepsTxtB span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: rgba(211, 75, 128, 0.9);
+  }
+  .stepsTxtB p {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #595676;
+  }
+  .stepsBtn {
+    margin-top: 31px;
+    margin-bottom: 25px;
+    width: 194px;
+    height: 42px;
+    background: #0e994a;
+    border-radius: 20px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  .stepsBtn:hover {
+    background: #11783d;
+    color: #ffffff;
+  }
+  .stepsImgA {
+    width: 239px;
+    height: 227px;
+  }
+  .stepsImgB {
+    width: 270px;
+    height: 193.67px;
+  }
+  .stepsImgC {
+    width: 287px;
+    height: 193px;
+  }
+  .stepsB2 {
+    padding-top: 32px;
+    padding-right: 34px;
+    margin-bottom: 40px;
+    background-image: url(../picture/course/backsteps.png);
+    background-size: 100% 100%;
+  }
+  .crown {
+    padding-top: 13px;
+  }
+  .stepsTitrV {
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #4caadb;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .vizhe {
+    width: 145px;
+    height: 150px;
+    top: 0px;
+    left: 0px;
+  }
+  .stepsImgD {
+    width: 305;
+    height: 211px;
+  }
+  .stepTxtC {
+    margin-top: 32px;
+    margin-bottom: 60px;
+  }
+  .mentor {
+    padding-top: 40px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+  }
+  .mentorCard {
+    background-color: #fff;
+    border-radius: 17px;
+  }
+  .iconHolder:hover {
+    .socialA {
+      display: none;
+    }
+  }
+  .mentorCard:hover {
+    .mentorName p {
+      color: #0e994a;
+    }
+  }
+  .socialB {
+    display: none;
+  }
+  .iconHolder:hover {
+    .socialB {
+      display: flex;
+    }
+  }
+  .mentorImg {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .mentorName {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.2069px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .mentorDescription {
+    padding-top: 5px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.3793px;
+    line-height: 18px;
+    color: #595676;
+  }
+  .mentorSocial {
+    padding-top: 18px;
+    padding-bottom: 19.35px;
+  }
+  .mentorSocial img {
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .mentorSocial2 img {
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+  }
+  .price {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 130px;
+
+  }
+  .priceTable {
+ 
+  }
+  .priceTableMain {
+    height: 384px;
+    border: 2px solid #84c794;
+    border-radius: 20px;
+    padding: 0px;
+  }
+  .tableHeader {
+    width: 100%;
+    height: 72px;
+    background-color: #7fc19c;
+    border-radius: 16px 16px 0px 0px;
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #ffffff;
+    padding-right: 24px;
+  }
+  .priceTableRowTxt {
+    margin-right: 24px;
+    height: 104px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    color: #595676;
+  }
+  .priceTableRowTxt span {
+    color: rgba(211, 75, 128, 0.9);
+  }
+  .priceTableRowNum {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: right;
+    color: #000000;
+  }
+  .priceTableRowNum span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 37.5px;
+    text-align: right;
+    color: rgba(89, 86, 118, 1);
+  }
+  .priceTableRowBtnHolder {
+    margin-left: 26px;
+  }
+  .priceTableRowBtn {
+    box-sizing: border-box;
+    width: 163px;
+    height: 39px;
+    border: 2px solid #0e994a;
+    border-radius: 22.4865px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    color: #0e994a;
+  }
+  .priceTableRowBtn:hover {
+    background-color: #fff;
+    color: #0e994a;
+    border: 2px solid #0e994a;
+    border-radius: 22.4865px;
+  }
+  .lineControl {
+    height: 1px;
+  }
+  .lineControlImg {
+    width: 90;
+  }
+  .priceTableSum {
+    margin-top: 40px;
+    height: 96px;
+    background: rgba(14, 153, 74, 0.08);
+    border-radius: 20px;
+    margin-bottom: 141px;
+  }
+  .priceTableSumTxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #595676;
+    margin-right: 24px;
+  }
+  .priceTableSumNum {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    color: #000000;
+  }
+  .priceTableSumNum span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 37.5px;
+    text-align: right;
+    color: rgba(89, 86, 118, 1);
+  }
+  .priceTableSumBtnHolder {
+    margin-left: 26px;
+  }
+  .priceTableSumBtn {
+    width: 163px;
+    height: 39px;
+    background: #0e994a;
+    border-radius: 22.4865px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .priceTableSumBtn:hover {
+    background: #11783d;
+    border-radius: 22.4865px;
+    color: #ffffff;
+  }
+  .paymentImg {
+    margin-right: 40px;
+  }
+  .arr {
+    bottom: 180px;
+    right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .coursSA {
+    background-color: #f2f7fa;
+  }
+
+  .coursSAPic {
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 42px;
+  }
+  .coursSAText {
+    box-sizing: border-box !important;
+    background-image: url(../picture/course/R701.png);
+    background-size: 100% 100%;
+    margin-right: 76px;
+    margin-bottom: 80px;
+  }
+  .coursSATextA {
+    padding-top: 22px;
+    padding-right: 33px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.2899px;
+    line-height: 216.25%;
+    color: #8b899f;
+  }
+  .coursSATextB {
+    border-right: solid 3px rgba(211, 75, 128, 0.9);
+    border-radius: 3.5114px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.8013px;
+    line-height: 216.25%;
+    color: #0e994a;
+    margin-right: 22px;
+    padding-right: 11px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+  }
+  .coursSATextC {
+    padding: 0px;
+    width: 363.75px;
+    height: 132.27px;
+    background: #f2f7fa;
+    border-radius: 24px;
+    margin-right: 27px;
+    /* margin-top: 30px; */
+  }
+  .coursSATextCLineA {
+    margin-top: 14px;
+    margin-right: 22px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.1111px;
+    line-height: 20px;
+    letter-spacing: -0.025em;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .coursSATextCLineB {
+    margin-right: 58px;
+    margin-top: 5px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.4007px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    color: #595676;
+  }
+  .coursSATextCLineAT {
+    padding-right: 14px;
+  }
+  .wControl {
+    width: 100%;
+  }
+  .coursSATextCLineA_2 {
+    margin-top: 14px;
+    margin-right: 5px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.1111px;
+    line-height: 20px;
+    letter-spacing: -0.025em;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .coursSATextCLineB_2 {
+    margin-right: 43px;
+    margin-top: 5px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.4007px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    color: #595676;
+  }
+  .coursSABtnHolder {
+    padding-top: 22px;
+    padding-right: 27px;
+    padding-bottom: 32px;
+  }
+  .coursSABtnA {
+    width: 174.76px;
+    height: 34.95px;
+    background: #0e994a;
+    border-radius: 34.9516px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.2913px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .coursSABtnA:hover {
+    background: #11783d;
+    color: #fff;
+  }
+  .coursSABtnB {
+    margin-right: 15px;
+    width: 173.61px;
+    height: 34.72px;
+    border: 2.17011px solid #0e994a;
+    border-radius: 34.7218px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.1908px;
+    line-height: 24px;
+    color: #0e994a;
+  }
+  .coursSABtnB:hover {
+    background-color: #fff;
+    color: #0e994a;
+    border: 2.27197px solid #0e994a;
+  }
+  .introductionText {
+    padding-bottom: 5px;
+    margin-top: 95px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214.75%;
+    color: #595676;
+  }
+  .introductionPic {
+    margin-top: 24px;
+    margin-bottom: 72x;
+    margin-right: auto;
+    margin-left: auto;
+    width: 333px;
+    height: 216.9px;
+  }
+  .Advantages {
+    margin-top: 87px;
+    padding-top: 110px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: #f2f7fa;
+  }
+  .AdvantagesTable {
+    box-sizing: border-box;
+    padding-top: 55px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 108px;
+  }
+  .AdvantagesIconText {
+    box-sizing: border-box;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.664px;
+    line-height: 177.25%;
+    text-align: center;
+    color: #595676;
+  }
+  .colorPink {
+    color: #d34b80e5;
+  }
+  #img1 {
+  }
+  #img2 {
+  }
+  #img3 {
+    margin-top: 55px;
+  }
+  #img4 {
+    margin-top: 54px;
+  }
+  #img5 {
+    margin-top: 55px;
+  }
+  #img6 {
+    margin-top: 56px;
+  }
+  #img7 {
+    margin-top: 55px;
+  }
+  #img8 {
+    margin-top: 60px;
+  }
+  #img9 {
+    margin-top: 52px;
+  }
+  .steps {
+    margin-top: 95px;
+    box-sizing: border-box !important;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .stepsB {
+    padding-top: 22px;
+    padding-right: 26px;
+    margin-bottom: 34px;
+  }
+  .stepsTitr {
+    padding-top: 15px;
+    padding-right: 12px;
+    padding-left: 8px;
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.8464px;
+    line-height: 33px;
+    text-align: right;
+    color: #0e994a;
+  }
+  .stepsArr {
+    margin-top: 13px;
+  }
+  .stepsTitr2 {
+    margin-top: 21px;
+    color: #000000;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.5472px;
+    line-height: 40px;
+    text-align: right;
+  }
+  .stepsUnderline {
+    right: 50px;
+    top: 34px;
+    width: 76px;
+  }
+  .stepsTxtA {
+    margin-top: 23px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5728px;
+    line-height: 220.75%;
+    text-align: right;
+    color: #595676;
+  }
+  .stepsTxtB {
+    margin-top: 18px;
+  }
+  .stepsTxtB span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.5472px;
+    line-height: 29px;
+    text-align: right;
+    color: rgba(211, 75, 128, 0.9);
+  }
+  .stepsTxtB p {
+    padding-top: 5px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5728px;
+    line-height: 24px;
+    color: #595676;
+  }
+  .stepsBtn {
+    margin-top: 31px;
+    margin-bottom: 30px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    color: #ffffff;
+    width: 168.03px;
+    height: 33.61px;
+    background: #0e994a;
+    border-radius: 33.6059px;
+    font-weight: 600;
+    font-size: 14.7026px;
+    line-height: 23px;
+  }
+  .stepsBtn:hover {
+    background: #11783d;
+    color: #ffffff;
+  }
+  .stepsImgA {
+    width: 193px;
+    height: 183px;
+    padding-bottom: 35px;
+  }
+  .stepsImgB {
+    width: 241px;
+    height: 173.67px;
+    padding-bottom: 34px;
+  }
+  .stepsImgC {
+    width: 248px;
+    height: 167px;
+    padding-bottom: 36px;
+  }
+  .stepsB2 {
+    margin-top: 40px;
+    padding-top: 39px;
+    padding-right: 29px;
+    margin-bottom: 40px;
+    background-image: url(../picture/course/backstepsR.png);
+    background-size: 100% 100%;
+  }
+  .crown {
+    padding-top: 13px;
+  }
+  .vizhe {
+    width: 111px;
+    height: 113px;
+    top: 0px;
+    left: 0px;
+  }
+  .stepsTitrV {
+    color: #4caadb;
+    padding-top: 15px;
+    padding-right: 13px;
+    padding-left: 13px;
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.917px;
+    line-height: 33px;
+    text-align: right;
+  }
+  .stepTxtC {
+    margin-top: 32px;
+    margin-bottom: 35px;
+  }
+  .stepsImgD {
+    width: 243px;
+    height: 168px;
+    margin-bottom: 31px;
+  }
+  .mentor {
+    padding-top: 100px;
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+
+  .mentorImg {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .mentorName {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17.3183px;
+    line-height: 27px;
+    color: #000000;
+  }
+  .mentorCard {
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 56px;
+  }
+  .iconHolder:hover {
+    .socialA {
+      display: none;
+    }
+  }
+  .mentorCard:hover {
+    .mentorName p {
+      color: #0e994a;
+    }
+  }
+  .socialB {
+    display: none;
+  }
+  .iconHolder:hover {
+    .socialB {
+      display: flex;
+    }
+  }
+  .mentorDescription {
+    padding-top: 5px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.8168px;
+    line-height: 17px;
+    color: #595676;
+  }
+  .mentorSocial {
+    padding-top: 17px;
+    padding-bottom: 19.35px;
+  }
+  .mentorSocial img {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .mentorSocial2 img {
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+  }
+  .moreLink2 img {
+    margin-top: 6px;
+    width: 5.04px;
+    height: 11.26px;
+  }
+  .moreLink2 a {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.055px;
+    line-height: 27px;
+    text-align: right;
+    color: #000000 !important;
+    margin-left: 12px;
+  }
+  .price {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 110px;
+
+  }
+  .priceTable {
+    padding: 0px;
+  }
+  .priceTableMain {
+    height: 420px;
+    border: 2px solid #84c794;
+    border-radius: 20px;
+    padding: 0px;
+  }
+  .tableHeader {
+    width: 100%;
+    height: 54.81px;
+    background-color: #7fc19c;
+    border-radius: 16px 16px 0px 0px;
+    font-family: "Shabnam";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.5543px;
+    line-height: 28px;;
+    color: #ffffff;
+    padding-right: 24px;
+  }
+  .priceTableRowTxt {
+    margin-right: 20px;
+    /* height: 104px; */
+    margin-top: 15.88px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.0731px;
+    line-height: 24px;
+    color: #595676;
+  }
+  .priceTableRowTxt span {
+    color: rgba(211, 75, 128, 0.9);
+  }
+  .priceTableRowNum {
+    margin-top: 15.88px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.5543px;
+    line-height: 32px;
+    text-align: right;
+    color: #000000;
+  }
+  .priceTableRowNum span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17.5px;
+    text-align: right;
+    color: rgba(89, 86, 118, 1);
+  }
+  .priceTableRowBtnHolder {
+    margin-top: 21.22px;
+    margin-bottom: 21.22px;
+  }
+  .priceTableRowBtn {
+    width: 123px;
+    height: 29px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15.132px;
+    line-height: 24px;
+    color: #0e994a;
+    box-sizing: border-box;   
+    border: 1.5132px solid #0E994A;
+    border-radius: 17.0133px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    
+  }
+  .priceTableRowBtn:hover {
+    background-color: #fff;
+    color: #0e994a;
+    border: 2px solid #0e994a;
+    border-radius: 22.4865px;
+  }
+  .lineControl {
+    height: 1px;
+  }
+  .lineControlImg {
+    width: 60%;
+  }
+
+  .priceTableSum {
+    margin-top: 10px;
+    height:123px;
+    background: rgba(14, 153, 74, 0.08);
+    border-radius: 13px;
+    margin-bottom: 73px;
+  }
+  .priceTableSumTxt {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.4434px;
+    line-height: 26px;
+    color: #595676;
+    margin-right: 24px;
+    margin-top: 21px;
+    padding-top: 0px;
+  }
+  .priceTableSumNum {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.3233px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 17px;
+    padding-right:20px;
+
+  }
+  .priceTableSumNum span {
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.66167px;
+    line-height: 15px;
+    text-align: right;
+    color: rgba(89, 86, 118, 1);
+    margin-top: 10px;
+
+  }
+  .priceTableSumBtnHolder {
+  }
+  .priceTableSumBtn {
+    width: 123.33px;
+    height: 29.51px;
+    background: #0e994a;
+    border-radius: 17.0133px;
+    font-family: "Vazirmatn";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15.132px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+  .priceTableSumBtn:hover {
+    background: #11783d;
+    border-radius: 22.4865px;
+    color: #ffffff;
+  }
+  .paymentImg {
+    width: 294.61px;
+    height: 295px;
+  }
+  .arr {
+    top: -40px;
+    right: 60px;
+  }
+}
